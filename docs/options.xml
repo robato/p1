@@ -1,0 +1,3204 @@
+<options>
+  <option id="643">
+    <title>Restaurant Server</title>
+    <copy>Position available at casual restaurant with a fast-paced and fun atmosphere. Must have flexible schedule and some experience.
+
+Pay: $2.13/hr. + tips
+Hours: Variable</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>262</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="580" title="Car Repossessed"/>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+      <challenge id="520" title="Temp_Break Something_JOB"/>
+      <challenge id="628" title="Your Car Broke Down_JOB_WT"/>
+      <challenge id="358" title="Out of Gas_JOB_WT"/>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+      <challenge id="831" title="Your Friend’s Wedding_JOB_WT"/>
+      <challenge id="891" title="Gifted Program_JOB_WT"/>
+      <challenge id="527" title="Funeral_JOB_WT"/>
+      <challenge id="295" title="Warehouse Challenges_PayPiece_JOB"/>
+      <challenge id="553" title="Warehouse Challenge_Injury_JOB"/>
+      <challenge id="134" title="Warehouse Challenge_Break Something_JOB"/>
+      <challenge id="275" title="Temp Challenge_No JOB"/>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="34" title="Depression_JOB_WT"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="85350" title="Funeral"/>
+      <challenge id="85353" title="Wedding"/>
+      <challenge id="85356" title="Gifted Program"/>
+      <challenge id="181" title="Temp_Break Something2_JOB"/>
+      <challenge id="85410" title="Friend of a Friend 2"/>
+      <challenge id="85424" title="Impounded_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="288">
+    <title>Warehouse Worker</title>
+    <copy>Now hiring a warehouse associate in packing and shipping. Must be able to lift 20 pounds and have reliable transportation.
+
+Pay: $9/hr.
+Hours: 12p-7p</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>306</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="580" title="Car Repossessed"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+      <challenge id="520" title="Temp_Break Something_JOB"/>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="443" title="Rent Hike_JOB_S"/>
+      <challenge id="97" title="The Flu_JOB_S"/>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="494" title="Gifted Program_JOB_S"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="172" title="Server Challenge_Shift Change_JOB"/>
+      <challenge id="112" title="Server Challenge_Break Something_JOB"/>
+      <challenge id="275" title="Temp Challenge_No JOB"/>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+      <challenge id="215" title="Depression_JOB_S"/>
+      <challenge id="85350" title="Funeral"/>
+      <challenge id="85353" title="Wedding"/>
+      <challenge id="85356" title="Gifted Program"/>
+      <challenge id="85365" title="OutofGas_JOB_S"/>
+      <challenge id="181" title="Temp_Break Something2_JOB"/>
+      <challenge id="85384" title="Server_Bleach_JOB"/>
+      <challenge id="85410" title="Friend of a Friend 2"/>
+      <challenge id="85424" title="Impounded_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="311">
+    <title>Temp</title>
+    <copy>Administrative skills needed. If you know your way around an office, we’ve got positions for you. Temporary workers needed for positions in offices around the area.
+
+Hours: Variable
+Pay: $9/hr.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>306</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="580" title="Car Repossessed"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+      <challenge id="443" title="Rent Hike_JOB_S"/>
+      <challenge id="97" title="The Flu_JOB_S"/>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="494" title="Gifted Program_JOB_S"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="172" title="Server Challenge_Shift Change_JOB"/>
+      <challenge id="112" title="Server Challenge_Break Something_JOB"/>
+      <challenge id="134" title="Warehouse Challenge_Break Something_JOB"/>
+      <challenge id="553" title="Warehouse Challenge_Injury_JOB"/>
+      <challenge id="295" title="Warehouse Challenges_PayPiece_JOB"/>
+      <challenge id="215" title="Depression_JOB_S"/>
+      <challenge id="85350" title="Funeral"/>
+      <challenge id="85353" title="Wedding"/>
+      <challenge id="85356" title="Gifted Program"/>
+      <challenge id="85365" title="OutofGas_JOB_S"/>
+      <challenge id="181" title="Temp_Break Something2_JOB"/>
+      <challenge id="85384" title="Server_Bleach_JOB"/>
+      <challenge id="85410" title="Friend of a Friend 2"/>
+      <challenge id="85424" title="Impounded_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="83">
+    <title>Opt in</title>
+    <copy>Well, now you’ve got health insurance, but you’ve also reduced your weekly paycheck by almost $70.
+
+Even when health insurance is offered, many low-income workers often opt out because they can’t afford the high premiums.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>-69</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="215" title="Depression_no insurance"/>
+      <challenge id="85373" title="Chest Pains (no insurance)"/>
+    </removeChallenge>
+  </option>
+  <option id="99">
+    <title>Opt out</title>
+    <copy>Even when health insurance is offered, the premiums are often so high that many low-income workers opt out – just like you did. Let’s hope you don’t get sick!</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="34" title="Depression_insurance"/>
+      <challenge id="85417" title="Chest Pains (insurance)"/>
+    </removeChallenge>
+  </option>
+  <option id="374">
+    <title>0 – 5 miles away</title>
+    <copy>Fortunately, you can bike or walk to work. Unfortunately, you won’t be able to ditch your car altogether. Like more than 50 percent of American households, your access to public transit is too limited to go completely carless.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="580" title="Car Repossessed_JOB"/>
+      <challenge id="358" title="Out of Gas_JOB_WT"/>
+      <challenge id="85365" title="OutofGas_JOB_S"/>
+      <challenge id="85424" title="Impounded_JOB"/>
+      <challenge id="649" title="Car Registration"/>
+      <challenge id="869" title="Creditor Calls_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="733">
+    <title>&lt; 15 miles away</title>
+    <copy>A lack of affordable housing is the number one cause of homelessness.The definition of “affordable” housing is 30 percent of income, but you and over 12 million other American households spend way more on housing.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85421">
+    <title>&gt; 15 miles away</title>
+    <copy>A lack of affordable housing is the number one cause of homelessness.You chose to live farther away from your job, so your rent is lower. But your gas costs are higher. In fact, for every dollar a working family saves on housing, they spend an additional 77 cents on transportation.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="79">
+    <title>Rent a storage unit ($45)</title>
+    <copy/>
+    <balanceAmountChange>-45</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="169">
+    <title>Ask a friend to store it</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I can’t afford my house, so I’m downsizing to a smaller place. Can I store some stuff at your house?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="141">
+    <title>Have a yard sale</title>
+    <copy>You sold a bunch of stuff, but only made $150.</copy>
+    <balanceAmountChange>150</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="715">
+    <title>Continue</title>
+    <copy>Bank fees and overdraft charges overwhelmingly impact low-income groups, which is why many skip the bank altogether in favor of &lt;br&gt;check-cashing services.</copy>
+    <balanceAmountChange>-5</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="889">
+    <title>Confront them</title>
+    <copy>You talk with them and everything seems OK. Two hours later, the temp agency calls to say that you need to pack up your stuff and leave. Apparently, you’re not a “good fit” for this company — or any other.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="520" title="Temp_Break Something_JOB"/>
+      <challenge id="275" title="Temp Challenge_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="31">
+    <title>Stay quiet</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="332">
+    <title>Pay for the vase</title>
+    <copy/>
+    <balanceAmountChange>-25</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="527">
+    <title>Hide the evidence</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="329" title="Temp Challenge: Conflict with Full-Timers"/>
+    </removeChallenge>
+  </option>
+  <option id="838">
+    <title>Confess that it was you</title>
+    <copy>The manager at the temp agency is infuriated that you lied and fires you on the spot. You don’t have to pay for the vase, but now you don’t have an income.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="275" title="Temp Challenge_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="309">
+    <title>Keep quiet</title>
+    <copy>The temp agency fires your co-worker. As she collects her things, she confides to you that she has no idea how she’ll take care of her two children.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="275" title="Temp Challenge_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="64">
+    <title>Pay cell phone bill ($75)</title>
+    <copy>Your phone will stay on, but you’d better drive carefully! In tough economic times, the rates of uninsured drivers rise. Not because people don’t care about insurance – but because, like you, they can’t afford it.</copy>
+    <balanceAmountChange>-75</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="179" title="Car Insurance"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="184">
+    <title>Pay car insurance ($100)</title>
+    <copy>Your cell phone has been disconnected &lt;br&gt;for non-payment.&lt;br&gt;&lt;br&gt;When payday comes, you can reconnect, but in addition to your bill, you’ll have to pay a $25 fee.</copy>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="3" title="Ignored cell phone bill"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="735">
+    <title>Pay them both ($175)</title>
+    <copy/>
+    <balanceAmountChange>-175</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85422">
+    <title>Borrow money from a friend</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I can’t pay all my bills this month, and I need to borrow $175. Can you help me out?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="147" title="Borrowed Money $175"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="357">
+    <title>Pay gas bill ($100)</title>
+    <copy>Your electricity has been cut off. But you’re not alone – it happened to 4.3 million Americans last year. Be prepared to pay your bill plus a $250 deposit to get your electricity turned back on.</copy>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="21" title="Electric Bill"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="59">
+    <title>Pay electric bill ($125)</title>
+    <copy>Your gas has been cut off, which means no heat, no hot water, no way to cook. You can get it turned back on, but it’ll cost you a $200 deposit, plus what you already owe.</copy>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="118" title="Gas Bill Payment"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="598">
+    <title>Pay them both ($225)</title>
+    <copy/>
+    <balanceAmountChange>-225</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85423">
+    <title>Borrow money from a friend</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I can’t pay all my bills this month, and I need to borrow $225. Can you help me out?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="46" title="Borrowed Money $225"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="3861">
+    <title>Spent 0-15</title>
+    <copy>Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="3862">
+    <title>Spent 16-40</title>
+    <copy>Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="3863">
+    <title>Spent 41-60</title>
+    <copy>Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="391">
+    <title>Make a payment ($250)</title>
+    <copy/>
+    <balanceAmountChange>-250</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="576">
+    <title>Hang up</title>
+    <copy>If you don’t make a payment, your car could be repossessed – just like the record 1.6 million autos that were repossessed in 2008.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="155" title="Car Payment"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="580" title="Car Repossessed_JOB"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="739">
+    <title>Continue</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="873" title="Which Bill to Pay_Cell Phone or Insurance"/>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="831" title="Your Friend’s Wedding_JOB_WT"/>
+      <challenge id="865" title="Accident"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="527" title="Funeral_JOB_WT"/>
+      <challenge id="857" title="Sick Co-worker _JOB"/>
+      <challenge id="869" title="Creditor Calls_JOB"/>
+      <challenge id="628" title="Your Car Broke Down"/>
+      <challenge id="649" title="Car Registration"/>
+      <challenge id="358" title="Out of Gas_JOB_WT"/>
+      <challenge id="85365" title="OutofGas_JOB_S"/>
+      <challenge id="85400" title="Speeding Ticket"/>
+      <challenge id="112" title="Server Challenge_Break Something_JOB"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="835">
+    <title>Find somewhere else to live</title>
+    <copy>There are lots of places you could move – except they all require a security deposit and first/last month’s rent. So you’re stuck paying the money.</copy>
+    <balanceAmountChange>-150</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="37">
+    <title>Ask a friend for help</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>My kid and I are about to be evicted. We need somewhere to stay. Can we crash on your couch?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85389">
+    <title>Pay it ($150)</title>
+    <copy/>
+    <balanceAmountChange>-150</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="201">
+    <title>Pay to fix it ($300)</title>
+    <copy/>
+    <balanceAmountChange>-300</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="496">
+    <title>Ask a friend for help</title>
+    <copy/>
+    <balanceAmountChange>-5</balanceAmountChange>
+    <facebookCopy>My car broke down and I’m stuck. Can you come get me? I can give you gas money.</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="265">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-250</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="341">
+    <title>Take your chances</title>
+    <copy>You’ll save money in the short term, but you’ll have to pay a $100 late fee for waiting. And if you get pulled over, you’re looking at $1,500 to get your &lt;br&gt;car back.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="48" title="registration"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="85424" title="Impounded_JOB"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="202">
+    <title>Get it fixed ($400)</title>
+    <copy/>
+    <balanceAmountChange>-400</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="402">
+    <title>Use some numbing gel</title>
+    <copy>One in four Americans doesn’t have dental insurance. And without coverage, putting off basic care could mean emergency surgery that’s twice as expensive.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved>
+      <unresolve id="29" title="Toothache"/>
+    </addUnresolved>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="162">
+    <title>Pay it off ($7,300)</title>
+    <copy/>
+    <balanceAmountChange>-7300</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="734">
+    <title>Pay the minimum ($219)</title>
+    <copy>If you continue to pay only the minimum, the interest you have to pay means it will take you almost 17 years to pay off your card.</copy>
+    <balanceAmountChange>-219</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="823">
+    <title>Ignore it</title>
+    <copy>Ignoring your bill makes your credit score plummet, so you’ll have a harder time finding a job or getting a loan.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="833">
+    <title>Buy the present ($10)</title>
+    <copy/>
+    <balanceAmountChange>-10</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="125">
+    <title>Send your kid without a present</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="352">
+    <title>Keep your kid home from the party</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="500">
+    <title>Take the bus</title>
+    <copy>It takes three buses and five times longer to get to work than it would driving. So you lose a couple hours of pay.</copy>
+    <balanceAmountChange>-3</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-15</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2621">
+    <title>Call in sick</title>
+    <copy>You skip work, but that day of pay would have filled up your gas tank.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-61</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="658">
+    <title>Ask a friend for a ride</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I don’t have any gas in my car, and I’m broke. Can you give me a ride to work?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="832">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-15</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="743">
+    <title>Don't pay</title>
+    <copy>Because your child didn’t have money for the field trip, they stayed at school in the office while the other children in the class went to the museum.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="304">
+    <title>Pitch in</title>
+    <copy/>
+    <balanceAmountChange>-20</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="718">
+    <title>Say you forgot your wallet</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="679">
+    <title>Call in sick</title>
+    <copy>Since your company doesn’t offer sick leave, that’s going to cost you a day of pay and count as a strike on your record. Hope you feel better tomorrow!</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-53</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+    </removeChallenge>
+  </option>
+  <option id="616">
+    <title>Go anyway</title>
+    <copy>Like you, more than 40 million working Americans do not get paid sick leave. So, like you, they go to work, even when they &lt;br&gt;probably shouldn’t.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+    </removeChallenge>
+  </option>
+  <option id="93">
+    <title>Call in sick</title>
+    <copy>Since your company doesn’t offer sick leave, that’s going to cost you a day of pay and count as a strike on your record. Hope you feel better tomorrow!</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-61</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="736">
+    <title>Go anyway</title>
+    <copy>Like you, more than 40 million working Americans do not get paid sick leave. So, like you, they go to work, even when they probably shouldn’t.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="382">
+    <title>Stay home from work</title>
+    <copy>There goes another day of pay, plus another strike on your record.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-52</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="97" title="The Flu_JOB_S"/>
+    </removeChallenge>
+  </option>
+  <option id="342">
+    <title>Send them to school sick</title>
+    <copy>Like you, 39 percent of working families have had to send a child to school knowing they were sick.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="97" title="The Flu_JOB_S"/>
+    </removeChallenge>
+  </option>
+  <option id="552">
+    <title>Leave them home alone</title>
+    <copy>Now you know why a recent study found that parents in Baltimore, MD, were more likely to leave a sick child home alone all day than parents in Honduras.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="97" title="The Flu_JOB_S"/>
+    </removeChallenge>
+  </option>
+  <option id="765">
+    <title>Stay home from work</title>
+    <copy>There goes another day of pay, plus another strike on your record.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-61</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="477">
+    <title>Send them to school sick</title>
+    <copy>Like you, 39 percent of working families have had to send a child to school knowing they were sick.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="893">
+    <title>Leave them home alone</title>
+    <copy>Now you know why a recent study found that parents in Baltimore, MD, were more likely to leave a sick child home alone all day than parents in Honduras.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="161">
+    <title>Buy a salad ($6)</title>
+    <copy/>
+    <balanceAmountChange>-6</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="457">
+    <title>Buy a burger from the dollar menu</title>
+    <copy>It may be bad for you, but it sure is cheap. Perhaps that’s why low-income workers like you are more likely to be overweight.</copy>
+    <balanceAmountChange>-1</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="670">
+    <title>Fly to the wedding ($350)</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="881">
+    <title>Tell your friend you won’t be there</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="554">
+    <title>Fly to the wedding ($350)</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="518">
+    <title>Tell your friend you won’t be there</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="7">
+    <title>Buy some ice cream ($5)</title>
+    <copy/>
+    <balanceAmountChange>-5</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="393">
+    <title>Say no</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="855">
+    <title>Pay the damage ($550)</title>
+    <copy>Even if you have car insurance, high deductibles mean you still have to pay out of pocket.</copy>
+    <balanceAmountChange>-550</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="422">
+    <title>Drive away</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="864">
+    <title>Get a babysitter ($30)</title>
+    <copy/>
+    <balanceAmountChange>-30</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="586">
+    <title>Stay home</title>
+    <copy>Everyone needs a break sometimes, except not everyone can afford one. That’s probably why stress levels are higher among low-wage workers.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="847">
+    <title>Pay $10 to play</title>
+    <copy>This isn’t your lucky week. But when you can’t afford a 401(k), the lottery is the closest thing you’ve got to an investment option.</copy>
+    <balanceAmountChange>-10</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="261">
+    <title>Don’t play</title>
+    <copy>It may seem like a waste of money, but for people like you who have no 401(k) or savings account, it can look like an investment in a better future.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="92">
+    <title>Hire a tutor ($50)</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="870">
+    <title>Give your child help</title>
+    <copy>Like many Americans, you don’t have high enough math skills to tutor your child. Guess they’re on their own.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85347">
+    <title>Ask a friend for help</title>
+    <copy>You can’t help if you don’t know your stuff. What’s the answer to this math problem?</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>My kid needs math help, but I can’t afford a tutor. Can you help?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85430">
+    <title>Give your child help</title>
+    <copy>Luckily, you’re able to help your child out. Most Americans aren’t so lucky. A study found that more than 50 percent of parents have trouble helping their children with math and science.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="204">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="759">
+    <title>Apply for a scholarship</title>
+    <copy>To get the scholarship, you have to meet with a counselor in person, which will cost you half a &lt;br&gt;day of work.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-26</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="681">
+    <title>Decline the opportunity</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="781">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="207">
+    <title>Apply for a scholarship</title>
+    <copy>To get the scholarship, you have to meet with a counselor in person, which will cost you half a day of work.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-31</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="221">
+    <title>Decline the opportunity</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="325">
+    <title>Ask a friend</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I need to do laundry but can’t afford the Laundromat. Can I come over to your house?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="746">
+    <title>Go to the laundromat ($30)</title>
+    <copy/>
+    <balanceAmountChange>-30</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="764">
+    <title>Give it to her</title>
+    <copy/>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="790">
+    <title>Say no</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="24">
+    <title>Apply</title>
+    <copy>The good news is that you’re approved for benefits. The bad news? They don’t begin until next month.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="825">
+    <title>Go hungry</title>
+    <copy>The USDA estimates that only 67% of Americans eligible for food stamps actually apply.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="208">
+    <title>Give it to them</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="257">
+    <title>Pocket the $10</title>
+    <copy/>
+    <balanceAmountChange>10</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="502">
+    <title>Give your child the $10</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="70">
+    <title>Keep the $10</title>
+    <copy/>
+    <balanceAmountChange>10</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="596">
+    <title>Fly out for the service ($350)</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="30">
+    <title>Take time off and drive</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-52</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="408">
+    <title>Skip the memorial</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="308">
+    <title>Fly out for the service ($350)</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="85353" title="Wedding"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="359">
+    <title>Take time off and drive</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-61</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="610">
+    <title>Skip the memorial</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="85353" title="Wedding"/>
+    </addChallenge>
+    <removeChallenge>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="831" title="Your Friend’s Wedding_JOB_WT"/>
+    </removeChallenge>
+  </option>
+  <option id="348">
+    <title>Pay the fee</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="284" title="Family Pet_Sick "/>
+    </removeChallenge>
+  </option>
+  <option id="456">
+    <title>Ask a friend to take your pet</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I can’t afford to take care of my pet any more. Can you give it a home?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="284" title="Family Pet_Sick "/>
+    </removeChallenge>
+  </option>
+  <option id="34">
+    <title>Take your pet to the animal shelter</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="284" title="Family Pet_Sick "/>
+    </removeChallenge>
+  </option>
+  <option id="195">
+    <title>Pay for treatment ($400)</title>
+    <copy/>
+    <balanceAmountChange>-400</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="885" title="Family Pet_Pet Fee "/>
+    </removeChallenge>
+  </option>
+  <option id="376">
+    <title>Have it put to sleep ($50)</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="885" title="Family Pet_Pet Fee "/>
+    </removeChallenge>
+  </option>
+  <option id="377">
+    <title>Let your pet suffer</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="885" title="Family Pet_Pet Fee "/>
+    </removeChallenge>
+  </option>
+  <option id="25">
+    <title>Get a prescription for antidepressants ($175)</title>
+    <copy>You have to pay for the doctor visit. And the medicine isn’t free.</copy>
+    <balanceAmountChange>-175</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-20</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="320">
+    <title>Talk to a therapist ($50)</title>
+    <copy>Even with a sliding scale, it’s still $50. And that’s just for one session.</copy>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-20</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="334">
+    <title>Pretend you’re fine</title>
+    <copy>Now you understand why low-income Americans are the most likely to struggle with depression but are the least likely to seek treatment.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="44">
+    <title>Get a prescription for antidepressants</title>
+    <copy>You have to pay for the doctor visit. And the medicine isn’t free.</copy>
+    <balanceAmountChange>-40</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-23</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="726">
+    <title>Talk to a therapist</title>
+    <copy>Even with a sliding scale, it’s still $50. And that’s just for one session.</copy>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-23</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="631">
+    <title>Pretend you’re fine</title>
+    <copy>Now you understand why low-income Americans are the most likely to struggle with depression but are the least likely to seek treatment.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="558">
+    <title>Continue</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>-75</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="324">
+    <title>Pay $25 to replace the plates</title>
+    <copy/>
+    <balanceAmountChange>-25</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="239">
+    <title>Hide the evidence</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="649">
+    <title>Confess that it was you</title>
+    <copy>Your boss is infuriated that you hid the evidence and fires you on the spot. You don’t have to pay for the plates, but now you don’t have an income.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85384" title="Server_Bleach_JOB"/>
+      <challenge id="449" title="Credit Card Bill - JOB"/>
+      <challenge id="580" title="Car Repossessed_JOB"/>
+      <challenge id="857" title="Sick Co-worker _JOB"/>
+      <challenge id="97" title="The Flu_JOB_S"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="172" title="Server Challenge_Shift Change_JOB"/>
+      <challenge id="2631" title="Organizer_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="711">
+    <title>Keep quiet</title>
+    <copy>Your boss fires your co-worker. As she collects her things, she confides to you that she has no idea how she’ll take care of her two children.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="684">
+    <title>Stay with an hourly paycheck</title>
+    <copy>Your hourly pay is higher than your co-worker’s who opted for the pay-by-the-piece system, but your supervisor cuts your hours to balance things out. Your future paychecks will be half the size.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>-181</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="498">
+    <title>Opt for the pay/piece system</title>
+    <copy>Even though you’re working as fast as you can, you just don’t make as much money as you made when you were being paid hourly. Your future paychecks will be about 25 percent lower.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>-122</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="410">
+    <title>Submit a workers’ comp claim</title>
+    <copy>Your supervisor laughs when you ask about filing a claim, then tells you there are plenty of other people willing to do your job.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="5">
+    <title>Work through the pain</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="495">
+    <title>Take the day off</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-61</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="683">
+    <title>Pay $25 to cover the broken item</title>
+    <copy/>
+    <balanceAmountChange>-25</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="328">
+    <title>Hide the evidence</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="650">
+    <title>Confess that it was you</title>
+    <copy>Your boss is infuriated that you hid the evidence and fires you on the spot. You don’t have to pay for the item, but now you don’t have an income.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="520" title="Temp_Break Something_JOB"/>
+      <challenge id="443" title="Rent Hike_JOB_S"/>
+      <challenge id="453" title="Toothache_JOB_S"/>
+      <challenge id="449" title="Credit Card Bill - JOB"/>
+      <challenge id="358" title="Out of Gas_JOB_WT"/>
+      <challenge id="857" title="Sick Co-worker - JOB"/>
+      <challenge id="97" title="The Flu_JOB_S"/>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+      <challenge id="819" title="Forgot Your Lunch - JOB"/>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="831" title="Your Friend’s Wedding_JOB_WT"/>
+      <challenge id="494" title="Gifted Program_JOB_S"/>
+      <challenge id="891" title="Gifted Program_JOB_WT"/>
+      <challenge id="685" title="Food Stamps_JOB_S"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="527" title="Funeral_JOB_WT"/>
+      <challenge id="112" title="Server Challenge_Break Something_JOB"/>
+      <challenge id="172" title="Server Challenge_Shift Change_JOB"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+      <challenge id="295" title="Warehouse Challenges_PayPiece_JOB"/>
+      <challenge id="553" title="Warehouse Challenge_Injury_JOB"/>
+      <challenge id="134" title="Warehouse Challenge_Break Something_JOB"/>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+      <challenge id="275" title="Temp Challenge_No JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="173">
+    <title>Keep quiet</title>
+    <copy>Your boss fires your co-worker. As she collects her things, she confides to you that she has no idea how she’ll take care of her two children.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85345">
+    <title>Continue</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-184</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2627">
+    <title>Sign up ($200)</title>
+    <copy/>
+    <balanceAmountChange>-200</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85413" title="College Loans"/>
+    </removeChallenge>
+  </option>
+  <option id="2628">
+    <title>Maybe next semester</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85413" title="College Loans"/>
+    </removeChallenge>
+  </option>
+  <option id="2629">
+    <title>Add lunch money to your monthly budget ($3/day)</title>
+    <copy>$3 a day doesn’t seem like much, but a month of lunches takes a big bite out of your cash.</copy>
+    <balanceAmountChange>-60</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2630">
+    <title>Risk them going hungry</title>
+    <copy>Your child isn’t the only one: Many children who qualify for free or reduced-cost lunch choose to go hungry rather than face the stigma of being identified as poor.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2632">
+    <title>Talk to them</title>
+    <copy>Your manager finds out about your conversation and lets you go. Firing workers for union activity is illegal, but that doesn’t keep it from happening.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="329" title="Temp_Conflict with FullTimers_JOB"/>
+      <challenge id="520" title="Temp_Break Something_JOB"/>
+      <challenge id="443" title="Rent Hike_JOB_S"/>
+      <challenge id="453" title="Toothache_JOB_S"/>
+      <challenge id="449" title="Credit Card Bill - JOB"/>
+      <challenge id="358" title="Out of Gas_JOB_WT"/>
+      <challenge id="857" title="Sick Co-worker - JOB"/>
+      <challenge id="97" title="The Flu_JOB_S"/>
+      <challenge id="94" title="Sick Child_JOB_WT"/>
+      <challenge id="570" title="The Flu_JOB_WT"/>
+      <challenge id="722" title="Sick Child_JOB_S"/>
+      <challenge id="819" title="Forgot Your Lunch - JOB"/>
+      <challenge id="439" title="Your Friend’s Wedding_JOB_S"/>
+      <challenge id="831" title="Your Friend’s Wedding_JOB_WT"/>
+      <challenge id="494" title="Gifted Program_JOB_S"/>
+      <challenge id="891" title="Gifted Program_JOB_WT"/>
+      <challenge id="685" title="Food Stamps_JOB_S"/>
+      <challenge id="22" title="Funeral_JOB_S"/>
+      <challenge id="527" title="Funeral_JOB_WT"/>
+      <challenge id="215" title="Depression_JOB_S"/>
+      <challenge id="34" title="Depression_JOB_WT"/>
+      <challenge id="172" title="Server Challenge_Shift Change_JOB"/>
+      <challenge id="112" title="Server Challenge_Break Something_JOB"/>
+      <challenge id="493" title="Server Challenge_Break Something2_JOB"/>
+      <challenge id="295" title="Warehouse Challenges_PayPiece_JOB"/>
+      <challenge id="553" title="Warehouse Challenge_Injury_JOB"/>
+      <challenge id="134" title="Warehouse Challenge_Break Something_JOB"/>
+      <challenge id="333" title="Warehouse Challenge_Break Something2_JOB"/>
+    </removeChallenge>
+  </option>
+  <option id="2633">
+    <title>Keep walking</title>
+    <copy>Like you, many low-income workers would rather keep quiet than push for better working conditions because they don’t want to risk their jobs.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2635">
+    <title>Take the job</title>
+    <copy>You’ll miss the play, but that $50 will make a difference. Which is a big reason parents with low incomes tend to be less involved in their children’s schooling and extracurricular activities.</copy>
+    <balanceAmountChange>50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="2636">
+    <title>Go see the play</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85351">
+    <title>Drive to the service ($75)</title>
+    <copy/>
+    <balanceAmountChange>-75</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85353" title="Wedding"/>
+    </removeChallenge>
+  </option>
+  <option id="85352">
+    <title>Skip the memorial</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85353" title="Wedding"/>
+    </removeChallenge>
+  </option>
+  <option id="85354">
+    <title>Drive to the wedding ($75)</title>
+    <copy/>
+    <balanceAmountChange>-75</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85350" title="Funeral"/>
+    </removeChallenge>
+  </option>
+  <option id="85355">
+    <title>Say you can’t go</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85350" title="Funeral"/>
+    </removeChallenge>
+  </option>
+  <option id="85360">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85361">
+    <title>Decline the opportunity</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85362">
+    <title>Say yes ($50)</title>
+    <copy/>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85363">
+    <title>Say no</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85366">
+    <title>Take the bus</title>
+    <copy>It takes three buses and five times longer to get to work than it would driving. So you lose a couple hours of pay.</copy>
+    <balanceAmountChange>-3</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-13</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="628" title="Your Car Broke Down"/>
+    </removeChallenge>
+  </option>
+  <option id="85367">
+    <title>Call in sick</title>
+    <copy>You skip work, but that day of pay would have filled up your gas tank.</copy>
+    <balanceAmountChange>-52</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="628" title="Your Car Broke Down"/>
+    </removeChallenge>
+  </option>
+  <option id="85368">
+    <title>Ask a friend for a ride</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I don’t have any gas in my car, and I’m broke. Can you give me a ride to work?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="628" title="Your Car Broke Down"/>
+    </removeChallenge>
+  </option>
+  <option id="85371">
+    <title>Pay to replace the window ($100)</title>
+    <copy/>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85394" title="Pipes"/>
+    </removeChallenge>
+  </option>
+  <option id="85372">
+    <title>Get legal help</title>
+    <copy>You spend the whole day at the free legal clinic, only to find there’s a three-month waiting list for assistance of any kind. So you’re stuck paying the money.</copy>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85394" title="Pipes"/>
+    </removeChallenge>
+  </option>
+  <option id="85428">
+    <title>Buy some plastic to put over the broken window ($5)</title>
+    <copy/>
+    <balanceAmountChange>-5</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85394" title="Pipes"/>
+    </removeChallenge>
+  </option>
+  <option id="85375">
+    <title>Get it checked out ($250)</title>
+    <copy>The good news is, the doctor says you’re fine. The bad news? Since you don’t have health insurance, you have to pay for the visit yourself.</copy>
+    <balanceAmountChange>-250</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85376">
+    <title>Ignore it</title>
+    <copy>That’s a dangerous decision. Almost 1 million Americans die from treatable cardiovascular conditions each year.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85377">
+    <title>Join a gym ($25)</title>
+    <copy/>
+    <balanceAmountChange>-25</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85378">
+    <title>Ask a friend to be your running buddy</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy>I’m trying to get healthier but don’t have the money for a gym membership. Will you work out with me?</facebookCopy>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85380">
+    <title>Sign up for home Internet ($60 a month)</title>
+    <copy/>
+    <balanceAmountChange>-60</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85381">
+    <title>Get online at the public library</title>
+    <copy>For you and millions of other Americans, public library Internet access is a critical resource. Over 44% of people living below the poverty line visit the public library to get online.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85382">
+    <title>Go without Internet</title>
+    <copy>Like you, 80 million American adults don’t have broadband or any Internet in their homes.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85386">
+    <title>Buy a new one</title>
+    <copy/>
+    <balanceAmountChange>-30</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85387">
+    <title>Wear the damaged one</title>
+    <copy>Your boss harangues you in front of the entire staff, then sends you home for the day, which means you just earned a job strike.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>-52</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>true</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85392">
+    <title>Take the coat</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85393">
+    <title>Turn it down</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85395">
+    <title>Call a plumber ($150)</title>
+    <copy/>
+    <balanceAmountChange>-150</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85370" title="Broken Window"/>
+    </removeChallenge>
+  </option>
+  <option id="85396">
+    <title>Try to fix it yourself</title>
+    <copy>Home improvement is cheaper when you do it yourself, but not free. Supplies still put you out $50.</copy>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="85370" title="Broken Window"/>
+    </removeChallenge>
+  </option>
+  <option id="85398">
+    <title>Light up – it’s just one</title>
+    <copy>One of the main reasons people start smoking as adults is stress. There is a misconception that smoking relieves stress, so some people pick up the habit during difficult periods or life transitions.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85399">
+    <title>Say no</title>
+    <copy>One of the main reasons people start smoking as adults is stress. There is a misconception that smoking relieves stress, so some people pick up the habit during difficult periods or life transitions.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85401">
+    <title>Pay it off ($250)</title>
+    <copy/>
+    <balanceAmountChange>-250</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85402">
+    <title>Contest it in court</title>
+    <copy>You get the ticket dismissed, but you had to spend the whole day in court and pay a $50 court fee.</copy>
+    <balanceAmountChange>-50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85405">
+    <title>Buy the name brand ($100)</title>
+    <copy/>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85406">
+    <title>Go to the thrift store ($10)</title>
+    <copy/>
+    <balanceAmountChange>-10</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85408">
+    <title>Say yes</title>
+    <copy>As Barbara Ehrenreich discovered in "Nickel and Dimed," high costs often force people to share housing.</copy>
+    <balanceAmountChange>200</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge>
+      <challenge id="85410" title="Friend of a Friend 2"/>
+    </addChallenge>
+    <removeChallenge/>
+  </option>
+  <option id="85409">
+    <title>Say no</title>
+    <copy/>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85411">
+    <title>Ask your landlord to evict him</title>
+    <copy>Your landlord won’t help you out, but will add another $100 to your rent for having an extra roommate.</copy>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85412">
+    <title>Put up with it</title>
+    <copy>Many people are forced into complicated living situations like yours, simply because they can’t afford better options.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85414">
+    <title>Pay it</title>
+    <copy/>
+    <balanceAmountChange>-250</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="2625" title="Higher Education"/>
+    </removeChallenge>
+  </option>
+  <option id="85415">
+    <title>Ignore It</title>
+    <copy>Unemployment has hit college grads hard, and the college loan default rate proves it. In 2010, the default rate reached an 11-year high of 7 percent.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge>
+      <challenge id="2625" title="Higher Education"/>
+    </removeChallenge>
+  </option>
+  <option id="85418">
+    <title>Get it checked out ($20)</title>
+    <copy>The doctor says you’re fine, and since you opted in for health insurance, you only have to pay $20.</copy>
+    <balanceAmountChange>-20</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85419">
+    <title>Ignore it</title>
+    <copy>That’s a dangerous decision. Almost one million Americans die from treatable cardiovascular conditions each year.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85425">
+    <title>Pay the money</title>
+    <copy/>
+    <balanceAmountChange>-1500</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="85426">
+    <title>Give up your car</title>
+    <copy>No car means you can’t get to work. Which means you’re out of a job. You won’t get any more paychecks, so your money is really going to have to stretch.</copy>
+    <balanceAmountChange>0</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>true</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="657">
+    <title>Pay to make icon go away</title>
+    <copy/>
+    <balanceAmountChange>-100</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="587">
+    <title>Pay $800 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-800</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="891">
+    <title>Pay $350 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-350</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="860">
+    <title>Pay $125 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-125</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="578">
+    <title>Pay $375 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-375</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="816">
+    <title>Pay $300 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-300</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="511">
+    <title>Pay $500 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-500</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="865">
+    <title>Pay $175 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-175</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="289">
+    <title>Pay $225 to make this go away</title>
+    <copy/>
+    <balanceAmountChange>-225</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="737">
+    <title>OnClick</title>
+    <copy/>
+    <balanceAmountChange>15</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="752">
+    <title>OnClick</title>
+    <copy/>
+    <balanceAmountChange>25</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+  <option id="695">
+    <title>OnClick</title>
+    <copy/>
+    <balanceAmountChange>50</balanceAmountChange>
+    <facebookCopy/>
+    <changeNextPaycheck>0</changeNextPaycheck>
+    <changeAllPaychecks>0</changeAllPaychecks>
+    <getJobStrike>false</getJobStrike>
+    <loseJob>false</loseJob>
+    <loseGame>false</loseGame>
+    <addUnresolved/>
+    <removeUnresolved/>
+    <addChallenge/>
+    <removeChallenge/>
+  </option>
+</options>

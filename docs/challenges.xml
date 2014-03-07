@@ -1,0 +1,901 @@
+<challenges>
+  <challenge id="1">
+    <title>Find a Job</title>
+    <copy>You’re running out of money fast. It’s time to get a job – any job. Here’s what’s available. Click a listing to apply:</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="643" title="Restaurant Server"/>
+      <option id="288" title="Warehouse Worker"/>
+      <option id="311" title="Temp"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="2">
+    <title>Health Insurance</title>
+    <copy>Congratulations on getting a job! Would you like to opt in for health insurance? Your monthly premium is $275.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="83" title="Opt in"/>
+      <option id="99" title="Opt out"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="3">
+    <title>Find a Place to Live</title>
+    <copy>Monthly Rent Cost Range: $850 @ 0 miles — $600 @ 50 miles
+Monthly Gas Costs: .08/mile x number of miles to work and back x 40 trips
+Combined total is what comes out of the account.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="374" title="0 – 5 miles away"/>
+      <option id="733" title="&lt; 15 miles away"/>
+      <option id="85421" title="> 15 miles away"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="4">
+    <title>Storage Unit</title>
+    <copy>Your new apartment is too small &lt;br&gt;for your stuff.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="79" title="Rent a storage unit ($45)"/>
+      <option id="169" title="Ask a friend to store it"/>
+      <option id="141" title="Have a yard sale"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="677">
+    <title>Bank Fee</title>
+    <copy>You’ve been charged a $5 bank fee because your account is below $50.</copy>
+    <maxAmount>51</maxAmount>
+    <minAmount/>
+    <options>
+      <option id="715" title="Continue"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="329">
+    <title>Temp_Conflict with FullTimers_JOB</title>
+    <copy>You are working on some filing when you hear two full-time employees talking about you in a very unflattering way and saying things that simply aren’t true.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="889" title="Confront them"/>
+      <option id="31" title="Stay quiet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="520">
+    <title>Temp_Break Something_JOB</title>
+    <copy>You’re working today at a retail store, helping them prepare for their grand opening. As you pick up a $25 vase, it slips from your hand and shatters. Nobody notices.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="332" title="Pay for the vase"/>
+      <option id="527" title="Hide the evidence"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="181">
+    <title>Temp_Break Something2_JOB</title>
+    <copy>Remember that vase you broke? The owner of the shop called the temp agency and accused your co-worker of breaking it and hiding the evidence.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="838" title="Confess that it was you"/>
+      <option id="309" title="Keep quiet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="873">
+    <title>Which Bill to Pay_Cell Phone or Insurance</title>
+    <copy>Two bills are due today.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="64" title="Pay cell phone bill ($75)"/>
+      <option id="184" title="Pay car insurance ($100)"/>
+      <option id="735" title="Pay them both ($175)"/>
+      <option id="85422" title="Borrow money from a friend"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="446">
+    <title>Which Bill to Pay_Gas or Electric</title>
+    <copy>Two bills are due today.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="357" title="Pay gas bill ($100)"/>
+      <option id="59" title="Pay electric bill ($125)"/>
+      <option id="598" title="Pay them both ($225)"/>
+      <option id="85423" title="Borrow money from a friend"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="386">
+    <title>Grocery Shopping</title>
+    <copy>Money may be tight, but you still need to eat – it’s time to go shopping. These groceries need to last you a few weeks, so choose wisely.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="3861" title="Spent 0-15"/>
+      <option id="3862" title="Spent 16-40"/>
+      <option id="3863" title="Spent 41-60"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="869">
+    <title>Creditor Calls_JOB</title>
+    <copy>The phone rings: “Answer it”
+
+“Hello. I’m calling from Consumer Collections Corp about the overdue charges on a vehicle in your possession.”</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="391" title="Make a payment ($250)"/>
+      <option id="576" title="Hang up"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="580">
+    <title>Car Repossessed_JOB</title>
+    <copy>Your car has been repossessed – guess you shouldn’t have hung up on that creditor.
+
+Since you can’t get to work, your boss has to let you go. No job = no more paychecks.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="739" title="Continue"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="443">
+    <title>Rent Hike_JOB</title>
+    <copy>Without warning, your landlord has raised your rent, effective immediately. When you argue that the increase is illegal, you’re told, “If you don’t like it, you can move out.”</copy>
+    <maxAmount/>
+    <minAmount>199</minAmount>
+    <options>
+      <option id="835" title="Find somewhere else to live"/>
+      <option id="37" title="Ask a friend for help"/>
+      <option id="85389" title="Pay it ($150)"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="628">
+    <title>Your Car Broke Down</title>
+    <copy>On the way to drop off your kid at school, something blew in your car. You don’t know what’s wrong, but it can’t be good.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="201" title="Pay to fix it ($300)"/>
+      <option id="496" title="Ask a friend for help"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="649">
+    <title>Car Registration</title>
+    <copy>Your car's registration is due, but it’ll cost $250 to get it road-legal.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="265" title="Pay the money"/>
+      <option id="341" title="Take your chances"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="453">
+    <title>Toothache</title>
+    <copy>Your tooth has been hurting for weeks, and it’s starting to get unbearable. You need a root canal, but you don’t have &lt;br&gt;dental insurance.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="202" title="Get it fixed ($400)"/>
+      <option id="402" title="Use some numbing gel"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="449">
+    <title>Credit Card Bill - JOB</title>
+    <copy>Your credit card kept you afloat while you were trying to hold onto your home. But even though the house is gone, the balance isn’t.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="162" title="Pay it off ($7,300)"/>
+      <option id="734" title="Pay the minimum ($219)"/>
+      <option id="823" title="Ignore it"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="782">
+    <title>Birthday Party</title>
+    <copy>Your child has been invited to a birthday party. They need to bring a present.</copy>
+    <maxAmount>100</maxAmount>
+    <minAmount/>
+    <options>
+      <option id="833" title="Buy the present ($10)"/>
+      <option id="125" title="Send your kid without a present"/>
+      <option id="352" title="Keep your kid home from the party"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="358">
+    <title>Out of Gas_JOB_WT</title>
+    <copy>You come out of your house to discover that someone has siphoned the gas from your car. And you’re already running late for work.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="500" title="Take the bus"/>
+      <option id="2621" title="Call in sick"/>
+      <option id="658" title="Ask a friend for a ride"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="197">
+    <title>Field Trip</title>
+    <copy>Your child’s class is going on a field trip to the natural history museum. &lt;br&gt;The trip costs $15.</copy>
+    <maxAmount>150</maxAmount>
+    <minAmount/>
+    <options>
+      <option id="832" title="Pay the money"/>
+      <option id="743" title="Don't pay"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="857">
+    <title>Sick Co-worker _JOB</title>
+    <copy>One of your co-workers has gotten seriously ill. Because your company doesn’t offer sick days, everyone is contributing $20 to help her out.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="304" title="Pitch in"/>
+      <option id="718" title="Say you forgot your wallet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="97">
+    <title>The Flu_JOB_S</title>
+    <copy>Your head is pounding and you’re burning up. But you have to be at work &lt;br&gt;in an hour.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="679" title="Call in sick"/>
+      <option id="616" title="Go anyway"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="570">
+    <title>The Flu_JOB_WT</title>
+    <copy>Your head is pounding and you’re burning up. But you have to be at work &lt;br&gt;in an hour.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="93" title="Call in sick"/>
+      <option id="736" title="Go anyway"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="722">
+    <title>Sick Child_JOB_S</title>
+    <copy>The flu has been going around – and it just hit your house. Your child is running a fever and has the chills. But you’re supposed to be at work.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="382" title="Stay home from work"/>
+      <option id="342" title="Send them to school sick"/>
+      <option id="552" title="Leave them home alone"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="94">
+    <title>Sick Child_JOB_WT</title>
+    <copy>The flu has been going around – and it just hit your house. Your child is running a fever and has the chills. But you’re supposed to be at work.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="765" title="Stay home from work"/>
+      <option id="477" title="Send them to school sick"/>
+      <option id="893" title="Leave them home alone"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="819">
+    <title>Forgot Your Lunch _JOB</title>
+    <copy>You’ve been working for several hours, and you’re starving. But you forgot &lt;br&gt;your lunch.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="161" title="Buy a salad ($6)"/>
+      <option id="457" title="Buy a burger from the dollar menu"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="439">
+    <title>Your Friend’s Wedding_JOB_S</title>
+    <copy>Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It’s in &lt;br&gt;another state.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="670" title="Fly to the wedding ($350)"/>
+      <option id="881" title="Tell your friend you won’t be there"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="831">
+    <title>Your Friend’s Wedding_JOB_WT</title>
+    <copy>Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It’s in another state.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="554" title="Fly to the wedding ($350)"/>
+      <option id="518" title="Tell your friend you won’t be there"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="684">
+    <title>Ice Cream Truck</title>
+    <copy>Your kid has a friend over when you hear the telltale sound of the ice cream truck. They both run over to the truck.</copy>
+    <maxAmount>100</maxAmount>
+    <minAmount/>
+    <options>
+      <option id="7" title="Buy some ice cream ($5)"/>
+      <option id="393" title="Say no"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="865">
+    <title>Accident</title>
+    <copy>You’re driving with your kid in the backseat when your car slips on a slick stretch of road and slides into a parked car, causing a big dent in the bumper and a broken taillight.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="855" title="Pay the damage ($550)"/>
+      <option id="422" title="Drive away"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="587">
+    <title>Night Out</title>
+    <copy>A bunch of friends are going to a free concert tonight, and you want to go – but you’ve got a kid to worry about.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="864" title="Get a babysitter ($30)"/>
+      <option id="586" title="Stay home"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="717">
+    <title>Play the Lottery</title>
+    <copy>Everyone is pitching in for a lottery pool.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="847" title="Pay $10 to play"/>
+      <option id="261" title="Don’t play"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="506">
+    <title>Math Help</title>
+    <copy>Your child is above average in language skills but is struggling with math.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="92" title="Hire a tutor ($50)"/>
+      <option id="870" title="Give your child help"/>
+      <option id="85347" title="Ask a friend for help"/>
+      <option id="85430" title="Give your child help"/>
+    </options>
+    <type>complex</type>
+  </challenge>
+  <challenge id="494">
+    <title>Gifted Program_JOB_S</title>
+    <copy>Your child has been identified as gifted and invited into the school’s gifted program. The materials for the course cost $50.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="204" title="Pay the money"/>
+      <option id="759" title="Apply for a scholarship"/>
+      <option id="681" title="Decline the opportunity"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="891">
+    <title>Gifted Program_JOB_WT</title>
+    <copy>Your child has been identified as gifted and invited into the school’s gifted program. The materials for the course cost $50.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="781" title="Pay the money"/>
+      <option id="207" title="Apply for a scholarship"/>
+      <option id="221" title="Decline the opportunity"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="572">
+    <title>Laundry Day</title>
+    <copy>You’ve been putting off doing laundry for weeks because you don’t have a washer or dryer.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="325" title="Ask a friend"/>
+      <option id="746" title="Go to the laundromat ($30)"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="510">
+    <title>Help Mom or Not?</title>
+    <copy>Your mom needs crucial medication but doesn’t have the $100 she needs &lt;br&gt;to buy it.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="764" title="Give it to her"/>
+      <option id="790" title="Say no"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="685">
+    <title>Food Stamps</title>
+    <copy>Your income level qualifies you for &lt;br&gt;food stamps.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="24" title="Apply"/>
+      <option id="825" title="Go hungry"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="74">
+    <title>To Steal or Not to Steal</title>
+    <copy>You’re walking down the street when you see someone drop a $10 bill.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="208" title="Give it to them"/>
+      <option id="257" title="Pocket the $10"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="857">
+    <title>Your Kid Gets a Present</title>
+    <copy>A family friend sends your child a card. Inside is $10.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="502" title="Give your child the $10"/>
+      <option id="70" title="Keep the $10"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="22">
+    <title>Funeral_JOB_S</title>
+    <copy>Your grandfather has passed away. You’ve always been very close to him, and you want to go to the memorial service, which is being held several states away.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="596" title="Fly out for the service ($350)"/>
+      <option id="30" title="Take time off and drive"/>
+      <option id="408" title="Skip the memorial"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="527">
+    <title>Funeral_JOB_WT</title>
+    <copy>Your grandfather has passed away. You’ve always been very close to him, and you want to go to the memorial service, which is being held several states away.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="308" title="Fly out for the service ($350)"/>
+      <option id="359" title="Take time off and drive"/>
+      <option id="610" title="Skip the memorial"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="885">
+    <title>Family Pet_Pet Fee</title>
+    <copy>Your landlord found out that you have a pet, and now you have to pay a &lt;br&gt;$350 pet fee.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="348" title="Pay the fee"/>
+      <option id="456" title="Ask a friend to take your pet"/>
+      <option id="34" title="Take your pet to the animal shelter"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="284">
+    <title>Family Pet_Sick</title>
+    <copy>Your family pet is sick and won’t get better without treatment.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="195" title="Pay for treatment ($400)"/>
+      <option id="376" title="Have it put to sleep ($50)"/>
+      <option id="377" title="Let your pet suffer"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="215">
+    <title>Depression_no insurance</title>
+    <copy>Trying to keep your family afloat is wearing you down. You think you might be depressed.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="25" title="Get a prescription for antidepressants ($175)"/>
+      <option id="320" title="Talk to a therapist ($50)"/>
+      <option id="334" title="Pretend you’re fine"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="34">
+    <title>Depression_insurance</title>
+    <copy>Trying to keep your family afloat is wearing you down. You think you might be depressed.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="44" title="Get a prescription for antidepressants"/>
+      <option id="726" title="Talk to a therapist"/>
+      <option id="631" title="Pretend you’re fine"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="172">
+    <title>Server Challenge_Shift Change_JOB</title>
+    <copy>You check your work schedule for next week and discover that you’ve been moved to the midday shift, which means fewer customers and way fewer tips. Future paychecks will be about $75 short.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="558" title="Continue"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="112">
+    <title>Server Challenge_Break Something_JOB</title>
+    <copy>You’re carrying a stack of plates to the back when you drop your tray, shattering them all. Everyone else is on the floor, so nobody saw you do it.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="324" title="Pay $25 to replace the plates"/>
+      <option id="239" title="Hide the evidence"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="493">
+    <title>Server Challenge_Break Something2_JOB</title>
+    <copy>Your supervisor discovered the plates you broke but blames your co-worker.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="649" title="Confess that it was you"/>
+      <option id="711" title="Keep quiet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="295">
+    <title>Warehouse Challenges_PayPiece_JOB</title>
+    <copy>Your company has introduced an option where, instead of being paid by the hour, you can be paid by the piece.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="684" title="Stay with an hourly paycheck"/>
+      <option id="498" title="Opt for the pay/piece system"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="553">
+    <title>Warehouse Challenge_Injury_JOB</title>
+    <copy>The repetitive work you do is taking its toll. Your back hurts so badly you can barely stand, and it’s only the beginning of your shift.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="410" title="Submit a workers’ comp claim"/>
+      <option id="5" title="Work through the pain"/>
+      <option id="495" title="Take the day off"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="134">
+    <title>Warehouse Challenge_Break Something_JOB</title>
+    <copy>You weren’t paying attention, and you broke something as you were putting it into a box.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="683" title="Pay $25 to cover the broken item"/>
+      <option id="328" title="Hide the evidence"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="333">
+    <title>Warehouse Challenge_Break Something2_JOB</title>
+    <copy>Your supervisor discovered the broken item you hid but blames your co-worker.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="650" title="Confess that it was you"/>
+      <option id="173" title="Keep quiet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="275">
+    <title>Temp Challenge_JOB</title>
+    <copy>You ended your work at one company and are waiting for another call from the temp agency. Unfortunately, this is a slow week, and you miss three days of work.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85345" title="Continue"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="2625">
+    <title>Higher Education</title>
+    <copy>The local community college is offering an online course in computer science, which could be your ticket to a higher paycheck. But the class costs $200.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="2627" title="Sign up ($200)"/>
+      <option id="2628" title="Maybe next semester"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="2626">
+    <title>Free Lunch</title>
+    <copy>Your child comes home in tears and threatens to stop eating lunch because other kids made fun of all the &lt;br&gt;“free lunch kids.”</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="2629" title="Add lunch money to your monthly budget ($3/day)"/>
+      <option id="2630" title="Risk them going hungry"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="2631">
+    <title>Organizer_JOB</title>
+    <copy>You’re walking into work when someone approaches you in the parking lot. They want to organize a union and push for better pay.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="2632" title="Talk to them"/>
+      <option id="2633" title="Keep walking"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="2634">
+    <title>Extra Work</title>
+    <copy>Your neighbor is moving and has offered to pay you $50 to help. But they reserved the truck during the time your kid will be starring in a school play.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="2635" title="Take the job"/>
+      <option id="2636" title="Go see the play"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85350">
+    <title>Funeral</title>
+    <copy>Your grandfather has passed away. You’ve always been very close to him, and you want to go to the memorial service, which is being held several states away.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85351" title="Drive to the service ($75)"/>
+      <option id="85352" title="Skip the memorial"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85353">
+    <title>Wedding</title>
+    <copy>Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It’s in another state.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85354" title="Drive to the wedding ($75)"/>
+      <option id="85355" title="Say you can’t go"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85356">
+    <title>Gifted Program</title>
+    <copy>Your child has been identified as gifted and invited into the school’s gifted program. The materials for the course cost $50.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85360" title="Pay the money"/>
+      <option id="85361" title="Decline the opportunity"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85357">
+    <title>Athletics</title>
+    <copy>Your child wants to join an after-school sports team, which requires a &lt;br&gt;physical and uniform.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85362" title="Say yes ($50)"/>
+      <option id="85363" title="Say no"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85365">
+    <title>OutofGas_JOB_S</title>
+    <copy>You come out of your house to discover that someone has siphoned the gas from your car. And you’re already running late for work.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85366" title="Take the bus"/>
+      <option id="85367" title="Call in sick"/>
+      <option id="85368" title="Ask a friend for a ride"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85370">
+    <title>Broken Window</title>
+    <copy>Life throws curveballs, and so does a kid on your block. He shattered your window, and your landlord insists you pay &lt;br&gt;$100 to fix it.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85371" title="Pay to replace the window ($100)"/>
+      <option id="85372" title="Get legal help"/>
+      <option id="85428" title="Buy some plastic to put over the broken window ($5)"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85373">
+    <title>Chest Pains (no insurance)</title>
+    <copy>You’ve been experiencing some sharp pains in your chest lately, and your family has a history of heart problems.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85375" title="Get it checked out ($250)"/>
+      <option id="85376" title="Ignore it"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85374">
+    <title>Fitness Program</title>
+    <copy>A little exercise goes a long way, both for keeping you healthy and relieving stress. You need to start a regular fitness regimen.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85377" title="Join a gym ($25)"/>
+      <option id="85378" title="Ask a friend to be your running buddy"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85379">
+    <title>Home Internet</title>
+    <copy>It’s easier to look for extra ways to make money if you have access to the Web.  But you don’t have Internet at home &lt;br&gt;since you moved.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85380" title="Sign up for home Internet ($60 a month)"/>
+      <option id="85381" title="Get online at the public library"/>
+      <option id="85382" title="Go without Internet"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85384">
+    <title>Server_Bleach_JOB</title>
+    <copy>You’re helping out the dishwasher during a lull when you accidentally get bleach all over your uniform shirt.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85386" title="Buy a new one"/>
+      <option id="85387" title="Wear the damaged one"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85391">
+    <title>Charitable Neighbor</title>
+    <copy>A neighbor stops by and offers you a hand-me-down coat from their family; yours is in tatters.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85392" title="Take the coat"/>
+      <option id="85393" title="Turn it down"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85394">
+    <title>Pipes</title>
+    <copy>Your bathroom sink has a small leak that just became a big leak. Your landlord won’t return your calls, and you can’t put it off any longer.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85395" title="Call a plumber ($150)"/>
+      <option id="85396" title="Try to fix it yourself"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85397">
+    <title>Smoking</title>
+    <copy>Your stress level is through the roof these days. A friend who hears you venting offers you a cigarette to take the edge off.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85398" title="Light up – it’s just one"/>
+      <option id="85399" title="Say no"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85400">
+    <title>Speeding Ticket</title>
+    <copy>You’re sure you weren’t speeding, but the cop who gave you a ticket disagrees.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85401" title="Pay it off ($250)"/>
+      <option id="85402" title="Contest it in court"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85404">
+    <title>New Shoes</title>
+    <copy>Your child’s sneakers are falling apart and it’s time to buy new ones. Name brands are important, but they don’t come cheap.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85405" title="Buy the name brand ($100)"/>
+      <option id="85406" title="Go to the thrift store ($10)"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85407">
+    <title>Friend of a Friend</title>
+    <copy>A friend of a friend needs a place to stay. He’s offered you $200 to camp out in your living room.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85408" title="Say yes"/>
+      <option id="85409" title="Say no"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85410">
+    <title>Friend of a Friend 2</title>
+    <copy>Your roommate may have given you another $200, but he brought a whole lot of problems, staying up all night and partying in your house. And he’s not about to move out.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85411" title="Ask your landlord to evict him"/>
+      <option id="85412" title="Put up with it"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85413">
+    <title>College Loans</title>
+    <copy>Your college degree isn’t helping you right now, but you still have to pay your loans. You just got a bill for $250.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85414" title="Pay it"/>
+      <option id="85415" title="Ignore It"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85417">
+    <title>Chest Pains (insurance)</title>
+    <copy>You’ve been experiencing some sharp pains in your chest lately, and your family has a history of heart problems.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85418" title="Get it checked out ($20)"/>
+      <option id="85419" title="Ignore it"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+  <challenge id="85424">
+    <title>Impounded_JOB</title>
+    <copy>During a routine traffic stop, a police officer spotted your expired registration tags. Your car’s been impounded and it’ll cost $1,500 to get it back.</copy>
+    <maxAmount/>
+    <minAmount/>
+    <options>
+      <option id="85425" title="Pay the money"/>
+      <option id="85426" title="Give up your car"/>
+    </options>
+    <type>simple</type>
+  </challenge>
+</challenges>

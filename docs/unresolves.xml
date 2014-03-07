@@ -1,0 +1,74 @@
+<unresolves>
+  <unresolve id="3">
+    <title>Ignored cell phone bill</title>
+    <copy>Cell phone bill: $100 to make this go away</copy>
+    <icon>icons/CellPhoneBill.png</icon>
+    <options>
+      <option id="657" title="Pay to make icon go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="29">
+    <title>Toothache</title>
+    <copy>Dental work: $800 to make this go away</copy>
+    <icon>icons/Toothache.png</icon>
+    <options>
+      <option id="587" title="Pay $800 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="48">
+    <title>Car Registration</title>
+    <copy>Car Registration: $350 to make this go away</copy>
+    <icon>icons/CarRegistration.png</icon>
+    <options>
+      <option id="891" title="Pay $350 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="179">
+    <title>Car Insurance</title>
+    <copy>Car insurance: $125 to make this go away</copy>
+    <icon>icons/CarInsurance.png</icon>
+    <options>
+      <option id="860" title="Pay $125 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="21">
+    <title>Electric Bill</title>
+    <copy>Electric bill: $375 to make this go away</copy>
+    <icon>icons/ElectricBill.png</icon>
+    <options>
+      <option id="578" title="Pay $375 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="118">
+    <title>Gas Bill Payment</title>
+    <copy>Gas bill: $300 to make this go away</copy>
+    <icon>icons/GasBill.png</icon>
+    <options>
+      <option id="816" title="Pay $300 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="155">
+    <title>Car Payment</title>
+    <copy>Car loan: $500 to make this go away</copy>
+    <icon>icons/CarPayment.png</icon>
+    <options>
+      <option id="511" title="Pay $500 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="147">
+    <title>Borrowed Money $175</title>
+    <copy>Pay friend back: $175</copy>
+    <icon>icons/BorrowMoney.png</icon>
+    <options>
+      <option id="865" title="Pay $175 to make this go away"/>
+    </options>
+  </unresolve>
+  <unresolve id="46">
+    <title>Borrowed Money $225</title>
+    <copy>Pay friend back: $225</copy>
+    <icon>icons/BorrowMoney.png</icon>
+    <options>
+      <option id="289" title="Pay $225 to make this go away"/>
+    </options>
+  </unresolve>
+</unresolves>

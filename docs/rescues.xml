@@ -1,0 +1,26 @@
+<rescues>
+  <rescue id="50">
+    <title>Smash your kid's piggy bank: $15</title>
+    <copy>Smash your kid's piggy bank :$15</copy>
+    <icon>icons/piggy.png</icon>
+    <options>
+      <option id="737" title="OnClick"/>
+    </options>
+  </rescue>
+  <rescue id="63">
+    <title>Donate plasma: $25</title>
+    <copy>Donate plasma: $25</copy>
+    <icon>icons/blood.png</icon>
+    <options>
+      <option id="752" title="OnClick"/>
+    </options>
+  </rescue>
+  <rescue id="142">
+    <title>Get a Payday loan: $50</title>
+    <copy>Get a payday loan: $50</copy>
+    <icon>icons/shark.png</icon>
+    <options>
+      <option id="695" title="OnClick"/>
+    </options>
+  </rescue>
+</rescues>

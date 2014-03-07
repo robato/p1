@@ -1,0 +1,22 @@
+<items>
+	<item price="4" title="Apples (3lb bag)">icons/apple.png</item>
+	<item price="1" title="Beans (1 can)">icons/black_beans.png</item>
+	<item price="1" title="Ramen Noodles (4-pack)">icons/ramen.png</item>
+	<item price="3" title="Baby Carrots">icons/carrpt.png</item>
+	<item price="4" title="Cereal">icons/cereal.png</item>
+	<item price="3" title="Cheese">icons/cheese.png</item>
+	<item price="7" title="Chicken (3 lb bag)">icons/chicken.png</item>
+	<item price="3" title="Fish Sticks">icons/fish_sticks.png</item>
+	<item price="1" title="Drink Mix">icons/drinkMix.png</item>
+	<item price="2" title="Eggs">icons/egg.png</item>
+	<item price="1" title="Hotdogs">icons/hotdogs.png</item>
+	<item price="4" title="Milk (1 gal)">icons/mil.png</item>
+	<item price="5" title="Orange Juice (1 gal)">icons/oj.png</item>
+	<item price="4" title="Peanut Butter">icons/pb.png</item>
+	<item price="2" title="Paper Towels">icons/paper_towels.png</item>
+	<item price="3" title="Spaghetti">icons/spaghetti.png</item>
+	<item price="2" title="Bread">icons/toast.png</item>
+	<item price="3" title="Tomatoes">icons/tomato.png</item>
+	<item price="3" title="Spaghetti Sauce">icons/tomato_sauce.png</item>
+	<item price="4" title="Toilet Paper">icons/tp.png</item>
+</items>
