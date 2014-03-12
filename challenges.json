@@ -11,15 +11,18 @@
     	{
     		[
             	{ 
-            		"legacyId":"643", 
+            		"optionId":"12",
+            		"legacyOptionId":"643", 
             		"title":"Restaurant Server"
             	},
-            	{
-            		"legacyId":"288", 
+            	{ 
+            		"optionId":"13",
+            		"legacyOptionId":"288", 
             		"title":"Warehouse Worker"
             	},
-            	{
-            		"legacyId":"311", 
+            	{ 
+            		"optionId":"14",
+            		"legacyOptionId":"311", 
             		"title":"Temp"
             	}	
         	]
@@ -38,11 +41,13 @@
     	{
     		[
             	{ 
-            		"legacyId":"83", 
+            		"optionId":"1",
+            		"legacyOptionId":"83", 
             		"title":"Opt In"
             	},
-            	{
-            		"legacyId":"99", 
+            	{ 
+            		"optionId":"2",
+            		"legacyOptionId":"99", 
             		"title":"Opt Out"
             	}
         	]
@@ -61,15 +66,18 @@
     	{
     		[
             	{ 
-            		"legacyId":"374", 
+            		"optionId":"3",
+            		"legacyOptionId":"374", 
             		"title":"0 – 5 miles away"
             	},
-            	{
-            		"legacyId":"733", 
+            	{ 
+            		"optionId":"4",
+            		"legacyOptionId":"733", 
             		"title":"&lt; 15 miles away"
             	},
-            	{
-            		"legacyId":"85421", 
+            	{ 
+            		"optionId":"5",
+            		"legacyOptionId":"85421", 
             		"title":"&gt; 15 miles away"
             	}
         	]
@@ -88,15 +96,18 @@
     	{
     		[
             	{ 
-            		"legacyId":"79", 
+            		"optionId":"6",
+            		"legacyOptionId":"79", 
             		"title":"Rent a storage unit ($45)"
             	},
-            	{
-            		"legacyId":"169", 
+            	{ 
+            		"optionId":"7",
+            		"legacyOptionId":"169", 
             		"title":"Ask a friend to store it"
             	},
-            	{
-            		"legacyId":"141", 
+            	{ 
+            		"optionId":"8",
+            		"legacyOptionId":"141", 
             		"title":"Have a yard sale"
             	}
         	]
@@ -115,7 +126,8 @@
     	{
     		[
             	{ 
-            		"legacyId":"715", 
+            		"optionId":"9",
+            		"legacyOptionId":"715", 
             		"title":"Continue"
             	}
         	]
@@ -134,11 +146,13 @@
     	{
     		[
             	{ 
-            		"legacyId":"889", 
+            		"optionId":"10",
+            		"legacyOptionId":"889", 
             		"title":"Confront them"
             	},
-            	{
-            		"legacyId":"31", 
+            	{ 
+            		"optionId":"11",
+            		"legacyOptionId":"31", 
             		"title":"Stay quiet"
             	}
         	]
