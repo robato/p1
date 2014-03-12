@@ -1,0 +1,148 @@
+[
+    {
+    	"id":"1",
+    	"legacyId":"1", 
+    	"sortOrder":"1",
+    	"title":"Find A Job",
+    	"copy":"You’re running out of money fast. It’s time to get a job – any job. Here’s what’s available. Click a listing to apply:",
+    	"maxAmount":"",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"643", 
+            		"title":"Restaurant Server"
+            	},
+            	{
+            		"legacyId":"288", 
+            		"title":"Warehouse Worker"
+            	},
+            	{
+            		"legacyId":"311", 
+            		"title":"Temp"
+            	}	
+        	]
+    	},
+    	"type":"complex"
+    }, 
+    {
+    	"id":"2",
+    	"legacyId":"2", 
+    	"sortOrder":"2",
+    	"title":"Health Insurance",
+    	"copy":"Congratulations on getting a job! Would you like to opt in for health insurance? Your monthly premium is $275.",
+    	"maxAmount":"",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"83", 
+            		"title":"Opt In"
+            	},
+            	{
+            		"legacyId":"99", 
+            		"title":"Opt Out"
+            	}
+        	]
+    	},
+    	"type":"simple"
+    },
+        {
+    	"id":"3",
+    	"legacyId":"3", 
+		"sortOrder":"3",
+    	"title":"Find a Place to Live",
+    	"copy":"Monthly Rent Cost Range: $850 @ 0 miles — $600 @ 50 miles\nMonthly Gas Costs: .08/mile x number of miles to work and back x 40 trips\nCombined total is what comes out of the account.",
+    	"maxAmount":"",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"374", 
+            		"title":"0 – 5 miles away"
+            	},
+            	{
+            		"legacyId":"733", 
+            		"title":"&lt; 15 miles away"
+            	},
+            	{
+            		"legacyId":"85421", 
+            		"title":"&gt; 15 miles away"
+            	}
+        	]
+    	},
+    	"type":"complex"
+    },
+        {
+    	"id":"4",
+    	"legacyId":"4",
+    	"sortOrder":"4", 
+    	"title":"Storage Unit",
+    	"copy":"Your new apartment is too small &lt;br&gt;for your stuff.",
+    	"maxAmount":"",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"79", 
+            		"title":"Rent a storage unit ($45)"
+            	},
+            	{
+            		"legacyId":"169", 
+            		"title":"Ask a friend to store it"
+            	},
+            	{
+            		"legacyId":"141", 
+            		"title":"Have a yard sale"
+            	}
+        	]
+    	},
+    	"type":"simple"
+    },
+        {
+    	"id":"5",
+    	"legacyId":"677", 
+    	"sortOrder":"5",
+    	"title":"Bank Fee",
+    	"copy":"You’ve been charged a $5 bank fee because your account is below $50.",
+    	"maxAmount":"51",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"715", 
+            		"title":"Continue"
+            	}
+        	]
+    	},
+    	"type":"simple"
+    },
+        {
+    	"id":"6",
+    	"legacyId":"329",
+    	"sortOrder":"6", 
+    	"title":"Temp_Conflict with FullTimers_JOB",
+    	"copy":"You are working on some filing when you hear two full-time employees talking about you in a very unflattering way and saying things that simply aren’t true.",
+    	"maxAmount":"",
+    	"minAmount":"",
+    	"options": 
+    	{
+    		[
+            	{ 
+            		"legacyId":"889", 
+            		"title":"Confront them"
+            	},
+            	{
+            		"legacyId":"31", 
+            		"title":"Stay quiet"
+            	}
+        	]
+    	},
+    	"type":"simple"
+    }             
+]
