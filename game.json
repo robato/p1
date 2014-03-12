@@ -1,0 +1,11 @@
+[
+    {
+    	"dayOfMonth":"1", 
+    	"bankBalance":"1000",
+    	"jobStrikes":"0",
+    	"jobStrikesPossible":"3",
+    	"rescuePiggyBank": "unused",
+    	"rescueBlood":"unused",
+    	"rescuePayDayLoan":"unused",
+    }
+]
