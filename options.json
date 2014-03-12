@@ -18,10 +18,12 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"215",
     				"title":"Depression_no insurance"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85373",
     				"title":"Chest Pains (no insurance)"
     			}
@@ -47,10 +49,12 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"34",
     				"title":"Depression_insurance"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85417",
     				"title":"Chest Pains (insurance)"
     			}
@@ -76,26 +80,32 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"580",
     				"title":"Car Repossessed_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"358",
     				"title":"Out of Gas_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85365",
     				"title":"OutofGas_JOB_S"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85424",
     				"title":"Impounded_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"649",
     				"title":"Car Registration"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"869",
     				"title":"Creditor Calls_JOB"
     			}
@@ -223,10 +233,12 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"520",
     				"title":"Temp_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"275",
     				"title":"Temp Challenge_JOB"
     			}
@@ -269,98 +281,122 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"580",
     				"title":"Car Repossessed"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"94",
     				"title":"Sick Child_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"493",
     				"title":"Server Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"333",
     				"title":"Warehouse Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"520",
     				"title":"Temp_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"628",
     				"title":"Your Car Broke Down_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"358",
     				"title":"Out of Gas_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"570",
     				"title":"The Flu_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"831",
     				"title":"Your Friend’s Wedding_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"891",
     				"title":"Gifted Program_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"527",
     				"title":"Funeral_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"295",
     				"title":"Warehouse Challenges_PayPiece_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"553",
     				"title":"Warehouse Challenge_Injury_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"134",
     				"title":"Warehouse Challenge_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"275",
     				"title":"Temp Challenge_No JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"329",
     				"title":"Temp_Conflict with FullTimers_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"34",
     				"title":"Depression_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"722",
     				"title":"Sick Child_JOB_S"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85350",
     				"title":"Funeral"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85353",
     				"title":"Wedding"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85356",
     				"title":"Gifted Program"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"181",
     				"title":"Temp_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85410",
     				"title":"Friend of a Friend 2"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85424",
     				"title":"Impounded_JOB"
     			}
@@ -386,118 +422,147 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"580",
     				"title":"Car Repossessed"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"94",
     				"title":"Sick Child_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"493",
     				"title":"Server Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"333",
     				"title":"Warehouse Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"520",
     				"title":"Temp_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"628",
     				"title":"Your Car Broke Down_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"358",
     				"title":"Out of Gas_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"570",
     				"title":"The Flu_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"831",
     				"title":"Your Friend’s Wedding_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"891",
     				"title":"Gifted Program_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"527",
     				"title":"Funeral_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"295",
     				"title":"Warehouse Challenges_PayPiece_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"553",
     				"title":"Warehouse Challenge_Injury_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"134",
     				"title":"Warehouse Challenge_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"275",
     				"title":"Temp Challenge_No JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"329",
     				"title":"Temp_Conflict with FullTimers_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"34",
     				"title":"Depression_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"722",
     				"title":"Sick Child_JOB_S"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85350",
     				"title":"Funeral"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85353",
     				"title":"Wedding"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85356",
     				"title":"Gifted Program"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"181",
     				"title":"Temp_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85410",
     				"title":"Friend of a Friend 2"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85424",
     				"title":"Impounded_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"94",
     				"title":"Sick Child_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"134",
     				"title":"Warehouse Challenge_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"553",
     				"title":"Warehouse Challenge_Injury_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"295",
     				"title":"Warehouse Challenges_PayPiece_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"215",
     				"title":"Depression_JOB_S"
     			}
@@ -523,122 +588,355 @@
     	{
     		[
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"580",
     				"title":"Car Repossessed"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"94",
     				"title":"Sick Child_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"493",
     				"title":"Server Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"333",
     				"title":"Warehouse Challenge_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"520",
     				"title":"Temp_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"628",
     				"title":"Your Car Broke Down_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"358",
     				"title":"Out of Gas_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"570",
     				"title":"The Flu_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"831",
     				"title":"Your Friend’s Wedding_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"891",
     				"title":"Gifted Program_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"527",
     				"title":"Funeral_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"295",
     				"title":"Warehouse Challenges_PayPiece_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"553",
     				"title":"Warehouse Challenge_Injury_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"134",
     				"title":"Warehouse Challenge_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"275",
     				"title":"Temp Challenge_No JOB"
     			},
     			{
+    				"challengeId":"6",
     				"legacyChallengeId":"329",
     				"title":"Temp_Conflict with FullTimers_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"34",
     				"title":"Depression_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"722",
     				"title":"Sick Child_JOB_S"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85350",
     				"title":"Funeral"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85353",
     				"title":"Wedding"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85356",
     				"title":"Gifted Program"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"181",
     				"title":"Temp_Break Something2_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85410",
     				"title":"Friend of a Friend 2"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"85424",
     				"title":"Impounded_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"94",
     				"title":"Sick Child_JOB_WT"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"134",
     				"title":"Warehouse Challenge_Break Something_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"553",
     				"title":"Warehouse Challenge_Injury_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"295",
     				"title":"Warehouse Challenges_PayPiece_JOB"
     			},
     			{
+    				"challengeId":"notYetCreated",
     				"legacyChallengeId":"215",
     				"title":"Depression_JOB_S"
     			}
     		]
     	}
+    },
+	{
+    	"id":"15",
+    	"legacyId":"657", 
+    	"title":"Pay to make icon go away",
+    	"copy":"",
+    	"balanceAmountChange":"-100",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"16",
+    	"legacyId":"587", 
+    	"title":"Pay $800 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-800",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"17",
+    	"legacyId":"891", 
+    	"title":"Pay $350 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-350",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"18",
+    	"legacyId":"860", 
+    	"title":"Pay $125 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-125",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"19",
+    	"legacyId":"578", 
+    	"title":"Pay $375 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-375",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"20",
+    	"legacyId":"816", 
+    	"title":"Pay $300 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-300",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"21",
+    	"legacyId":"511", 
+    	"title":"Pay $500 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-500",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"22",
+    	"legacyId":"865", 
+    	"title":"Pay $175 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-175",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"23",
+    	"legacyId":"289", 
+    	"title":"Pay $225 to make this go away",
+    	"copy":"",
+    	"balanceAmountChange":"-225",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"24",
+    	"legacyId":"737", 
+    	"title":"OnClick",
+    	"copy":"",
+    	"balanceAmountChange":"15",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"25",
+    	"legacyId":"752", 
+    	"title":"OnClick",
+    	"copy":"",
+    	"balanceAmountChange":"25",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
+    },
+	{
+    	"id":"26",
+    	"legacyId":"695", 
+    	"title":"OnClick",
+    	"copy":"",
+    	"balanceAmountChange":"50",
+    	"facebookCopy":"",
+    	"changeNextPaycheck":"0",
+    	"changeAllPaychecks":"0",
+    	"getJobStrike":"false",
+    	"loseJob":"false",
+    	"loseGame":"false",
+    	"addUnresolved": {},
+    	"removeUnresolved": {},
+    	"addChallenge":{},
+    	"removeChallenge": {}
     }
 ]
