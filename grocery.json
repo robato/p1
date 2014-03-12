@@ -1,0 +1,122 @@
+[
+    {
+    	"id":"1", 
+    	"price":"4",
+    	"title":"Apples (3lb bag)",
+    	"imageUrl":"icons/apple.png"
+    },
+    {
+    	"id":"2", 
+    	"price":"1",
+    	"title":"Beans (1 can)",
+    	"imageUrl":"icons/black_beans.png"
+    },
+    {
+    	"id":"3", 
+    	"price":"1",
+    	"title":"Ramen Noodles (4-pack)",
+    	"imageUrl":"icons/ramen.png"
+    },
+	{
+		"id":"4", 
+		"price":"3",
+		"title":"Baby Carrots",
+		"imageUrl":"icons/carrot.png"
+	},
+	{
+		"id":"5", 
+		"price":"4",
+		"title":"Cereal",
+		"imageUrl":"icons/cereal.png"
+	},
+    {
+    	"id":"6",
+    	"price":"3",
+    	"title":"Cheese",
+    	"imageUrl":"icons/cheese.png"
+    },
+	{
+		"id":"7", 
+		"price":"7",
+		"title":"Chicken (3 lb bag)",
+		"imageUrl":"icons/chicken.png"
+	},
+	{
+		"id":"8", 
+		"price":"3",
+		"title":"Fish Sticks",
+		"imageUrl":"icons/fish_sticks.png"
+	},
+	{
+		"id":"9", 
+		"price":"1",
+		"title":"Drink Mix",
+		"imageUrl":"icons/drink_mix.png"
+	},
+	{
+		"id":"10", 
+		"price":"2",
+		"title":"Eggs",
+		"imageUrl":"icons/egg.png"
+	},
+	{
+		"id":"11", 
+		"price":"1",
+		"title":"Hotdogs",
+		"imageUrl":"icons/hotdogs.png"
+	},
+	{
+		"id":"12", 
+		"price":"4",
+		"title":"Milk (1 gal)",
+		"imageUrl":"icons/milk.png"
+	},
+	{
+		"id":"13", 
+		"price":"5",
+		"title":"Orange Juice (1 gal)",
+		"imageUrl":"icons/oj.png"
+	},
+	{
+		"id":"14", 
+		"price":"4",
+		"title":"Peanut Butter",
+		"imageUrl":"icons/pb.png"
+	},    
+	{
+		"id":"15", 
+		"price":"2",
+		"title":"Paper Towels",
+		"imageUrl":"icons/paper_towels.png"
+	},
+	{
+		"id":"16", 
+		"price":"3",
+		"title":"Spaghetti",
+		"imageUrl":"icons/spaghetti.png"
+	},
+	{
+		"id":"17", 
+		"price":"2",
+		"title":"Bread",
+		"imageUrl":"icons/bread.png"
+	},
+	{
+		"id":"18",
+		"price":"3",
+		"title":"Tomatoes",
+		"imageUrl":"icons/tomato.png"
+	},
+	{
+		"id":"19", 
+		"price":"3",
+		"title":"Spaghetti Sauce",
+		"imageUrl":"icons/tomato_sauce.png"
+	}, 
+ 	{
+ 		"id":"20", 
+ 		"price":"4",
+ 		"title":"Toilet Paper",
+ 		"imageUrl":"icons/tp.png"
+ 	}                  
+]
