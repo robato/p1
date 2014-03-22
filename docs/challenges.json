@@ -1,0 +1,1674 @@
+{
+    "challenges": {
+        "challenge": [
+            {
+                "@id": "1",
+                "copy": "You\u2019re running out of money fast. It\u2019s time to get a job \u2013 any job. Here\u2019s what\u2019s available. Click a listing to apply:",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "643",
+                            "@title": "Restaurant Server"
+                        },
+                        {
+                            "@id": "288",
+                            "@title": "Warehouse Worker"
+                        },
+                        {
+                            "@id": "311",
+                            "@title": "Temp"
+                        }
+                    ]
+                },
+                "title": "Find a Job",
+                "type": "complex"
+            },
+            {
+                "@id": "2",
+                "copy": "Congratulations on getting a job! Would you like to opt in for health insurance? Your monthly premium is $275.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "83",
+                            "@title": "Opt in"
+                        },
+                        {
+                            "@id": "99",
+                            "@title": "Opt out"
+                        }
+                    ]
+                },
+                "title": "Health Insurance",
+                "type": "simple"
+            },
+            {
+                "@id": "3",
+                "copy": "Monthly Rent Cost Range: $850 @ 0 miles \u2014 $600 @ 50 milesMonthly Gas Costs: .08/mile x number of miles to work and back x 40 tripsCombined total is what comes out of the account.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "374",
+                            "@title": "0 \u2013 5 miles away"
+                        },
+                        {
+                            "@id": "733",
+                            "@title": "< 15 miles away"
+                        },
+                        {
+                            "@id": "85421",
+                            "@title": "> 15 miles away"
+                        }
+                    ]
+                },
+                "title": "Find a Place to Live",
+                "type": "complex"
+            },
+            {
+                "@id": "4",
+                "copy": "Your new apartment is too small <br>for your stuff.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "79",
+                            "@title": "Rent a storage unit ($45)"
+                        },
+                        {
+                            "@id": "169",
+                            "@title": "Ask a friend to store it"
+                        },
+                        {
+                            "@id": "141",
+                            "@title": "Have a yard sale"
+                        }
+                    ]
+                },
+                "title": "Storage Unit",
+                "type": "simple"
+            },
+            {
+                "@id": "677",
+                "copy": "You\u2019ve been charged a $5 bank fee because your account is below $50.",
+                "maxAmount": "51",
+                "minAmount": null,
+                "options": {
+                    "option": {
+                        "@id": "715",
+                        "@title": "Continue"
+                    }
+                },
+                "title": "Bank Fee",
+                "type": "simple"
+            },
+            {
+                "@id": "329",
+                "copy": "You are working on some filing when you hear two full-time employees talking about you in a very unflattering way and saying things that simply aren\u2019t true.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "889",
+                            "@title": "Confront them"
+                        },
+                        {
+                            "@id": "31",
+                            "@title": "Stay quiet"
+                        }
+                    ]
+                },
+                "title": "Temp_Conflict with FullTimers_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "520",
+                "copy": "You\u2019re working today at a retail store, helping them prepare for their grand opening. As you pick up a $25 vase, it slips from your hand and shatters. Nobody notices.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "332",
+                            "@title": "Pay for the vase"
+                        },
+                        {
+                            "@id": "527",
+                            "@title": "Hide the evidence"
+                        }
+                    ]
+                },
+                "title": "Temp_Break Something_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "181",
+                "copy": "Remember that vase you broke? The owner of the shop called the temp agency and accused your co-worker of breaking it and hiding the evidence.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "838",
+                            "@title": "Confess that it was you"
+                        },
+                        {
+                            "@id": "309",
+                            "@title": "Keep quiet"
+                        }
+                    ]
+                },
+                "title": "Temp_Break Something2_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "873",
+                "copy": "Two bills are due today.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "64",
+                            "@title": "Pay cell phone bill ($75)"
+                        },
+                        {
+                            "@id": "184",
+                            "@title": "Pay car insurance ($100)"
+                        },
+                        {
+                            "@id": "735",
+                            "@title": "Pay them both ($175)"
+                        },
+                        {
+                            "@id": "85422",
+                            "@title": "Borrow money from a friend"
+                        }
+                    ]
+                },
+                "title": "Which Bill to Pay_Cell Phone or Insurance",
+                "type": "complex"
+            },
+            {
+                "@id": "446",
+                "copy": "Two bills are due today.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "357",
+                            "@title": "Pay gas bill ($100)"
+                        },
+                        {
+                            "@id": "59",
+                            "@title": "Pay electric bill ($125)"
+                        },
+                        {
+                            "@id": "598",
+                            "@title": "Pay them both ($225)"
+                        },
+                        {
+                            "@id": "85423",
+                            "@title": "Borrow money from a friend"
+                        }
+                    ]
+                },
+                "title": "Which Bill to Pay_Gas or Electric",
+                "type": "complex"
+            },
+            {
+                "@id": "386",
+                "copy": "Money may be tight, but you still need to eat \u2013 it\u2019s time to go shopping. These groceries need to last you a few weeks, so choose wisely.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "3861",
+                            "@title": "Spent 0-15"
+                        },
+                        {
+                            "@id": "3862",
+                            "@title": "Spent 16-40"
+                        },
+                        {
+                            "@id": "3863",
+                            "@title": "Spent 41-60"
+                        }
+                    ]
+                },
+                "title": "Grocery Shopping",
+                "type": "complex"
+            },
+            {
+                "@id": "869",
+                "copy": "The phone rings: \u201cAnswer it\u201d\u201cHello. I\u2019m calling from Consumer Collections Corp about the overdue charges on a vehicle in your possession.\u201d",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "391",
+                            "@title": "Make a payment ($250)"
+                        },
+                        {
+                            "@id": "576",
+                            "@title": "Hang up"
+                        }
+                    ]
+                },
+                "title": "Creditor Calls_JOB",
+                "type": "complex"
+            },
+            {
+                "@id": "580",
+                "copy": "Your car has been repossessed \u2013 guess you shouldn\u2019t have hung up on that creditor.Since you can\u2019t get to work, your boss has to let you go. No job = no more paychecks.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": {
+                        "@id": "739",
+                        "@title": "Continue"
+                    }
+                },
+                "title": "Car Repossessed_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "443",
+                "copy": "Without warning, your landlord has raised your rent, effective immediately. When you argue that the increase is illegal, you\u2019re told, \u201cIf you don\u2019t like it, you can move out.\u201d",
+                "maxAmount": null,
+                "minAmount": "199",
+                "options": {
+                    "option": [
+                        {
+                            "@id": "835",
+                            "@title": "Find somewhere else to live"
+                        },
+                        {
+                            "@id": "37",
+                            "@title": "Ask a friend for help"
+                        },
+                        {
+                            "@id": "85389",
+                            "@title": "Pay it ($150)"
+                        }
+                    ]
+                },
+                "title": "Rent Hike_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "628",
+                "copy": "On the way to drop off your kid at school, something blew in your car. You don\u2019t know what\u2019s wrong, but it can\u2019t be good.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "201",
+                            "@title": "Pay to fix it ($300)"
+                        },
+                        {
+                            "@id": "496",
+                            "@title": "Ask a friend for help"
+                        }
+                    ]
+                },
+                "title": "Your Car Broke Down",
+                "type": "simple"
+            },
+            {
+                "@id": "649",
+                "copy": "Your car's registration is due, but it\u2019ll cost $250 to get it road-legal.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "265",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "341",
+                            "@title": "Take your chances"
+                        }
+                    ]
+                },
+                "title": "Car Registration",
+                "type": "simple"
+            },
+            {
+                "@id": "453",
+                "copy": "Your tooth has been hurting for weeks, and it\u2019s starting to get unbearable. You need a root canal, but you don\u2019t have <br>dental insurance.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "202",
+                            "@title": "Get it fixed ($400)"
+                        },
+                        {
+                            "@id": "402",
+                            "@title": "Use some numbing gel"
+                        }
+                    ]
+                },
+                "title": "Toothache",
+                "type": "simple"
+            },
+            {
+                "@id": "449",
+                "copy": "Your credit card kept you afloat while you were trying to hold onto your home. But even though the house is gone, the balance isn\u2019t.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "162",
+                            "@title": "Pay it off ($7,300)"
+                        },
+                        {
+                            "@id": "734",
+                            "@title": "Pay the minimum ($219)"
+                        },
+                        {
+                            "@id": "823",
+                            "@title": "Ignore it"
+                        }
+                    ]
+                },
+                "title": "Credit Card Bill - JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "782",
+                "copy": "Your child has been invited to a birthday party. They need to bring a present.",
+                "maxAmount": "100",
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "833",
+                            "@title": "Buy the present ($10)"
+                        },
+                        {
+                            "@id": "125",
+                            "@title": "Send your kid without a present"
+                        },
+                        {
+                            "@id": "352",
+                            "@title": "Keep your kid home from the party"
+                        }
+                    ]
+                },
+                "title": "Birthday Party",
+                "type": "simple"
+            },
+            {
+                "@id": "358",
+                "copy": "You come out of your house to discover that someone has siphoned the gas from your car. And you\u2019re already running late for work.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "500",
+                            "@title": "Take the bus"
+                        },
+                        {
+                            "@id": "2621",
+                            "@title": "Call in sick"
+                        },
+                        {
+                            "@id": "658",
+                            "@title": "Ask a friend for a ride"
+                        }
+                    ]
+                },
+                "title": "Out of Gas_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "197",
+                "copy": "Your child\u2019s class is going on a field trip to the natural history museum. <br>The trip costs $15.",
+                "maxAmount": "150",
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "832",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "743",
+                            "@title": "Don't pay"
+                        }
+                    ]
+                },
+                "title": "Field Trip",
+                "type": "simple"
+            },
+            {
+                "@id": "857",
+                "copy": "One of your co-workers has gotten seriously ill. Because your company doesn\u2019t offer sick days, everyone is contributing $20 to help her out.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "304",
+                            "@title": "Pitch in"
+                        },
+                        {
+                            "@id": "718",
+                            "@title": "Say you forgot your wallet"
+                        }
+                    ]
+                },
+                "title": "Sick Co-worker _JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "97",
+                "copy": "Your head is pounding and you\u2019re burning up. But you have to be at work <br>in an hour.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "679",
+                            "@title": "Call in sick"
+                        },
+                        {
+                            "@id": "616",
+                            "@title": "Go anyway"
+                        }
+                    ]
+                },
+                "title": "The Flu_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "570",
+                "copy": "Your head is pounding and you\u2019re burning up. But you have to be at work <br>in an hour.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "93",
+                            "@title": "Call in sick"
+                        },
+                        {
+                            "@id": "736",
+                            "@title": "Go anyway"
+                        }
+                    ]
+                },
+                "title": "The Flu_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "722",
+                "copy": "The flu has been going around \u2013 and it just hit your house. Your child is running a fever and has the chills. But you\u2019re supposed to be at work.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "382",
+                            "@title": "Stay home from work"
+                        },
+                        {
+                            "@id": "342",
+                            "@title": "Send them to school sick"
+                        },
+                        {
+                            "@id": "552",
+                            "@title": "Leave them home alone"
+                        }
+                    ]
+                },
+                "title": "Sick Child_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "94",
+                "copy": "The flu has been going around \u2013 and it just hit your house. Your child is running a fever and has the chills. But you\u2019re supposed to be at work.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "765",
+                            "@title": "Stay home from work"
+                        },
+                        {
+                            "@id": "477",
+                            "@title": "Send them to school sick"
+                        },
+                        {
+                            "@id": "893",
+                            "@title": "Leave them home alone"
+                        }
+                    ]
+                },
+                "title": "Sick Child_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "819",
+                "copy": "You\u2019ve been working for several hours, and you\u2019re starving. But you forgot <br>your lunch.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "161",
+                            "@title": "Buy a salad ($6)"
+                        },
+                        {
+                            "@id": "457",
+                            "@title": "Buy a burger from the dollar menu"
+                        }
+                    ]
+                },
+                "title": "Forgot Your Lunch _JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "439",
+                "copy": "Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It\u2019s in <br>another state.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "670",
+                            "@title": "Fly to the wedding ($350)"
+                        },
+                        {
+                            "@id": "881",
+                            "@title": "Tell your friend you won\u2019t be there"
+                        }
+                    ]
+                },
+                "title": "Your Friend\u2019s Wedding_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "831",
+                "copy": "Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It\u2019s in another state.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "554",
+                            "@title": "Fly to the wedding ($350)"
+                        },
+                        {
+                            "@id": "518",
+                            "@title": "Tell your friend you won\u2019t be there"
+                        }
+                    ]
+                },
+                "title": "Your Friend\u2019s Wedding_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "684",
+                "copy": "Your kid has a friend over when you hear the telltale sound of the ice cream truck. They both run over to the truck.",
+                "maxAmount": "100",
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "7",
+                            "@title": "Buy some ice cream ($5)"
+                        },
+                        {
+                            "@id": "393",
+                            "@title": "Say no"
+                        }
+                    ]
+                },
+                "title": "Ice Cream Truck",
+                "type": "simple"
+            },
+            {
+                "@id": "865",
+                "copy": "You\u2019re driving with your kid in the backseat when your car slips on a slick stretch of road and slides into a parked car, causing a big dent in the bumper and a broken taillight.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "855",
+                            "@title": "Pay the damage ($550)"
+                        },
+                        {
+                            "@id": "422",
+                            "@title": "Drive away"
+                        }
+                    ]
+                },
+                "title": "Accident",
+                "type": "simple"
+            },
+            {
+                "@id": "587",
+                "copy": "A bunch of friends are going to a free concert tonight, and you want to go \u2013 but you\u2019ve got a kid to worry about.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "864",
+                            "@title": "Get a babysitter ($30)"
+                        },
+                        {
+                            "@id": "586",
+                            "@title": "Stay home"
+                        }
+                    ]
+                },
+                "title": "Night Out",
+                "type": "simple"
+            },
+            {
+                "@id": "717",
+                "copy": "Everyone is pitching in for a lottery pool.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "847",
+                            "@title": "Pay $10 to play"
+                        },
+                        {
+                            "@id": "261",
+                            "@title": "Don\u2019t play"
+                        }
+                    ]
+                },
+                "title": "Play the Lottery",
+                "type": "simple"
+            },
+            {
+                "@id": "506",
+                "copy": "Your child is above average in language skills but is struggling with math.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "92",
+                            "@title": "Hire a tutor ($50)"
+                        },
+                        {
+                            "@id": "870",
+                            "@title": "Give your child help"
+                        },
+                        {
+                            "@id": "85347",
+                            "@title": "Ask a friend for help"
+                        },
+                        {
+                            "@id": "85430",
+                            "@title": "Give your child help"
+                        }
+                    ]
+                },
+                "title": "Math Help",
+                "type": "complex"
+            },
+            {
+                "@id": "494",
+                "copy": "Your child has been identified as gifted and invited into the school\u2019s gifted program. The materials for the course cost $50.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "204",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "759",
+                            "@title": "Apply for a scholarship"
+                        },
+                        {
+                            "@id": "681",
+                            "@title": "Decline the opportunity"
+                        }
+                    ]
+                },
+                "title": "Gifted Program_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "891",
+                "copy": "Your child has been identified as gifted and invited into the school\u2019s gifted program. The materials for the course cost $50.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "781",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "207",
+                            "@title": "Apply for a scholarship"
+                        },
+                        {
+                            "@id": "221",
+                            "@title": "Decline the opportunity"
+                        }
+                    ]
+                },
+                "title": "Gifted Program_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "572",
+                "copy": "You\u2019ve been putting off doing laundry for weeks because you don\u2019t have a washer or dryer.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "325",
+                            "@title": "Ask a friend"
+                        },
+                        {
+                            "@id": "746",
+                            "@title": "Go to the laundromat ($30)"
+                        }
+                    ]
+                },
+                "title": "Laundry Day",
+                "type": "simple"
+            },
+            {
+                "@id": "510",
+                "copy": "Your mom needs crucial medication but doesn\u2019t have the $100 she needs <br>to buy it.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "764",
+                            "@title": "Give it to her"
+                        },
+                        {
+                            "@id": "790",
+                            "@title": "Say no"
+                        }
+                    ]
+                },
+                "title": "Help Mom or Not?",
+                "type": "simple"
+            },
+            {
+                "@id": "685",
+                "copy": "Your income level qualifies you for <br>food stamps.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "24",
+                            "@title": "Apply"
+                        },
+                        {
+                            "@id": "825",
+                            "@title": "Go hungry"
+                        }
+                    ]
+                },
+                "title": "Food Stamps",
+                "type": "simple"
+            },
+            {
+                "@id": "74",
+                "copy": "You\u2019re walking down the street when you see someone drop a $10 bill.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "208",
+                            "@title": "Give it to them"
+                        },
+                        {
+                            "@id": "257",
+                            "@title": "Pocket the $10"
+                        }
+                    ]
+                },
+                "title": "To Steal or Not to Steal",
+                "type": "simple"
+            },
+            {
+                "@id": "857",
+                "copy": "A family friend sends your child a card. Inside is $10.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "502",
+                            "@title": "Give your child the $10"
+                        },
+                        {
+                            "@id": "70",
+                            "@title": "Keep the $10"
+                        }
+                    ]
+                },
+                "title": "Your Kid Gets a Present",
+                "type": "simple"
+            },
+            {
+                "@id": "22",
+                "copy": "Your grandfather has passed away. You\u2019ve always been very close to him, and you want to go to the memorial service, which is being held several states away.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "596",
+                            "@title": "Fly out for the service ($350)"
+                        },
+                        {
+                            "@id": "30",
+                            "@title": "Take time off and drive"
+                        },
+                        {
+                            "@id": "408",
+                            "@title": "Skip the memorial"
+                        }
+                    ]
+                },
+                "title": "Funeral_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "527",
+                "copy": "Your grandfather has passed away. You\u2019ve always been very close to him, and you want to go to the memorial service, which is being held several states away.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "308",
+                            "@title": "Fly out for the service ($350)"
+                        },
+                        {
+                            "@id": "359",
+                            "@title": "Take time off and drive"
+                        },
+                        {
+                            "@id": "610",
+                            "@title": "Skip the memorial"
+                        }
+                    ]
+                },
+                "title": "Funeral_JOB_WT",
+                "type": "simple"
+            },
+            {
+                "@id": "885",
+                "copy": "Your landlord found out that you have a pet, and now you have to pay a <br>$350 pet fee.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "348",
+                            "@title": "Pay the fee"
+                        },
+                        {
+                            "@id": "456",
+                            "@title": "Ask a friend to take your pet"
+                        },
+                        {
+                            "@id": "34",
+                            "@title": "Take your pet to the animal shelter"
+                        }
+                    ]
+                },
+                "title": "Family Pet_Pet Fee",
+                "type": "simple"
+            },
+            {
+                "@id": "284",
+                "copy": "Your family pet is sick and won\u2019t get better without treatment.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "195",
+                            "@title": "Pay for treatment ($400)"
+                        },
+                        {
+                            "@id": "376",
+                            "@title": "Have it put to sleep ($50)"
+                        },
+                        {
+                            "@id": "377",
+                            "@title": "Let your pet suffer"
+                        }
+                    ]
+                },
+                "title": "Family Pet_Sick",
+                "type": "simple"
+            },
+            {
+                "@id": "215",
+                "copy": "Trying to keep your family afloat is wearing you down. You think you might be depressed.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "25",
+                            "@title": "Get a prescription for antidepressants ($175)"
+                        },
+                        {
+                            "@id": "320",
+                            "@title": "Talk to a therapist ($50)"
+                        },
+                        {
+                            "@id": "334",
+                            "@title": "Pretend you\u2019re fine"
+                        }
+                    ]
+                },
+                "title": "Depression_no insurance",
+                "type": "simple"
+            },
+            {
+                "@id": "34",
+                "copy": "Trying to keep your family afloat is wearing you down. You think you might be depressed.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "44",
+                            "@title": "Get a prescription for antidepressants"
+                        },
+                        {
+                            "@id": "726",
+                            "@title": "Talk to a therapist"
+                        },
+                        {
+                            "@id": "631",
+                            "@title": "Pretend you\u2019re fine"
+                        }
+                    ]
+                },
+                "title": "Depression_insurance",
+                "type": "simple"
+            },
+            {
+                "@id": "172",
+                "copy": "You check your work schedule for next week and discover that you\u2019ve been moved to the midday shift, which means fewer customers and way fewer tips. Future paychecks will be about $75 short.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": {
+                        "@id": "558",
+                        "@title": "Continue"
+                    }
+                },
+                "title": "Server Challenge_Shift Change_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "112",
+                "copy": "You\u2019re carrying a stack of plates to the back when you drop your tray, shattering them all. Everyone else is on the floor, so nobody saw you do it.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "324",
+                            "@title": "Pay $25 to replace the plates"
+                        },
+                        {
+                            "@id": "239",
+                            "@title": "Hide the evidence"
+                        }
+                    ]
+                },
+                "title": "Server Challenge_Break Something_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "493",
+                "copy": "Your supervisor discovered the plates you broke but blames your co-worker.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "649",
+                            "@title": "Confess that it was you"
+                        },
+                        {
+                            "@id": "711",
+                            "@title": "Keep quiet"
+                        }
+                    ]
+                },
+                "title": "Server Challenge_Break Something2_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "295",
+                "copy": "Your company has introduced an option where, instead of being paid by the hour, you can be paid by the piece.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "684",
+                            "@title": "Stay with an hourly paycheck"
+                        },
+                        {
+                            "@id": "498",
+                            "@title": "Opt for the pay/piece system"
+                        }
+                    ]
+                },
+                "title": "Warehouse Challenges_PayPiece_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "553",
+                "copy": "The repetitive work you do is taking its toll. Your back hurts so badly you can barely stand, and it\u2019s only the beginning of your shift.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "410",
+                            "@title": "Submit a workers\u2019 comp claim"
+                        },
+                        {
+                            "@id": "5",
+                            "@title": "Work through the pain"
+                        },
+                        {
+                            "@id": "495",
+                            "@title": "Take the day off"
+                        }
+                    ]
+                },
+                "title": "Warehouse Challenge_Injury_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "134",
+                "copy": "You weren\u2019t paying attention, and you broke something as you were putting it into a box.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "683",
+                            "@title": "Pay $25 to cover the broken item"
+                        },
+                        {
+                            "@id": "328",
+                            "@title": "Hide the evidence"
+                        }
+                    ]
+                },
+                "title": "Warehouse Challenge_Break Something_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "333",
+                "copy": "Your supervisor discovered the broken item you hid but blames your co-worker.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "650",
+                            "@title": "Confess that it was you"
+                        },
+                        {
+                            "@id": "173",
+                            "@title": "Keep quiet"
+                        }
+                    ]
+                },
+                "title": "Warehouse Challenge_Break Something2_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "275",
+                "copy": "You ended your work at one company and are waiting for another call from the temp agency. Unfortunately, this is a slow week, and you miss three days of work.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": {
+                        "@id": "85345",
+                        "@title": "Continue"
+                    }
+                },
+                "title": "Temp Challenge_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "2625",
+                "copy": "The local community college is offering an online course in computer science, which could be your ticket to a higher paycheck. But the class costs $200.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "2627",
+                            "@title": "Sign up ($200)"
+                        },
+                        {
+                            "@id": "2628",
+                            "@title": "Maybe next semester"
+                        }
+                    ]
+                },
+                "title": "Higher Education",
+                "type": "simple"
+            },
+            {
+                "@id": "2626",
+                "copy": "Your child comes home in tears and threatens to stop eating lunch because other kids made fun of all the <br>\u201cfree lunch kids.\u201d",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "2629",
+                            "@title": "Add lunch money to your monthly budget ($3/day)"
+                        },
+                        {
+                            "@id": "2630",
+                            "@title": "Risk them going hungry"
+                        }
+                    ]
+                },
+                "title": "Free Lunch",
+                "type": "simple"
+            },
+            {
+                "@id": "2631",
+                "copy": "You\u2019re walking into work when someone approaches you in the parking lot. They want to organize a union and push for better pay.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "2632",
+                            "@title": "Talk to them"
+                        },
+                        {
+                            "@id": "2633",
+                            "@title": "Keep walking"
+                        }
+                    ]
+                },
+                "title": "Organizer_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "2634",
+                "copy": "Your neighbor is moving and has offered to pay you $50 to help. But they reserved the truck during the time your kid will be starring in a school play.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "2635",
+                            "@title": "Take the job"
+                        },
+                        {
+                            "@id": "2636",
+                            "@title": "Go see the play"
+                        }
+                    ]
+                },
+                "title": "Extra Work",
+                "type": "simple"
+            },
+            {
+                "@id": "85350",
+                "copy": "Your grandfather has passed away. You\u2019ve always been very close to him, and you want to go to the memorial service, which is being held several states away.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85351",
+                            "@title": "Drive to the service ($75)"
+                        },
+                        {
+                            "@id": "85352",
+                            "@title": "Skip the memorial"
+                        }
+                    ]
+                },
+                "title": "Funeral",
+                "type": "simple"
+            },
+            {
+                "@id": "85353",
+                "copy": "Your best friend from childhood is getting married, and they want you to be in the wedding. The only problem: It\u2019s in another state.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85354",
+                            "@title": "Drive to the wedding ($75)"
+                        },
+                        {
+                            "@id": "85355",
+                            "@title": "Say you can\u2019t go"
+                        }
+                    ]
+                },
+                "title": "Wedding",
+                "type": "simple"
+            },
+            {
+                "@id": "85356",
+                "copy": "Your child has been identified as gifted and invited into the school\u2019s gifted program. The materials for the course cost $50.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85360",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "85361",
+                            "@title": "Decline the opportunity"
+                        }
+                    ]
+                },
+                "title": "Gifted Program",
+                "type": "simple"
+            },
+            {
+                "@id": "85357",
+                "copy": "Your child wants to join an after-school sports team, which requires a <br>physical and uniform.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85362",
+                            "@title": "Say yes ($50)"
+                        },
+                        {
+                            "@id": "85363",
+                            "@title": "Say no"
+                        }
+                    ]
+                },
+                "title": "Athletics",
+                "type": "simple"
+            },
+            {
+                "@id": "85365",
+                "copy": "You come out of your house to discover that someone has siphoned the gas from your car. And you\u2019re already running late for work.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85366",
+                            "@title": "Take the bus"
+                        },
+                        {
+                            "@id": "85367",
+                            "@title": "Call in sick"
+                        },
+                        {
+                            "@id": "85368",
+                            "@title": "Ask a friend for a ride"
+                        }
+                    ]
+                },
+                "title": "OutofGas_JOB_S",
+                "type": "simple"
+            },
+            {
+                "@id": "85370",
+                "copy": "Life throws curveballs, and so does a kid on your block. He shattered your window, and your landlord insists you pay <br>$100 to fix it.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85371",
+                            "@title": "Pay to replace the window ($100)"
+                        },
+                        {
+                            "@id": "85372",
+                            "@title": "Get legal help"
+                        },
+                        {
+                            "@id": "85428",
+                            "@title": "Buy some plastic to put over the broken window ($5)"
+                        }
+                    ]
+                },
+                "title": "Broken Window",
+                "type": "simple"
+            },
+            {
+                "@id": "85373",
+                "copy": "You\u2019ve been experiencing some sharp pains in your chest lately, and your family has a history of heart problems.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85375",
+                            "@title": "Get it checked out ($250)"
+                        },
+                        {
+                            "@id": "85376",
+                            "@title": "Ignore it"
+                        }
+                    ]
+                },
+                "title": "Chest Pains (no insurance)",
+                "type": "simple"
+            },
+            {
+                "@id": "85374",
+                "copy": "A little exercise goes a long way, both for keeping you healthy and relieving stress. You need to start a regular fitness regimen.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85377",
+                            "@title": "Join a gym ($25)"
+                        },
+                        {
+                            "@id": "85378",
+                            "@title": "Ask a friend to be your running buddy"
+                        }
+                    ]
+                },
+                "title": "Fitness Program",
+                "type": "simple"
+            },
+            {
+                "@id": "85379",
+                "copy": "It\u2019s easier to look for extra ways to make money if you have access to the Web.  But you don\u2019t have Internet at home <br>since you moved.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85380",
+                            "@title": "Sign up for home Internet ($60 a month)"
+                        },
+                        {
+                            "@id": "85381",
+                            "@title": "Get online at the public library"
+                        },
+                        {
+                            "@id": "85382",
+                            "@title": "Go without Internet"
+                        }
+                    ]
+                },
+                "title": "Home Internet",
+                "type": "simple"
+            },
+            {
+                "@id": "85384",
+                "copy": "You\u2019re helping out the dishwasher during a lull when you accidentally get bleach all over your uniform shirt.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85386",
+                            "@title": "Buy a new one"
+                        },
+                        {
+                            "@id": "85387",
+                            "@title": "Wear the damaged one"
+                        }
+                    ]
+                },
+                "title": "Server_Bleach_JOB",
+                "type": "simple"
+            },
+            {
+                "@id": "85391",
+                "copy": "A neighbor stops by and offers you a hand-me-down coat from their family; yours is in tatters.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85392",
+                            "@title": "Take the coat"
+                        },
+                        {
+                            "@id": "85393",
+                            "@title": "Turn it down"
+                        }
+                    ]
+                },
+                "title": "Charitable Neighbor",
+                "type": "simple"
+            },
+            {
+                "@id": "85394",
+                "copy": "Your bathroom sink has a small leak that just became a big leak. Your landlord won\u2019t return your calls, and you can\u2019t put it off any longer.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85395",
+                            "@title": "Call a plumber ($150)"
+                        },
+                        {
+                            "@id": "85396",
+                            "@title": "Try to fix it yourself"
+                        }
+                    ]
+                },
+                "title": "Pipes",
+                "type": "simple"
+            },
+            {
+                "@id": "85397",
+                "copy": "Your stress level is through the roof these days. A friend who hears you venting offers you a cigarette to take the edge off.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85398",
+                            "@title": "Light up \u2013 it\u2019s just one"
+                        },
+                        {
+                            "@id": "85399",
+                            "@title": "Say no"
+                        }
+                    ]
+                },
+                "title": "Smoking",
+                "type": "simple"
+            },
+            {
+                "@id": "85400",
+                "copy": "You\u2019re sure you weren\u2019t speeding, but the cop who gave you a ticket disagrees.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85401",
+                            "@title": "Pay it off ($250)"
+                        },
+                        {
+                            "@id": "85402",
+                            "@title": "Contest it in court"
+                        }
+                    ]
+                },
+                "title": "Speeding Ticket",
+                "type": "simple"
+            },
+            {
+                "@id": "85404",
+                "copy": "Your child\u2019s sneakers are falling apart and it\u2019s time to buy new ones. Name brands are important, but they don\u2019t come cheap.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85405",
+                            "@title": "Buy the name brand ($100)"
+                        },
+                        {
+                            "@id": "85406",
+                            "@title": "Go to the thrift store ($10)"
+                        }
+                    ]
+                },
+                "title": "New Shoes",
+                "type": "simple"
+            },
+            {
+                "@id": "85407",
+                "copy": "A friend of a friend needs a place to stay. He\u2019s offered you $200 to camp out in your living room.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85408",
+                            "@title": "Say yes"
+                        },
+                        {
+                            "@id": "85409",
+                            "@title": "Say no"
+                        }
+                    ]
+                },
+                "title": "Friend of a Friend",
+                "type": "simple"
+            },
+            {
+                "@id": "85410",
+                "copy": "Your roommate may have given you another $200, but he brought a whole lot of problems, staying up all night and partying in your house. And he\u2019s not about to move out.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85411",
+                            "@title": "Ask your landlord to evict him"
+                        },
+                        {
+                            "@id": "85412",
+                            "@title": "Put up with it"
+                        }
+                    ]
+                },
+                "title": "Friend of a Friend 2",
+                "type": "simple"
+            },
+            {
+                "@id": "85413",
+                "copy": "Your college degree isn\u2019t helping you right now, but you still have to pay your loans. You just got a bill for $250.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85414",
+                            "@title": "Pay it"
+                        },
+                        {
+                            "@id": "85415",
+                            "@title": "Ignore It"
+                        }
+                    ]
+                },
+                "title": "College Loans",
+                "type": "simple"
+            },
+            {
+                "@id": "85417",
+                "copy": "You\u2019ve been experiencing some sharp pains in your chest lately, and your family has a history of heart problems.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85418",
+                            "@title": "Get it checked out ($20)"
+                        },
+                        {
+                            "@id": "85419",
+                            "@title": "Ignore it"
+                        }
+                    ]
+                },
+                "title": "Chest Pains (insurance)",
+                "type": "simple"
+            },
+            {
+                "@id": "85424",
+                "copy": "During a routine traffic stop, a police officer spotted your expired registration tags. Your car\u2019s been impounded and it\u2019ll cost $1,500 to get it back.",
+                "maxAmount": null,
+                "minAmount": null,
+                "options": {
+                    "option": [
+                        {
+                            "@id": "85425",
+                            "@title": "Pay the money"
+                        },
+                        {
+                            "@id": "85426",
+                            "@title": "Give up your car"
+                        }
+                    ]
+                },
+                "title": "Impounded_JOB",
+                "type": "simple"
+            }
+        ]
+    }
+}

@@ -1,0 +1,4073 @@
+{
+    "options": {
+        "option": [
+            {
+                "@id": "643",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "262",
+                "changeNextPaycheck": "0",
+                "copy": "Position available at casual restaurant with a fast-paced and fun atmosphere. Must have flexible schedule and some experience.Pay: $2.13/hr. + tipsHours: Variable",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "580",
+                            "@title": "Car Repossessed"
+                        },
+                        {
+                            "@id": "94",
+                            "@title": "Sick Child_JOB_WT"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "333",
+                            "@title": "Warehouse Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "520",
+                            "@title": "Temp_Break Something_JOB"
+                        },
+                        {
+                            "@id": "628",
+                            "@title": "Your Car Broke Down_JOB_WT"
+                        },
+                        {
+                            "@id": "358",
+                            "@title": "Out of Gas_JOB_WT"
+                        },
+                        {
+                            "@id": "570",
+                            "@title": "The Flu_JOB_WT"
+                        },
+                        {
+                            "@id": "831",
+                            "@title": "Your Friend\u2019s Wedding_JOB_WT"
+                        },
+                        {
+                            "@id": "891",
+                            "@title": "Gifted Program_JOB_WT"
+                        },
+                        {
+                            "@id": "527",
+                            "@title": "Funeral_JOB_WT"
+                        },
+                        {
+                            "@id": "295",
+                            "@title": "Warehouse Challenges_PayPiece_JOB"
+                        },
+                        {
+                            "@id": "553",
+                            "@title": "Warehouse Challenge_Injury_JOB"
+                        },
+                        {
+                            "@id": "134",
+                            "@title": "Warehouse Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_No JOB"
+                        },
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "34",
+                            "@title": "Depression_JOB_WT"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "85350",
+                            "@title": "Funeral"
+                        },
+                        {
+                            "@id": "85353",
+                            "@title": "Wedding"
+                        },
+                        {
+                            "@id": "85356",
+                            "@title": "Gifted Program"
+                        },
+                        {
+                            "@id": "181",
+                            "@title": "Temp_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "85410",
+                            "@title": "Friend of a Friend 2"
+                        },
+                        {
+                            "@id": "85424",
+                            "@title": "Impounded_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Restaurant Server"
+            },
+            {
+                "@id": "288",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "306",
+                "changeNextPaycheck": "0",
+                "copy": "Now hiring a warehouse associate in packing and shipping. Must be able to lift 20 pounds and have reliable transportation.Pay: $9/hr.Hours: 12p-7p",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "580",
+                            "@title": "Car Repossessed"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "333",
+                            "@title": "Warehouse Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "520",
+                            "@title": "Temp_Break Something_JOB"
+                        },
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "443",
+                            "@title": "Rent Hike_JOB_S"
+                        },
+                        {
+                            "@id": "97",
+                            "@title": "The Flu_JOB_S"
+                        },
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "494",
+                            "@title": "Gifted Program_JOB_S"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "172",
+                            "@title": "Server Challenge_Shift Change_JOB"
+                        },
+                        {
+                            "@id": "112",
+                            "@title": "Server Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_No JOB"
+                        },
+                        {
+                            "@id": "94",
+                            "@title": "Sick Child_JOB_WT"
+                        },
+                        {
+                            "@id": "215",
+                            "@title": "Depression_JOB_S"
+                        },
+                        {
+                            "@id": "85350",
+                            "@title": "Funeral"
+                        },
+                        {
+                            "@id": "85353",
+                            "@title": "Wedding"
+                        },
+                        {
+                            "@id": "85356",
+                            "@title": "Gifted Program"
+                        },
+                        {
+                            "@id": "85365",
+                            "@title": "OutofGas_JOB_S"
+                        },
+                        {
+                            "@id": "181",
+                            "@title": "Temp_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "85384",
+                            "@title": "Server_Bleach_JOB"
+                        },
+                        {
+                            "@id": "85410",
+                            "@title": "Friend of a Friend 2"
+                        },
+                        {
+                            "@id": "85424",
+                            "@title": "Impounded_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Warehouse Worker"
+            },
+            {
+                "@id": "311",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "306",
+                "changeNextPaycheck": "0",
+                "copy": "Administrative skills needed. If you know your way around an office, we\u2019ve got positions for you. Temporary workers needed for positions in offices around the area.Hours: VariablePay: $9/hr.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "580",
+                            "@title": "Car Repossessed"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "94",
+                            "@title": "Sick Child_JOB_WT"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "333",
+                            "@title": "Warehouse Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "443",
+                            "@title": "Rent Hike_JOB_S"
+                        },
+                        {
+                            "@id": "97",
+                            "@title": "The Flu_JOB_S"
+                        },
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "494",
+                            "@title": "Gifted Program_JOB_S"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "172",
+                            "@title": "Server Challenge_Shift Change_JOB"
+                        },
+                        {
+                            "@id": "112",
+                            "@title": "Server Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "134",
+                            "@title": "Warehouse Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "553",
+                            "@title": "Warehouse Challenge_Injury_JOB"
+                        },
+                        {
+                            "@id": "295",
+                            "@title": "Warehouse Challenges_PayPiece_JOB"
+                        },
+                        {
+                            "@id": "215",
+                            "@title": "Depression_JOB_S"
+                        },
+                        {
+                            "@id": "85350",
+                            "@title": "Funeral"
+                        },
+                        {
+                            "@id": "85353",
+                            "@title": "Wedding"
+                        },
+                        {
+                            "@id": "85356",
+                            "@title": "Gifted Program"
+                        },
+                        {
+                            "@id": "85365",
+                            "@title": "OutofGas_JOB_S"
+                        },
+                        {
+                            "@id": "181",
+                            "@title": "Temp_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "85384",
+                            "@title": "Server_Bleach_JOB"
+                        },
+                        {
+                            "@id": "85410",
+                            "@title": "Friend of a Friend 2"
+                        },
+                        {
+                            "@id": "85424",
+                            "@title": "Impounded_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Temp"
+            },
+            {
+                "@id": "83",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "-69",
+                "changeNextPaycheck": "0",
+                "copy": "Well, now you\u2019ve got health insurance, but you\u2019ve also reduced your weekly paycheck by almost $70.Even when health insurance is offered, many low-income workers often opt out because they can\u2019t afford the high premiums.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "215",
+                            "@title": "Depression_no insurance"
+                        },
+                        {
+                            "@id": "85373",
+                            "@title": "Chest Pains (no insurance)"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Opt in"
+            },
+            {
+                "@id": "99",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Even when health insurance is offered, the premiums are often so high that many low-income workers opt out \u2013 just like you did. Let\u2019s hope you don\u2019t get sick!",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "34",
+                            "@title": "Depression_insurance"
+                        },
+                        {
+                            "@id": "85417",
+                            "@title": "Chest Pains (insurance)"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Opt out"
+            },
+            {
+                "@id": "374",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Fortunately, you can bike or walk to work. Unfortunately, you won\u2019t be able to ditch your car altogether. Like more than 50 percent of American households, your access to public transit is too limited to go completely carless.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "580",
+                            "@title": "Car Repossessed_JOB"
+                        },
+                        {
+                            "@id": "358",
+                            "@title": "Out of Gas_JOB_WT"
+                        },
+                        {
+                            "@id": "85365",
+                            "@title": "OutofGas_JOB_S"
+                        },
+                        {
+                            "@id": "85424",
+                            "@title": "Impounded_JOB"
+                        },
+                        {
+                            "@id": "649",
+                            "@title": "Car Registration"
+                        },
+                        {
+                            "@id": "869",
+                            "@title": "Creditor Calls_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "0 \u2013 5 miles away"
+            },
+            {
+                "@id": "733",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "A lack of affordable housing is the number one cause of homelessness.The definition of \u201caffordable\u201d housing is 30 percent of income, but you and over 12 million other American households spend way more on housing.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "< 15 miles away"
+            },
+            {
+                "@id": "85421",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "A lack of affordable housing is the number one cause of homelessness.You chose to live farther away from your job, so your rent is lower. But your gas costs are higher. In fact, for every dollar a working family saves on housing, they spend an additional 77 cents on transportation.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "> 15 miles away"
+            },
+            {
+                "@id": "79",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-45",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Rent a storage unit ($45)"
+            },
+            {
+                "@id": "169",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I can\u2019t afford my house, so I\u2019m downsizing to a smaller place. Can I store some stuff at your house?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend to store it"
+            },
+            {
+                "@id": "141",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "150",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You sold a bunch of stuff, but only made $150.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Have a yard sale"
+            },
+            {
+                "@id": "715",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-5",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Bank fees and overdraft charges overwhelmingly impact low-income groups, which is why many skip the bank altogether in favor of <br>check-cashing services.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Continue"
+            },
+            {
+                "@id": "889",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You talk with them and everything seems OK. Two hours later, the temp agency calls to say that you need to pack up your stuff and leave. Apparently, you\u2019re not a \u201cgood fit\u201d for this company \u2014 or any other.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "520",
+                            "@title": "Temp_Break Something_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Confront them"
+            },
+            {
+                "@id": "31",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Stay quiet"
+            },
+            {
+                "@id": "332",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-25",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay for the vase"
+            },
+            {
+                "@id": "527",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "329",
+                        "@title": "Temp Challenge: Conflict with Full-Timers"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Hide the evidence"
+            },
+            {
+                "@id": "838",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The manager at the temp agency is infuriated that you lied and fires you on the spot. You don\u2019t have to pay for the vase, but now you don\u2019t have an income.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Confess that it was you"
+            },
+            {
+                "@id": "309",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The temp agency fires your co-worker. As she collects her things, she confides to you that she has no idea how she\u2019ll take care of her two children.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Keep quiet"
+            },
+            {
+                "@id": "64",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "179",
+                        "@title": "Car Insurance"
+                    }
+                },
+                "balanceAmountChange": "-75",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your phone will stay on, but you\u2019d better drive carefully! In tough economic times, the rates of uninsured drivers rise. Not because people don\u2019t care about insurance \u2013 but because, like you, they can\u2019t afford it.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay cell phone bill ($75)"
+            },
+            {
+                "@id": "184",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "3",
+                        "@title": "Ignored cell phone bill"
+                    }
+                },
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your cell phone has been disconnected <br>for non-payment.<br><br>When payday comes, you can reconnect, but in addition to your bill, you\u2019ll have to pay a $25 fee.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay car insurance ($100)"
+            },
+            {
+                "@id": "735",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-175",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay them both ($175)"
+            },
+            {
+                "@id": "85422",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "147",
+                        "@title": "Borrowed Money $175"
+                    }
+                },
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I can\u2019t pay all my bills this month, and I need to borrow $175. Can you help me out?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Borrow money from a friend"
+            },
+            {
+                "@id": "357",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "21",
+                        "@title": "Electric Bill"
+                    }
+                },
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your electricity has been cut off. But you\u2019re not alone \u2013 it happened to 4.3 million Americans last year. Be prepared to pay your bill plus a $250 deposit to get your electricity turned back on.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay gas bill ($100)"
+            },
+            {
+                "@id": "59",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "118",
+                        "@title": "Gas Bill Payment"
+                    }
+                },
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your gas has been cut off, which means no heat, no hot water, no way to cook. You can get it turned back on, but it\u2019ll cost you a $200 deposit, plus what you already owe.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay electric bill ($125)"
+            },
+            {
+                "@id": "598",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-225",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay them both ($225)"
+            },
+            {
+                "@id": "85423",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "46",
+                        "@title": "Borrowed Money $225"
+                    }
+                },
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I can\u2019t pay all my bills this month, and I need to borrow $225. Can you help me out?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Borrow money from a friend"
+            },
+            {
+                "@id": "3861",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Spent 0-15"
+            },
+            {
+                "@id": "3862",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Spent 16-40"
+            },
+            {
+                "@id": "3863",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Almost 15 percent of American households had a hard time getting enough to eat at some point during 2009.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Spent 41-60"
+            },
+            {
+                "@id": "391",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-250",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Make a payment ($250)"
+            },
+            {
+                "@id": "576",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "580",
+                        "@title": "Car Repossessed_JOB"
+                    }
+                },
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "155",
+                        "@title": "Car Payment"
+                    }
+                },
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "If you don\u2019t make a payment, your car could be repossessed \u2013 just like the record 1.6 million autos that were repossessed in 2008.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Hang up"
+            },
+            {
+                "@id": "739",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "873",
+                            "@title": "Which Bill to Pay_Cell Phone or Insurance"
+                        },
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "831",
+                            "@title": "Your Friend\u2019s Wedding_JOB_WT"
+                        },
+                        {
+                            "@id": "865",
+                            "@title": "Accident"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "527",
+                            "@title": "Funeral_JOB_WT"
+                        },
+                        {
+                            "@id": "857",
+                            "@title": "Sick Co-worker _JOB"
+                        },
+                        {
+                            "@id": "869",
+                            "@title": "Creditor Calls_JOB"
+                        },
+                        {
+                            "@id": "628",
+                            "@title": "Your Car Broke Down"
+                        },
+                        {
+                            "@id": "649",
+                            "@title": "Car Registration"
+                        },
+                        {
+                            "@id": "358",
+                            "@title": "Out of Gas_JOB_WT"
+                        },
+                        {
+                            "@id": "85365",
+                            "@title": "OutofGas_JOB_S"
+                        },
+                        {
+                            "@id": "85400",
+                            "@title": "Speeding Ticket"
+                        },
+                        {
+                            "@id": "112",
+                            "@title": "Server Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Continue"
+            },
+            {
+                "@id": "835",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-150",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "There are lots of places you could move \u2013 except they all require a security deposit and first/last month\u2019s rent. So you\u2019re stuck paying the money.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Find somewhere else to live"
+            },
+            {
+                "@id": "37",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "My kid and I are about to be evicted. We need somewhere to stay. Can we crash on your couch?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend for help"
+            },
+            {
+                "@id": "85389",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-150",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay it ($150)"
+            },
+            {
+                "@id": "201",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-300",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay to fix it ($300)"
+            },
+            {
+                "@id": "496",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-5",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "My car broke down and I\u2019m stuck. Can you come get me? I can give you gas money.",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend for help"
+            },
+            {
+                "@id": "265",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-250",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "341",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "85424",
+                        "@title": "Impounded_JOB"
+                    }
+                },
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "48",
+                        "@title": "registration"
+                    }
+                },
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You\u2019ll save money in the short term, but you\u2019ll have to pay a $100 late fee for waiting. And if you get pulled over, you\u2019re looking at $1,500 to get your <br>car back.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take your chances"
+            },
+            {
+                "@id": "202",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-400",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get it fixed ($400)"
+            },
+            {
+                "@id": "402",
+                "addChallenge": null,
+                "addUnresolved": {
+                    "unresolve": {
+                        "@id": "29",
+                        "@title": "Toothache"
+                    }
+                },
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "One in four Americans doesn\u2019t have dental insurance. And without coverage, putting off basic care could mean emergency surgery that\u2019s twice as expensive.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Use some numbing gel"
+            },
+            {
+                "@id": "162",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-7300",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay it off ($7,300)"
+            },
+            {
+                "@id": "734",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-219",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "If you continue to pay only the minimum, the interest you have to pay means it will take you almost 17 years to pay off your card.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the minimum ($219)"
+            },
+            {
+                "@id": "823",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Ignoring your bill makes your credit score plummet, so you\u2019ll have a harder time finding a job or getting a loan.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ignore it"
+            },
+            {
+                "@id": "833",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-10",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy the present ($10)"
+            },
+            {
+                "@id": "125",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Send your kid without a present"
+            },
+            {
+                "@id": "352",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Keep your kid home from the party"
+            },
+            {
+                "@id": "500",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-3",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-15",
+                "copy": "It takes three buses and five times longer to get to work than it would driving. So you lose a couple hours of pay.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take the bus"
+            },
+            {
+                "@id": "2621",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-61",
+                "copy": "You skip work, but that day of pay would have filled up your gas tank.",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Call in sick"
+            },
+            {
+                "@id": "658",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I don\u2019t have any gas in my car, and I\u2019m broke. Can you give me a ride to work?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend for a ride"
+            },
+            {
+                "@id": "832",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-15",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "743",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Because your child didn\u2019t have money for the field trip, they stayed at school in the office while the other children in the class went to the museum.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Don't pay"
+            },
+            {
+                "@id": "304",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-20",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pitch in"
+            },
+            {
+                "@id": "718",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say you forgot your wallet"
+            },
+            {
+                "@id": "679",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-53",
+                "copy": "Since your company doesn\u2019t offer sick leave, that\u2019s going to cost you a day of pay and count as a strike on your record. Hope you feel better tomorrow!",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "722",
+                        "@title": "Sick Child_JOB_S"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Call in sick"
+            },
+            {
+                "@id": "616",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, more than 40 million working Americans do not get paid sick leave. So, like you, they go to work, even when they <br>probably shouldn\u2019t.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "722",
+                        "@title": "Sick Child_JOB_S"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Go anyway"
+            },
+            {
+                "@id": "93",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-61",
+                "copy": "Since your company doesn\u2019t offer sick leave, that\u2019s going to cost you a day of pay and count as a strike on your record. Hope you feel better tomorrow!",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "94",
+                        "@title": "Sick Child_JOB_WT"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Call in sick"
+            },
+            {
+                "@id": "736",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, more than 40 million working Americans do not get paid sick leave. So, like you, they go to work, even when they probably shouldn\u2019t.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "94",
+                        "@title": "Sick Child_JOB_WT"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Go anyway"
+            },
+            {
+                "@id": "382",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-52",
+                "copy": "There goes another day of pay, plus another strike on your record.",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "97",
+                        "@title": "The Flu_JOB_S"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Stay home from work"
+            },
+            {
+                "@id": "342",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, 39 percent of working families have had to send a child to school knowing they were sick.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "97",
+                        "@title": "The Flu_JOB_S"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Send them to school sick"
+            },
+            {
+                "@id": "552",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Now you know why a recent study found that parents in Baltimore, MD, were more likely to leave a sick child home alone all day than parents in Honduras.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "97",
+                        "@title": "The Flu_JOB_S"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Leave them home alone"
+            },
+            {
+                "@id": "765",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-61",
+                "copy": "There goes another day of pay, plus another strike on your record.",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "570",
+                        "@title": "The Flu_JOB_WT"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Stay home from work"
+            },
+            {
+                "@id": "477",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, 39 percent of working families have had to send a child to school knowing they were sick.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "570",
+                        "@title": "The Flu_JOB_WT"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Send them to school sick"
+            },
+            {
+                "@id": "893",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Now you know why a recent study found that parents in Baltimore, MD, were more likely to leave a sick child home alone all day than parents in Honduras.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "570",
+                        "@title": "The Flu_JOB_WT"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Leave them home alone"
+            },
+            {
+                "@id": "161",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-6",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy a salad ($6)"
+            },
+            {
+                "@id": "457",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-1",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "It may be bad for you, but it sure is cheap. Perhaps that\u2019s why low-income workers like you are more likely to be overweight.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy a burger from the dollar menu"
+            },
+            {
+                "@id": "670",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Fly to the wedding ($350)"
+            },
+            {
+                "@id": "881",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Tell your friend you won\u2019t be there"
+            },
+            {
+                "@id": "554",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Fly to the wedding ($350)"
+            },
+            {
+                "@id": "518",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Tell your friend you won\u2019t be there"
+            },
+            {
+                "@id": "7",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-5",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy some ice cream ($5)"
+            },
+            {
+                "@id": "393",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say no"
+            },
+            {
+                "@id": "855",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-550",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Even if you have car insurance, high deductibles mean you still have to pay out of pocket.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the damage ($550)"
+            },
+            {
+                "@id": "422",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Drive away"
+            },
+            {
+                "@id": "864",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-30",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get a babysitter ($30)"
+            },
+            {
+                "@id": "586",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Everyone needs a break sometimes, except not everyone can afford one. That\u2019s probably why stress levels are higher among low-wage workers.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Stay home"
+            },
+            {
+                "@id": "847",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-10",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "This isn\u2019t your lucky week. But when you can\u2019t afford a 401(k), the lottery is the closest thing you\u2019ve got to an investment option.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $10 to play"
+            },
+            {
+                "@id": "261",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "It may seem like a waste of money, but for people like you who have no 401(k) or savings account, it can look like an investment in a better future.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Don\u2019t play"
+            },
+            {
+                "@id": "92",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Hire a tutor ($50)"
+            },
+            {
+                "@id": "870",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like many Americans, you don\u2019t have high enough math skills to tutor your child. Guess they\u2019re on their own.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give your child help"
+            },
+            {
+                "@id": "85347",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You can\u2019t help if you don\u2019t know your stuff. What\u2019s the answer to this math problem?",
+                "facebookCopy": "My kid needs math help, but I can\u2019t afford a tutor. Can you help?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend for help"
+            },
+            {
+                "@id": "85430",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Luckily, you\u2019re able to help your child out. Most Americans aren\u2019t so lucky. A study found that more than 50 percent of parents have trouble helping their children with math and science.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give your child help"
+            },
+            {
+                "@id": "204",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "759",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-26",
+                "copy": "To get the scholarship, you have to meet with a counselor in person, which will cost you half a <br>day of work.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Apply for a scholarship"
+            },
+            {
+                "@id": "681",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Decline the opportunity"
+            },
+            {
+                "@id": "781",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "207",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-31",
+                "copy": "To get the scholarship, you have to meet with a counselor in person, which will cost you half a day of work.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Apply for a scholarship"
+            },
+            {
+                "@id": "221",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Decline the opportunity"
+            },
+            {
+                "@id": "325",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I need to do laundry but can\u2019t afford the Laundromat. Can I come over to your house?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend"
+            },
+            {
+                "@id": "746",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-30",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Go to the laundromat ($30)"
+            },
+            {
+                "@id": "764",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give it to her"
+            },
+            {
+                "@id": "790",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say no"
+            },
+            {
+                "@id": "24",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The good news is that you\u2019re approved for benefits. The bad news? They don\u2019t begin until next month.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Apply"
+            },
+            {
+                "@id": "825",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The USDA estimates that only 67% of Americans eligible for food stamps actually apply.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Go hungry"
+            },
+            {
+                "@id": "208",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give it to them"
+            },
+            {
+                "@id": "257",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "10",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pocket the $10"
+            },
+            {
+                "@id": "502",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give your child the $10"
+            },
+            {
+                "@id": "70",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "10",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Keep the $10"
+            },
+            {
+                "@id": "596",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Fly out for the service ($350)"
+            },
+            {
+                "@id": "30",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-52",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take time off and drive"
+            },
+            {
+                "@id": "408",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Skip the memorial"
+            },
+            {
+                "@id": "308",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "85353",
+                        "@title": "Wedding"
+                    }
+                },
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Fly out for the service ($350)"
+            },
+            {
+                "@id": "359",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-61",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take time off and drive"
+            },
+            {
+                "@id": "610",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "85353",
+                        "@title": "Wedding"
+                    }
+                },
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "831",
+                            "@title": "Your Friend\u2019s Wedding_JOB_WT"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Skip the memorial"
+            },
+            {
+                "@id": "348",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "284",
+                        "@title": "Family Pet_Sick "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Pay the fee"
+            },
+            {
+                "@id": "456",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I can\u2019t afford to take care of my pet any more. Can you give it a home?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "284",
+                        "@title": "Family Pet_Sick "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Ask a friend to take your pet"
+            },
+            {
+                "@id": "34",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "284",
+                        "@title": "Family Pet_Sick "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Take your pet to the animal shelter"
+            },
+            {
+                "@id": "195",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-400",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "885",
+                        "@title": "Family Pet_Pet Fee "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Pay for treatment ($400)"
+            },
+            {
+                "@id": "376",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "885",
+                        "@title": "Family Pet_Pet Fee "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Have it put to sleep ($50)"
+            },
+            {
+                "@id": "377",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "885",
+                        "@title": "Family Pet_Pet Fee "
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Let your pet suffer"
+            },
+            {
+                "@id": "25",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-175",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-20",
+                "copy": "You have to pay for the doctor visit. And the medicine isn\u2019t free.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get a prescription for antidepressants ($175)"
+            },
+            {
+                "@id": "320",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-20",
+                "copy": "Even with a sliding scale, it\u2019s still $50. And that\u2019s just for one session.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Talk to a therapist ($50)"
+            },
+            {
+                "@id": "334",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Now you understand why low-income Americans are the most likely to struggle with depression but are the least likely to seek treatment.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pretend you\u2019re fine"
+            },
+            {
+                "@id": "44",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-40",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-23",
+                "copy": "You have to pay for the doctor visit. And the medicine isn\u2019t free.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get a prescription for antidepressants"
+            },
+            {
+                "@id": "726",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-23",
+                "copy": "Even with a sliding scale, it\u2019s still $50. And that\u2019s just for one session.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Talk to a therapist"
+            },
+            {
+                "@id": "631",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Now you understand why low-income Americans are the most likely to struggle with depression but are the least likely to seek treatment.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pretend you\u2019re fine"
+            },
+            {
+                "@id": "558",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "-75",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Continue"
+            },
+            {
+                "@id": "324",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-25",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $25 to replace the plates"
+            },
+            {
+                "@id": "239",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "493",
+                        "@title": "Server Challenge_Break Something2_JOB"
+                    }
+                },
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Hide the evidence"
+            },
+            {
+                "@id": "649",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your boss is infuriated that you hid the evidence and fires you on the spot. You don\u2019t have to pay for the plates, but now you don\u2019t have an income.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "85384",
+                            "@title": "Server_Bleach_JOB"
+                        },
+                        {
+                            "@id": "449",
+                            "@title": "Credit Card Bill - JOB"
+                        },
+                        {
+                            "@id": "580",
+                            "@title": "Car Repossessed_JOB"
+                        },
+                        {
+                            "@id": "857",
+                            "@title": "Sick Co-worker _JOB"
+                        },
+                        {
+                            "@id": "97",
+                            "@title": "The Flu_JOB_S"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "172",
+                            "@title": "Server Challenge_Shift Change_JOB"
+                        },
+                        {
+                            "@id": "2631",
+                            "@title": "Organizer_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Confess that it was you"
+            },
+            {
+                "@id": "711",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your boss fires your co-worker. As she collects her things, she confides to you that she has no idea how she\u2019ll take care of her two children.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Keep quiet"
+            },
+            {
+                "@id": "684",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "-181",
+                "changeNextPaycheck": "0",
+                "copy": "Your hourly pay is higher than your co-worker\u2019s who opted for the pay-by-the-piece system, but your supervisor cuts your hours to balance things out. Your future paychecks will be half the size.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Stay with an hourly paycheck"
+            },
+            {
+                "@id": "498",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "-122",
+                "changeNextPaycheck": "0",
+                "copy": "Even though you\u2019re working as fast as you can, you just don\u2019t make as much money as you made when you were being paid hourly. Your future paychecks will be about 25 percent lower.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Opt for the pay/piece system"
+            },
+            {
+                "@id": "410",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your supervisor laughs when you ask about filing a claim, then tells you there are plenty of other people willing to do your job.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Submit a workers\u2019 comp claim"
+            },
+            {
+                "@id": "5",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Work through the pain"
+            },
+            {
+                "@id": "495",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-61",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take the day off"
+            },
+            {
+                "@id": "683",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-25",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $25 to cover the broken item"
+            },
+            {
+                "@id": "328",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "333",
+                        "@title": "Warehouse Challenge_Break Something2_JOB"
+                    }
+                },
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Hide the evidence"
+            },
+            {
+                "@id": "650",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your boss is infuriated that you hid the evidence and fires you on the spot. You don\u2019t have to pay for the item, but now you don\u2019t have an income.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "520",
+                            "@title": "Temp_Break Something_JOB"
+                        },
+                        {
+                            "@id": "443",
+                            "@title": "Rent Hike_JOB_S"
+                        },
+                        {
+                            "@id": "453",
+                            "@title": "Toothache_JOB_S"
+                        },
+                        {
+                            "@id": "449",
+                            "@title": "Credit Card Bill - JOB"
+                        },
+                        {
+                            "@id": "358",
+                            "@title": "Out of Gas_JOB_WT"
+                        },
+                        {
+                            "@id": "857",
+                            "@title": "Sick Co-worker - JOB"
+                        },
+                        {
+                            "@id": "97",
+                            "@title": "The Flu_JOB_S"
+                        },
+                        {
+                            "@id": "570",
+                            "@title": "The Flu_JOB_WT"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "94",
+                            "@title": "Sick Child_JOB_WT"
+                        },
+                        {
+                            "@id": "819",
+                            "@title": "Forgot Your Lunch - JOB"
+                        },
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "831",
+                            "@title": "Your Friend\u2019s Wedding_JOB_WT"
+                        },
+                        {
+                            "@id": "494",
+                            "@title": "Gifted Program_JOB_S"
+                        },
+                        {
+                            "@id": "891",
+                            "@title": "Gifted Program_JOB_WT"
+                        },
+                        {
+                            "@id": "685",
+                            "@title": "Food Stamps_JOB_S"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "527",
+                            "@title": "Funeral_JOB_WT"
+                        },
+                        {
+                            "@id": "112",
+                            "@title": "Server Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "172",
+                            "@title": "Server Challenge_Shift Change_JOB"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "295",
+                            "@title": "Warehouse Challenges_PayPiece_JOB"
+                        },
+                        {
+                            "@id": "553",
+                            "@title": "Warehouse Challenge_Injury_JOB"
+                        },
+                        {
+                            "@id": "134",
+                            "@title": "Warehouse Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "333",
+                            "@title": "Warehouse Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "275",
+                            "@title": "Temp Challenge_No JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Confess that it was you"
+            },
+            {
+                "@id": "173",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your boss fires your co-worker. As she collects her things, she confides to you that she has no idea how she\u2019ll take care of her two children.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Keep quiet"
+            },
+            {
+                "@id": "85345",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-184",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Continue"
+            },
+            {
+                "@id": "2627",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-200",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85413",
+                        "@title": "College Loans"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Sign up ($200)"
+            },
+            {
+                "@id": "2628",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85413",
+                        "@title": "College Loans"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Maybe next semester"
+            },
+            {
+                "@id": "2629",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-60",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "$3 a day doesn\u2019t seem like much, but a month of lunches takes a big bite out of your cash.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Add lunch money to your monthly budget ($3/day)"
+            },
+            {
+                "@id": "2630",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your child isn\u2019t the only one: Many children who qualify for free or reduced-cost lunch choose to go hungry rather than face the stigma of being identified as poor.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Risk them going hungry"
+            },
+            {
+                "@id": "2632",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your manager finds out about your conversation and lets you go. Firing workers for union activity is illegal, but that doesn\u2019t keep it from happening.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": {
+                    "challenge": [
+                        {
+                            "@id": "329",
+                            "@title": "Temp_Conflict with FullTimers_JOB"
+                        },
+                        {
+                            "@id": "520",
+                            "@title": "Temp_Break Something_JOB"
+                        },
+                        {
+                            "@id": "443",
+                            "@title": "Rent Hike_JOB_S"
+                        },
+                        {
+                            "@id": "453",
+                            "@title": "Toothache_JOB_S"
+                        },
+                        {
+                            "@id": "449",
+                            "@title": "Credit Card Bill - JOB"
+                        },
+                        {
+                            "@id": "358",
+                            "@title": "Out of Gas_JOB_WT"
+                        },
+                        {
+                            "@id": "857",
+                            "@title": "Sick Co-worker - JOB"
+                        },
+                        {
+                            "@id": "97",
+                            "@title": "The Flu_JOB_S"
+                        },
+                        {
+                            "@id": "94",
+                            "@title": "Sick Child_JOB_WT"
+                        },
+                        {
+                            "@id": "570",
+                            "@title": "The Flu_JOB_WT"
+                        },
+                        {
+                            "@id": "722",
+                            "@title": "Sick Child_JOB_S"
+                        },
+                        {
+                            "@id": "819",
+                            "@title": "Forgot Your Lunch - JOB"
+                        },
+                        {
+                            "@id": "439",
+                            "@title": "Your Friend\u2019s Wedding_JOB_S"
+                        },
+                        {
+                            "@id": "831",
+                            "@title": "Your Friend\u2019s Wedding_JOB_WT"
+                        },
+                        {
+                            "@id": "494",
+                            "@title": "Gifted Program_JOB_S"
+                        },
+                        {
+                            "@id": "891",
+                            "@title": "Gifted Program_JOB_WT"
+                        },
+                        {
+                            "@id": "685",
+                            "@title": "Food Stamps_JOB_S"
+                        },
+                        {
+                            "@id": "22",
+                            "@title": "Funeral_JOB_S"
+                        },
+                        {
+                            "@id": "527",
+                            "@title": "Funeral_JOB_WT"
+                        },
+                        {
+                            "@id": "215",
+                            "@title": "Depression_JOB_S"
+                        },
+                        {
+                            "@id": "34",
+                            "@title": "Depression_JOB_WT"
+                        },
+                        {
+                            "@id": "172",
+                            "@title": "Server Challenge_Shift Change_JOB"
+                        },
+                        {
+                            "@id": "112",
+                            "@title": "Server Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "493",
+                            "@title": "Server Challenge_Break Something2_JOB"
+                        },
+                        {
+                            "@id": "295",
+                            "@title": "Warehouse Challenges_PayPiece_JOB"
+                        },
+                        {
+                            "@id": "553",
+                            "@title": "Warehouse Challenge_Injury_JOB"
+                        },
+                        {
+                            "@id": "134",
+                            "@title": "Warehouse Challenge_Break Something_JOB"
+                        },
+                        {
+                            "@id": "333",
+                            "@title": "Warehouse Challenge_Break Something2_JOB"
+                        }
+                    ]
+                },
+                "removeUnresolved": null,
+                "title": "Talk to them"
+            },
+            {
+                "@id": "2633",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, many low-income workers would rather keep quiet than push for better working conditions because they don\u2019t want to risk their jobs.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Keep walking"
+            },
+            {
+                "@id": "2635",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You\u2019ll miss the play, but that $50 will make a difference. Which is a big reason parents with low incomes tend to be less involved in their children\u2019s schooling and extracurricular activities.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take the job"
+            },
+            {
+                "@id": "2636",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Go see the play"
+            },
+            {
+                "@id": "85351",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-75",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85353",
+                        "@title": "Wedding"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Drive to the service ($75)"
+            },
+            {
+                "@id": "85352",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85353",
+                        "@title": "Wedding"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Skip the memorial"
+            },
+            {
+                "@id": "85354",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-75",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85350",
+                        "@title": "Funeral"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Drive to the wedding ($75)"
+            },
+            {
+                "@id": "85355",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85350",
+                        "@title": "Funeral"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Say you can\u2019t go"
+            },
+            {
+                "@id": "85360",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "85361",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Decline the opportunity"
+            },
+            {
+                "@id": "85362",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say yes ($50)"
+            },
+            {
+                "@id": "85363",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say no"
+            },
+            {
+                "@id": "85366",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-3",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-13",
+                "copy": "It takes three buses and five times longer to get to work than it would driving. So you lose a couple hours of pay.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "628",
+                        "@title": "Your Car Broke Down"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Take the bus"
+            },
+            {
+                "@id": "85367",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-52",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You skip work, but that day of pay would have filled up your gas tank.",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "628",
+                        "@title": "Your Car Broke Down"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Call in sick"
+            },
+            {
+                "@id": "85368",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I don\u2019t have any gas in my car, and I\u2019m broke. Can you give me a ride to work?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "628",
+                        "@title": "Your Car Broke Down"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Ask a friend for a ride"
+            },
+            {
+                "@id": "85371",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85394",
+                        "@title": "Pipes"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Pay to replace the window ($100)"
+            },
+            {
+                "@id": "85372",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You spend the whole day at the free legal clinic, only to find there\u2019s a three-month waiting list for assistance of any kind. So you\u2019re stuck paying the money.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85394",
+                        "@title": "Pipes"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Get legal help"
+            },
+            {
+                "@id": "85428",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-5",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85394",
+                        "@title": "Pipes"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Buy some plastic to put over the broken window ($5)"
+            },
+            {
+                "@id": "85375",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-250",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The good news is, the doctor says you\u2019re fine. The bad news? Since you don\u2019t have health insurance, you have to pay for the visit yourself.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get it checked out ($250)"
+            },
+            {
+                "@id": "85376",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "That\u2019s a dangerous decision. Almost 1 million Americans die from treatable cardiovascular conditions each year.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ignore it"
+            },
+            {
+                "@id": "85377",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-25",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Join a gym ($25)"
+            },
+            {
+                "@id": "85378",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": "I\u2019m trying to get healthier but don\u2019t have the money for a gym membership. Will you work out with me?",
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask a friend to be your running buddy"
+            },
+            {
+                "@id": "85380",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-60",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Sign up for home Internet ($60 a month)"
+            },
+            {
+                "@id": "85381",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "For you and millions of other Americans, public library Internet access is a critical resource. Over 44% of people living below the poverty line visit the public library to get online.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get online at the public library"
+            },
+            {
+                "@id": "85382",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Like you, 80 million American adults don\u2019t have broadband or any Internet in their homes.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Go without Internet"
+            },
+            {
+                "@id": "85386",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-30",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy a new one"
+            },
+            {
+                "@id": "85387",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "-52",
+                "copy": "Your boss harangues you in front of the entire staff, then sends you home for the day, which means you just earned a job strike.",
+                "facebookCopy": null,
+                "getJobStrike": "true",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Wear the damaged one"
+            },
+            {
+                "@id": "85392",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Take the coat"
+            },
+            {
+                "@id": "85393",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Turn it down"
+            },
+            {
+                "@id": "85395",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-150",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85370",
+                        "@title": "Broken Window"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Call a plumber ($150)"
+            },
+            {
+                "@id": "85396",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Home improvement is cheaper when you do it yourself, but not free. Supplies still put you out $50.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "85370",
+                        "@title": "Broken Window"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Try to fix it yourself"
+            },
+            {
+                "@id": "85398",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "One of the main reasons people start smoking as adults is stress. There is a misconception that smoking relieves stress, so some people pick up the habit during difficult periods or life transitions.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Light up \u2013 it\u2019s just one"
+            },
+            {
+                "@id": "85399",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "One of the main reasons people start smoking as adults is stress. There is a misconception that smoking relieves stress, so some people pick up the habit during difficult periods or life transitions.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say no"
+            },
+            {
+                "@id": "85401",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-250",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay it off ($250)"
+            },
+            {
+                "@id": "85402",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "You get the ticket dismissed, but you had to spend the whole day in court and pay a $50 court fee.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Contest it in court"
+            },
+            {
+                "@id": "85405",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Buy the name brand ($100)"
+            },
+            {
+                "@id": "85406",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-10",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Go to the thrift store ($10)"
+            },
+            {
+                "@id": "85408",
+                "addChallenge": {
+                    "challenge": {
+                        "@id": "85410",
+                        "@title": "Friend of a Friend 2"
+                    }
+                },
+                "addUnresolved": null,
+                "balanceAmountChange": "200",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "As Barbara Ehrenreich discovered in \"Nickel and Dimed,\" high costs often force people to share housing.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say yes"
+            },
+            {
+                "@id": "85409",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Say no"
+            },
+            {
+                "@id": "85411",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Your landlord won\u2019t help you out, but will add another $100 to your rent for having an extra roommate.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ask your landlord to evict him"
+            },
+            {
+                "@id": "85412",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Many people are forced into complicated living situations like yours, simply because they can\u2019t afford better options.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Put up with it"
+            },
+            {
+                "@id": "85414",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-250",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "2625",
+                        "@title": "Higher Education"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Pay it"
+            },
+            {
+                "@id": "85415",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "Unemployment has hit college grads hard, and the college loan default rate proves it. In 2010, the default rate reached an 11-year high of 7 percent.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": {
+                    "challenge": {
+                        "@id": "2625",
+                        "@title": "Higher Education"
+                    }
+                },
+                "removeUnresolved": null,
+                "title": "Ignore It"
+            },
+            {
+                "@id": "85418",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-20",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "The doctor says you\u2019re fine, and since you opted in for health insurance, you only have to pay $20.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Get it checked out ($20)"
+            },
+            {
+                "@id": "85419",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "That\u2019s a dangerous decision. Almost one million Americans die from treatable cardiovascular conditions each year.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Ignore it"
+            },
+            {
+                "@id": "85425",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-1500",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay the money"
+            },
+            {
+                "@id": "85426",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "0",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": "No car means you can\u2019t get to work. Which means you\u2019re out of a job. You won\u2019t get any more paychecks, so your money is really going to have to stretch.",
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "true",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Give up your car"
+            },
+            {
+                "@id": "657",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-100",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay to make icon go away"
+            },
+            {
+                "@id": "587",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-800",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $800 to make this go away"
+            },
+            {
+                "@id": "891",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-350",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $350 to make this go away"
+            },
+            {
+                "@id": "860",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-125",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $125 to make this go away"
+            },
+            {
+                "@id": "578",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-375",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $375 to make this go away"
+            },
+            {
+                "@id": "816",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-300",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $300 to make this go away"
+            },
+            {
+                "@id": "511",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-500",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $500 to make this go away"
+            },
+            {
+                "@id": "865",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-175",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $175 to make this go away"
+            },
+            {
+                "@id": "289",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "-225",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "Pay $225 to make this go away"
+            },
+            {
+                "@id": "737",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "15",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "OnClick"
+            },
+            {
+                "@id": "752",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "25",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "OnClick"
+            },
+            {
+                "@id": "695",
+                "addChallenge": null,
+                "addUnresolved": null,
+                "balanceAmountChange": "50",
+                "changeAllPaychecks": "0",
+                "changeNextPaycheck": "0",
+                "copy": null,
+                "facebookCopy": null,
+                "getJobStrike": "false",
+                "loseGame": "false",
+                "loseJob": "false",
+                "removeChallenge": null,
+                "removeUnresolved": null,
+                "title": "OnClick"
+            }
+        ]
+    }
+}

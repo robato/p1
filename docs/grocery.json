@@ -1,0 +1,106 @@
+{
+    "items": {
+        "item": [
+            {
+                "#text": "icons/apple.png",
+                "@price": "4",
+                "@title": "Apples (3lb bag)"
+            },
+            {
+                "#text": "icons/black_beans.png",
+                "@price": "1",
+                "@title": "Beans (1 can)"
+            },
+            {
+                "#text": "icons/ramen.png",
+                "@price": "1",
+                "@title": "Ramen Noodles (4-pack)"
+            },
+            {
+                "#text": "icons/carrpt.png",
+                "@price": "3",
+                "@title": "Baby Carrots"
+            },
+            {
+                "#text": "icons/cereal.png",
+                "@price": "4",
+                "@title": "Cereal"
+            },
+            {
+                "#text": "icons/cheese.png",
+                "@price": "3",
+                "@title": "Cheese"
+            },
+            {
+                "#text": "icons/chicken.png",
+                "@price": "7",
+                "@title": "Chicken (3 lb bag)"
+            },
+            {
+                "#text": "icons/fish_sticks.png",
+                "@price": "3",
+                "@title": "Fish Sticks"
+            },
+            {
+                "#text": "icons/drinkMix.png",
+                "@price": "1",
+                "@title": "Drink Mix"
+            },
+            {
+                "#text": "icons/egg.png",
+                "@price": "2",
+                "@title": "Eggs"
+            },
+            {
+                "#text": "icons/hotdogs.png",
+                "@price": "1",
+                "@title": "Hotdogs"
+            },
+            {
+                "#text": "icons/mil.png",
+                "@price": "4",
+                "@title": "Milk (1 gal)"
+            },
+            {
+                "#text": "icons/oj.png",
+                "@price": "5",
+                "@title": "Orange Juice (1 gal)"
+            },
+            {
+                "#text": "icons/pb.png",
+                "@price": "4",
+                "@title": "Peanut Butter"
+            },
+            {
+                "#text": "icons/paper_towels.png",
+                "@price": "2",
+                "@title": "Paper Towels"
+            },
+            {
+                "#text": "icons/spaghetti.png",
+                "@price": "3",
+                "@title": "Spaghetti"
+            },
+            {
+                "#text": "icons/toast.png",
+                "@price": "2",
+                "@title": "Bread"
+            },
+            {
+                "#text": "icons/tomato.png",
+                "@price": "3",
+                "@title": "Tomatoes"
+            },
+            {
+                "#text": "icons/tomato_sauce.png",
+                "@price": "3",
+                "@title": "Spaghetti Sauce"
+            },
+            {
+                "#text": "icons/tp.png",
+                "@price": "4",
+                "@title": "Toilet Paper"
+            }
+        ]
+    }
+}
