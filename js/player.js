@@ -6,7 +6,7 @@ function Player(startingBalance) {
 	this._hasInsurance = false;
 	this._obligations = [];
 	this._rescues = [];
-	console.log("created player");
+	print("created player");
  }
 
 
@@ -55,4 +55,3 @@ Player.prototype.useRescue = function() {
 
 };
 
-module.exports = Player;

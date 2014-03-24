@@ -1,91 +1,86 @@
-var game = ( function() {
-		var ChallengeRepository = require ('./challengerepository.js');
-		var Player = require('./player.js');
+function Game() {
+	this._challengeRepository = new ChallengeRepository();
+	this._daysInMonth = 30;
+	this._currentDay = 1; 
+	this._player = null;
+	this._initialized = false,
+	this._player = new Player(1000);
+}
 
-		return {
 
-			_daysInMonth : 30,
-			_currentDay : 1, 
-			_challengeRepository : null,
-			_player : null,
-			_initialized : false,
-		
-			_initGame : function() {
-				this._challengeRepository = new ChallengeRepository();
 			
-				this._player = new Player(1000);
-				console.log("initialized game.");
-			} ,
+		
+Game.prototype._initGame = function() {
+
+				print("initialized game.");
+			} ;
 
 
-			_init : function() {
+			Game.prototype._init = function() {
 				this._initGame();
 				this._initialized = true;
-			} ,
+			} ;
 
-			getJobs: function() {
-
-			},
+			Game.prototype.getJobs = function() {
+				print("choose job");
+			} ;
 			
-			getPlacesToLive : function () {
-
-			} ,
+			Game.prototype.getPlacesToLive = function () {
+				print("choose place to live");
+			} ;
 
 	
 
-			decideWhatToDoWithExtraStuff : function() {
+			Game.prototype.decideWhatToDoWithExtraStuff = function() {
 				this._player.creditAccount(10);
-				console.log("extra stuff");
+				print("extra stuff");
 
-			},
+			};
 
-			chooseHealthInsurance : function() {
+			Game.prototype.chooseHealthInsurance = function() {
 				this._player.optInToInsurance();
-				console.log("choose health insurance");
-			},
+				print("choose health insurance");
+			};
 
 
 
-			daysInMonth : function() {
+			Game.prototype.daysInMonth = function() {
 				return ( this._daysInMonth );
-			} ,
+			} ;
 
-			endOfTheMonth : function() {
+			Game.prototype.endOfTheMonth = function() {
 				return ( this._currentDay > this._daysInMonth );
-			} ,
+			} ;
 
-			getCurrentDay : function() {
+			Game.prototype.getCurrentDay = function() {
 				return this._currentDay;
-			} ,
+			} ;
 
-			onChallengeSelected : function (challenge) {
+			Game.prototype.onChallengeSelected = function (challenge) {
 
-			} ,
+			} ;
 
-			showState : function() {
+			Game.prototype.showState = function() {
 
-			} ,
+			} ;
 
-			start : function() {
+			Game.prototype.start = function() {
 				this._init();
 
-			} ,
+			} ;
 
-			getChallenge : function() {
+			Game.prototype.getChallenge = function() {
 
 				if(!this._initialized) {
 					throw new Error("you must first start the game");
 				}
 
 				return ( this.endOfTheMonth() ? null : this._challengeRepository.getChallenge() );
-			} ,
+			} ;
 
-			optionSelected: function(option) {
+			Game.prototype.optionSelected = function(option) {
 				this._currentDay++;
-			}
+			};
 
-		};
-	}
-) ();
 
-module.exports = game;
+

@@ -8,15 +8,14 @@ function Challenge(state) {
 	self.options = state.options.option;
 	self.title = state.title;
 
-	console.log("created Challenge");
+	//console.log("created Challenge");
 
 }
 
 
 Challenge.prototype.getOptions = function () {
 	var self = this;
-	console.log("return options");
+	//console.log("return options");
 	return self.options;
 };
 
-module.exports = Challenge;
