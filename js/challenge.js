@@ -5,7 +5,7 @@ function Challenge(state) {
 	self.copy = state.copy;
 	self.maxAmount = state.maxAmount;
 	self.minAmount = state.minAmount;
-	self.options = state.options.option;
+	self.options = ( state.options.option instanceof Array ? state.options.option : [state.options.option] );
 	self.title = state.title;
 
 	//console.log("created Challenge");

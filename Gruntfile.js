@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     // Task configuration.
     concat: {
       dist: {
-        src: ['js/player.js', 'js/challenge.js', 'js/challengerepository.js', 'js/game.js', 'js/game_console.js'],
+        src: ['js/player.js', 'js/challenge.js', 'js/challengerepository.js', 'js/optionrepository.js', 'js/game.js', 'js/game_console.js'],
         dest: 'dist/p1.js'
       }
     }

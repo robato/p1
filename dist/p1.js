@@ -63,7 +63,7 @@ function Challenge(state) {
 	self.copy = state.copy;
 	self.maxAmount = state.maxAmount;
 	self.minAmount = state.minAmount;
-	self.options = state.options.option;
+	self.options = ( state.options.option instanceof Array ? state.options.option : [state.options.option] );
 	self.title = state.title;
 
 	//console.log("created Challenge");
@@ -86,27 +86,120 @@ function ChallengeRepository() {
 	data = read('../docs/challenges.json');
 	data = JSON.parse(data);
 	self._challenges = data.challenges.challenge;
+	self._challengesSize = data.challenges.challenge.length;
+
 	//console.dir(data);
 	//console.log("created ChallengeRepository");
 }
 
-ChallengeRepository.prototype.getChallenge = function() {
-	var self = this;
-	//console.log("get challenge");
-	return new Challenge(self._challenges[self._currentChallengeIndex++]);
+ChallengeRepository.prototype = {
+	getNextChallenge : function() {
+		var self = this,
+		challenge = null;
+
+		while ( challenge === null && ( self._currentChallengeIndex < self._challengesSize  ) ) {
+			challenge = self._challenges[self._currentChallengeIndex++];
+			if( challenge.hasOwnProperty('inactive') ) {
+				challenge = null;
+			}
+		} 
+
+
+		return ( challenge !== null ? new Challenge(challenge) : null );
+	},
+
+	getChallengeWithID : function (id) {
+		var self = this,
+			challenge = null,
+			i = 0;
+
+		for(; i < self._challengesSize && ( challenge === null); i++) {
+			if( id == self._challenges[i]['@id']) {
+				challenge = self._challenges[i];
+			}
+		}
+
+		return ( challenge );
+	},
+
+	getChallengeIndex : function (id) {
+		var self = this,
+			challenge = null,
+			i = 0;
+
+		for(; i < self._challengesSize && ( id === self._challenges[i]['@id']); i++) ;
+
+		return ( i );
+	},
+
+	addChallenges : function(challenges) {
+		var self = this,
+			i = 0,
+			challengesSize = challenges.length,
+			challenge = null;	
+
+		for(; i < challengesSize; i++) {
+			challenge = self.getChallengeWithID(challenges[i]['@id']);
+			// add active field
+			if(challenge !== null) {
+				delete challenge['inactive'];
+			}
+		}
+
+	},
+
+	removeChallenges : function(challenges) {
+		var self = this,
+			i = 0,
+			challengesSize = challenges.length,
+			challenge = null;	
+
+		for(; i < challengesSize; i++) {
+
+			challenge = self.getChallengeWithID(challenges[i]['@id']);
+
+			//print(JSON.stringify(challenges[i]));
+
+			// add active field
+			if(challenge !== null ) {
+				challenge['inactive'] = true;
+			}
+			//print(JSON.stringify(challenge));
+		}
+	}
 };
 
-ChallengeRepository.prototype.addChallenges = function(challenges) {
-	//console.log("activating challenges");
+
+
+function OptionRepository() {
+	var self = this,
+		data = null;
+
+	data = read('../docs/options.json');
+	data = JSON.parse(data);
+	self._options = data.options.option;
+	self._optionsSize = self._options.length;
+}
+
+OptionRepository.prototype = {
+	getOptionWithID : function(id) {
+		var self = this,
+			option = null,
+			i = 0;
+
+		for(; i < self._optionsSize && ( option === null); i++) {
+			if( id == self._options[i]['@id']) {
+				option = self._options[i];
+			}
+		}
+
+		return ( option );
+	}
+
 };
-
-ChallengeRepository.prototype.removeChallenges = function(challenges) {
-	//console.log("deactivating challenges");
-};
-
-
 function Game() {
 	this._challengeRepository = new ChallengeRepository();
+	this._optionRepository = new OptionRepository();
 	this._daysInMonth = 30;
 	this._currentDay = 1; 
 	this._player = null;
@@ -117,79 +210,91 @@ function Game() {
 
 			
 		
-Game.prototype._initGame = function() {
-
-				print("initialized game.");
-			} ;
-
-
-			Game.prototype._init = function() {
-				this._initGame();
-				this._initialized = true;
-			} ;
-
-			Game.prototype.getJobs = function() {
-				print("choose job");
-			} ;
-			
-			Game.prototype.getPlacesToLive = function () {
-				print("choose place to live");
-			} ;
-
+Game.prototype = {
 	
+	_initGame : function() {
 
-			Game.prototype.decideWhatToDoWithExtraStuff = function() {
-				this._player.creditAccount(10);
-				print("extra stuff");
+		print("initialized game.");
+	} ,
 
-			};
+	_init : function() {
+		this._initGame();
+		this._initialized = true;
+	} ,
 
-			Game.prototype.chooseHealthInsurance = function() {
-				this._player.optInToInsurance();
-				print("choose health insurance");
-			};
+	getJobs : function() {
+		print("choose job");
+	} ,
+			
+	getPlacesToLive : function () {
+		print("choose place to live");
+	} ,
 
+	decideWhatToDoWithExtraStuff : function() {
+		this._player.creditAccount(10);
+		print("extra stuff");
+	} ,
 
+	chooseHealthInsurance : function() {
+		this._player.optInToInsurance();
+		print("choose health insurance");
+	} ,
 
-			Game.prototype.daysInMonth = function() {
-				return ( this._daysInMonth );
-			} ;
+	daysInMonth : function() {
+		return ( this._daysInMonth );
+	} ,
 
-			Game.prototype.endOfTheMonth = function() {
-				return ( this._currentDay > this._daysInMonth );
-			} ;
+	endOfTheMonth : function() {
+		return ( this._currentDay > this._daysInMonth );
+	} ,
 
-			Game.prototype.getCurrentDay = function() {
-				return this._currentDay;
-			} ;
+	getCurrentDay : function() {
+		return this._currentDay;
+	} ,
 
-			Game.prototype.onChallengeSelected = function (challenge) {
+	onChallengeSelected : function (challenge) {
+	} ,
 
-			} ;
+	showState : function() {
+		print(JSON.stringify(this));
+	} ,
 
-			Game.prototype.showState = function() {
+	start : function() {
+		this._init();
+	} ,
 
-			} ;
+	getChallenge : function() {
 
-			Game.prototype.start = function() {
-				this._init();
+		if(!this._initialized) {
+			throw new Error("you must first start the game");
+		}
 
-			} ;
+		return ( this.endOfTheMonth() ? null : this._challengeRepository.getNextChallenge() );
+	} ,
 
-			Game.prototype.getChallenge = function() {
+	optionSelected : function(option) {
+		var self = this,
+			optionObject = null;
+		// get option
+		optionObject = self._optionRepository.getOptionWithID(option['@id']);
 
-				if(!this._initialized) {
-					throw new Error("you must first start the game");
-				}
+		if(optionObject !== null) {
 
-				return ( this.endOfTheMonth() ? null : this._challengeRepository.getChallenge() );
-			} ;
+			if(optionObject.removeChallenge !== null ) {
+				// remove challenges
+				self._challengeRepository.removeChallenges(optionObject.removeChallenge.challenge);
+			}
 
-			Game.prototype.optionSelected = function(option) {
-				this._currentDay++;
-			};
+			if(optionObject.addChallenge !== null) {
+				// add challenges
+				self._challengeRepository.addChallenges(optionObject.addChallenge.challenge);
+			}
 
+		}
 
+		this._currentDay++;
+	}
+};
 
 
 var challenge = null;
@@ -222,8 +327,17 @@ var optionHandler = ( function() {
 			}
 
 			do {
+				o = null;
 				choice = readline();
-				o = optionsObject[choice];
+				switch(choice) {
+					case 'state':
+					case 's' :
+						game.showState();
+						break;
+					default:
+						o = optionsObject[choice];
+						break;
+				}
 			} while ( o == null );
 
 			return o;

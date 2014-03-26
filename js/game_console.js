@@ -28,8 +28,17 @@ var optionHandler = ( function() {
 			}
 
 			do {
+				o = null;
 				choice = readline();
-				o = optionsObject[choice];
+				switch(choice) {
+					case 'state':
+					case 's' :
+						game.showState();
+						break;
+					default:
+						o = optionsObject[choice];
+						break;
+				}
 			} while ( o == null );
 
 			return o;
