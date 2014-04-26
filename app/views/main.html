@@ -1,0 +1,88 @@
+<div warn-no-phone-landscape id="no-phone-landscape" class="no-phone-landscape alert alert-info" ng-show="isPhone && isLandscape">
+  <span class="device-unsupported-warning">SPENT requires your phone to be<br/> in portrait orientation to work.</span>
+</div>
+<div viewport-constrain ng-hide="isPhone && isLandscape" class="section main">
+  <div class="container-fluid">
+    <div main-panel-row-maximize-height class="row main-panel-row">
+      <div class="main-panel">
+        <div class="row">
+          <div class="challenge-option-results"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div bank-balance-readout class="bank-balance">
+    <span class="readout-label balance">BALANCE</span><hr class="balance-separator"><span class="balance-amount" ng-bind="currentBalanceDisplay">$1000</span>
+  </div>
+  <div day-number-readout class="day-of-month">
+    <span class="day">DAY</span><hr class="day-separator">
+    <span ng-model="allDayData" class="current-game-day" ng-bind="currentGameDay">01</span><hr id="readout-date-red-solid" class="readout-date-red-solid">
+  </div>
+  <div exit-control-position class="exit"><p>I CAN'T</p><p>DO THIS</p><img id="exit-control-image" src="images/exit.png"/></div>
+  <div job-strikes-control-position class="job-strikes" ng-include="'views/partials/jobStrikes.html'"></div>
+  <div rescue-control-position class="rescues" ng-include="'views/partials/rescueList.html'"></div>
+  <div sound-control-position ng-click="toggleSound()" class="sound" ng-switch="isSoundOn">
+    <div ng-switch-when=true>
+      <img src="images/sound.png"/>
+    </div>
+    <div ng-switch-when=false>
+      <img src="images/sound-off.png"/>
+    </div>
+  </div>
+  <div day-list-right-edge class="days" ng-include="'views/partials/dayList.html'"></div>
+  <div spent-logo-position class="spent-logo-image" ng-switch="isPhone">
+    <div ng-switch-when=true>
+      <img src="images/spent-logo-small.png"/>
+    </div>
+    <div ng-switch-when=false>
+      <img src="images/spent-logo.png"/>
+    </div>
+  </div>
+  <div can-you-make-it-label-position class="can-u-make-it"><span>CAN YOU MAKE IT<br/>THROUGH THE MONTH?</span></div>
+  <div day-one-badge-position class="spent-logo-image"><img src="images/day-01.png"/></div>
+  <div phone-menu-icon-position ng-switch="phoneMenuVisible" class="phone-menu">
+    <div ng-switch-when=false>
+      <img data="menu-on-icon" ng-click="togglePhoneMenu($event)" class="phone-menu-icon" src="images/menu.png"/>
+    </div>
+    <div ng-switch-when=true>
+      <img data="menu-off-icon" ng-click="togglePhoneMenu($event)" src="images/menu-close.png"/>
+    </div>
+  </div>
+  <div sound-control-position ng-click="toggleSound()" class="sound" ng-switch="isSoundOn">
+
+  </div>  
+  <div ng-show="debugMode" debug class="debug alert alert-danger">isPhone: {{isPhone}} - isTablet: {{isTablet}} - isDesktop: {{isDesktop}}<br/>
+    currBnkBal: {{currentBankBalance}} <input type="number" name="input" ng-model="currentBankBalance"
+                 min="0" max="1000" required><br/>
+    currDayIdx: {{currentDayIndex}} <input type="number" name="input" ng-model="currentDayIndex"
+                 min="0" max="30" required><br/>
+    isPortrait: {{isPortrait}} - isLandscape: {{isLandscape}}<br/>
+    viewportHeight: {{viewportHeight}} - viewportWidth: {{viewportWidth}}<br/>
+    debugMode: {{debugMode}} <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode">
+  </div>
+  <div id="menu-bar" menu-bottom-edge class="container-fluid menu">
+    <nav class="menu-sub-div navbar navbar-default" role="navigation">
+    <div class="menu-container container-fluid">
+      <div id="phone-menu-div" pure-phone-menu class="collapse navbar-collapse phone-menu-div navbar-collapse-bs3-override">
+        <ul class="nav navbar-nav navbar-bs3-override">
+          <li class="menu-item"><a href="http://mckinney.com">MADE BY MCKINNEY  </a></li>
+          <li class="menu-item"><a href="http://mckinney.com">PRIVACY</a></li>
+          <li class="menu-item"><a href="http://mckinney.com">CONTACT US</a></li>
+          <li class="menu-item"><a href="http://mckinney.com">ABOUT</a></li>
+          <li class="menu-item"><a href="http://mckinney.com">DONATE</a></li>
+          <li class="menu-item"><a href="http://mckinney.com">SOURCES</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </div>
+  <div class="menus" ng-controller="CanvasController">
+    <canvas class="canvas" width="2048" height="1300" id="menuCanvas"></canvas>
+  </div>
+  <div class="rings" ng-controller="CanvasController">
+    <canvas class="canvas" width="2048" height="1300" id="ringCanvas"></canvas>
+  </div>
+  <div spent-background class="spent-background">
+    <img id="spent-background-image" src="images/spent-bg.jpg"/>
+  </div>
+</div>

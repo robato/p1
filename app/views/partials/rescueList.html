@@ -1,0 +1,10 @@
+<div ng-controller="RescueListController">
+	<div class="rescues" ng-model="rescues">
+		<p class="need-cash">NEED</p>
+		<p class="need-cash">CASH?</p>
+		<hr class="hr-red-dots"/>
+		<div ng-repeat="rescue in rescues">
+			<img ng-src="../app/images/{{rescue.icon}}"/><br/>
+		</div>
+	</div>
+</div>

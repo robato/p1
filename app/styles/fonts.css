@@ -1,0 +1,8 @@
+@font-face{ 
+	font-family: 'AlternateGothic';
+	src: url('../fonts/AlternateGothicNo1-webfont.eot');
+	src: url('../fonts/AlternateGothicNo1-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/AlternateGothicNo1-webfont.woff') format('woff'),
+	     url('../fonts/AlternateGothicNo1-webfont.ttf') format('truetype'),
+	     url('../fonts/AlternateGothicNo1-webfont.svg#webfont') format('svg');
+}

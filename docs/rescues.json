@@ -1,42 +1,38 @@
-{
-    "rescues": {
-        "rescue": [
-            {
-                "@id": "50",
-                "copy": "Smash your kid's piggy bank :$15",
-                "icon": "icons/piggy.png",
-                "options": {
-                    "option": {
-                        "@id": "737",
-                        "@title": "OnClick"
-                    }
-                },
-                "title": "Smash your kid's piggy bank: $15"
-            },
-            {
-                "@id": "63",
-                "copy": "Donate plasma: $25",
-                "icon": "icons/blood.png",
-                "options": {
-                    "option": {
-                        "@id": "752",
-                        "@title": "OnClick"
-                    }
-                },
-                "title": "Donate plasma: $25"
-            },
-            {
-                "@id": "142",
-                "copy": "Get a payday loan: $50",
-                "icon": "icons/shark.png",
-                "options": {
-                    "option": {
-                        "@id": "695",
-                        "@title": "OnClick"
-                    }
-                },
-                "title": "Get a Payday loan: $50"
+[
+    {
+        "@id": "50",
+        "copy": "Smash your kid's piggy bank :$15",
+        "icon": "piggy.png",
+        "options": {
+            "option": {
+                "@id": "737",
+                "@title": "OnClick"
             }
-        ]
+        },
+        "title": "Smash your kid's piggy bank: $15"
+    },
+    {
+        "@id": "63",
+        "copy": "Donate plasma: $25",
+        "icon": "blood.png",
+        "options": {
+            "option": {
+                "@id": "752",
+                "@title": "OnClick"
+            }
+        },
+        "title": "Donate plasma: $25"
+    },
+    {
+        "@id": "142",
+        "copy": "Get a payday loan: $50",
+        "icon": "shark.png",
+        "options": {
+            "option": {
+                "@id": "695",
+                "@title": "OnClick"
+            }
+        },
+        "title": "Get a Payday loan: $50"
     }
-}
+]

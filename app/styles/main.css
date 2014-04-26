@@ -1,0 +1,536 @@
+.main {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.spent-background {
+  z-index: 2;
+  position:  absolute;
+}
+.spent-background img {
+  position: relative;
+  top: 0px;
+  left: 0px
+  z-index: 2;
+}
+.menuCanvas {
+  z-index: 100;
+}
+.ringCanvas {
+  z-index: 50;
+}
+.menus {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 30;
+  overflow: hidden;
+}
+.rings {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.day-separator {
+  border-top: 1px dotted #ce4415;
+  height: 1px;
+  opacity: .3; 
+  margin-left: 17px;
+  margin-right: 192px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  width: 29px;
+}
+.balance-separator {
+  border-top: 1px dotted #ce4415;
+  height: 1px;
+  width: 60px;
+  opacity: .3;
+  margin-left: 43px;
+  margin-right: 91px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+}
+.readout-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.day-balance-readout {
+/*  position: absolute;
+*/  /*width: 95%;*/
+}
+.left-side-spacer {
+  width: 100px;
+  display: table-cell;
+  float: left;
+}
+.bank-balance {
+  float: left;
+  width: 119px;
+  position: absolute;
+  z-index: 400;
+}
+.horizontal-dots {
+  max-width: 70%;
+  min-width: 20%;
+  width: 100%;
+  /* margin-left: -30px; */
+  display: table-cell;
+  top: 13px;
+  position: relative;
+   float: left; 
+}
+.day-of-month {
+  float: right;
+  /* margin-top: -58px; */
+  width: 179px;
+  display: table-cell;
+  position: relative;
+  top: 0px;
+  position: absolute;
+  z-index: 40;
+}
+.balance-amount {
+  font-family: "Engravers MT";
+  color: #8fd5c8;
+  font-size: 28px;
+  text-align: center;
+  cursor: default;
+  padding-left: 12px;
+  letter-spacing: 5px;
+  position: absolute;
+}
+.currency-indicator {
+  font-family: "Engravers MT";
+  color: #8fd5c8;
+  font-size: 28px;
+  text-align: right;
+  cursor: default;
+}
+.current-game-day {
+  font-family: "Engravers MT";
+  color: #8fd5c8;
+  font-size: 28px;
+  text-align: center;
+  cursor: default;
+  /* padding-left: 12px; */
+  letter-spacing: 5px;
+  margin-left: 13px;
+}
+.readout-label {
+  font-family: "Engravers MT";
+  color: #8fd5c8 ;
+  font-size: 8px;
+  text-align: center;
+  cursor: default;
+  line-height: .5em;
+    padding-left: 12px;
+  letter-spacing: 1.5px;
+}
+
+.balance {
+  margin-left: 32px;
+}
+.day {
+  font-family: "Engravers MT";
+  color: #8fd5c8;
+  font-size: 9px;
+  text-align: center;
+  cursor: default;
+  padding-left: 27px;
+  letter-spacing: 1.5px;
+  margin-left: -10px;
+}
+
+.red-dots {
+  border-top: 1px dotted #ce4415;
+  height: 1px;
+  width:  100%;
+  opacity: .3;
+  /* margin-left: 184px; */
+  margin-top: 22px;
+  margin-right: 100px;
+  /*max-width: 70%;*/
+  /* min-width: 5%; */
+  /* top: -20px; */
+/*  position: absolute;*/
+}
+.readout-date-red-solid {
+  margin-top: 0px;
+  width: 110px;
+  border-top: 1px solid #ce4415;
+  margin-top: -21px;
+  /* position: absolute; */
+  /* left: 75px; */
+  margin-left: 67px;
+}
+.days {
+  position: absolute;
+  top: 25px;
+  z-index: 40;
+}
+
+.day-01 {
+  position: absolute;
+}
+.pay-day {
+  display: inline;
+  font-family: "AlternateGothic";
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #8fd5c8 ;
+  margin-left: 16px;
+  margin-right: -15px;
+}
+
+.hide-day {
+  color: transparent; ;
+}
+
+.past-day {
+  font-family: "Engravers MT";
+  color: gray ;
+  font-size: 9px;
+  text-align: center;
+  cursor: default;
+  padding-left: 16px;
+  letter-spacing: 1.5px;
+}
+
+.pay-day-hidden {
+  color: transparent;
+}
+
+
+.day {
+  font-family: "Engravers MT";
+  color: #8fd5c8 ;
+  font-size: 9px;
+  text-align: center;
+  cursor: default;
+  padding-left: 27px;
+  letter-spacing: 1.5px;
+}
+
+.sound {
+  position: absolute;
+  z-index: 15000;
+  cursor: pointer;
+}
+
+.exit {
+  position: absolute;
+  margin-top: 10px;
+  z-index: 15000;
+}
+.exit img {
+  margin: -62px 0px 0px -15px;
+}
+.exit p {
+  font-family: "AlternateGothic";
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0px -5px -5px 0px;
+  color: #c8390a;
+}
+.exit:hover p {
+    color: #8fd5c8;
+}
+.exit:hover {
+  cursor: pointer;
+}
+
+.menu-item {
+  font-family: "AlternateGothic", AlternateGothic, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.need-cash {
+  font-family: "Engravers MT";
+  color: #8fd5c8 ;
+  font-size: 9px;
+  text-align: center;
+  cursor: default;
+  padding-left: 12px;
+}
+
+.need-cash p {
+  margin-left: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.rescues {
+  position: absolute;
+  text-align: center;
+  z-index: 15000;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 55px;
+}
+
+.rescues p {
+  text-align: center;
+  margin: -7px 0px 8px -11px;
+}
+.rescues img {
+  padding: 2px 0 10px 0;
+}
+
+.hr-red-dots {
+  border-top: 1px dotted #ce4415;
+  height: 1px;
+  width:  40%;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  opacity: .4;
+}
+
+.job-strikes {
+  position: absolute;
+  text-align: center;
+  z-index: 15000;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 55px;
+}
+.job-strikes p {
+  text-align: center;
+  margin: -7px 0px 8px -12px;
+}
+.job-strikes img {
+  margin-bottom: -5px;
+}
+
+
+.navbar-bs3-override {
+  display: inline-block;
+  float: none;
+  margin-top: -3px;
+}
+
+.navbar-collapse-bs3-override {
+  text-align: center;
+}
+
+.main-panel {
+  max-width: 84%;
+  min-width: 20%;
+}
+
+.main-panel-row {
+ 
+}
+.spentApp {
+  margin-top: -20px;
+}
+.left-vertical {
+  background-image: url("../images/white-bg.png");
+  background-repeat: repeat;
+  width: 90px;
+  max-height: 645px;
+  height: 100%;
+  float:left;
+  left: -230px;
+}
+.left-vertical img {
+  padding-left: 15px;
+  padding-bottom: 1px;
+  width: 98%;
+  height: 98%;
+}
+.right-vertical {
+background-image: url("../images/white-bg.png");
+background-repeat: repeat;
+width: 92px;
+padding-left: 8px;
+max-height: 645px;
+height: 100%;
+float: right;
+top: -48px;
+right: -260px;
+position: relative;
+}
+
+.menu {
+  height: 5%;
+  width: 100%;
+  max-height: 15px;
+  position: absolute;
+  z-index: 20000;
+}
+
+.menu-container {
+height: 1px;
+border-top: 1px solid rgba(102, 153, 153, .3);
+
+} 
+.phone-menu {
+  position: absolute;
+    z-index: 16000;
+    cursor: pointer;
+}
+
+.phone-menu-icon {
+  
+}
+.phone-menu-div {
+  position: absolute;
+}
+.phone-menu-div-display {
+  background: black;
+  width: 150px;
+  padding-top: 10px;
+}
+.display-hidden {
+  display: none;
+}
+
+.display-visible {
+  display: inline-block;
+}
+
+.menu-sub-div { max-height: 15px; }
+
+.spent-logo {
+
+}
+
+.spent-logo-image {
+  position: absolute;
+  z-index: 15000;
+}
+
+.can-u-make-it {
+  position: absolute;
+  z-index: 15000;
+}
+
+.can-u-make-it > span {
+  font-family: "AlternateGothic", AlternateGothic, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #669999;
+}
+
+#no-phone-landscape {
+  position: absolute;
+}
+.device-unsupported-warning {
+  font-family: "AlternateGothic", AlternateGothic, sans-serif;
+  color: black ;
+  font-size: 22px;
+  font-variant: bolder;
+}
+
+.debug {
+  font-family: 'AlternateGothic', AlternateGothic, sans-serif;
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  z-index: 15000;
+}
+
+
+
+html {
+  height: 100%;
+
+}
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  margin-bottom: -20px;
+  /*padding-bottom: 20px;*/
+/*  background-image: url("../images/background.png");
+*/  height: 100%;
+/*  max-height: 625px;
+*/  background-color: black;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
