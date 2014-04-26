@@ -53,6 +53,10 @@ Game.prototype = {
 		return this._currentDay;
 	} ,
 
+	nextDay : function() {
+		return ++this._currentDay;
+	} ,
+
 	onChallengeSelected : function (challenge) {
 	} ,
 
@@ -93,7 +97,6 @@ Game.prototype = {
 
 		}
 
-		this._currentDay++;
 	}
 };
 
