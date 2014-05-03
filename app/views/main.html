@@ -11,10 +11,10 @@
       </div>
     </div>
   </div>
-  <div bank-balance-readout class="bank-balance">
+  <div id="bank-balance-readout" bank-balance-readout class="bank-balance">
     <span class="readout-label balance">BALANCE</span><hr class="balance-separator"><span class="balance-amount" ng-bind="currentBalanceDisplay">$1000</span>
   </div>
-  <div day-number-readout class="day-of-month">
+  <div id="day-number-readout" day-number-readout class="day-of-month">
     <span class="day">DAY</span><hr class="day-separator">
     <span ng-model="allDayData" class="current-game-day" ng-bind="currentGameDay">01</span><hr id="readout-date-red-solid" class="readout-date-red-solid">
   </div>
@@ -29,7 +29,7 @@
       <img src="images/sound-off.png"/>
     </div>
   </div>
-  <div day-list-right-edge class="days" ng-include="'views/partials/dayList.html'"></div>
+  <div id="days-list-container" day-list-right-edge class="days" ng-include="'views/partials/dayList.html'"></div>
   <div spent-logo-position class="spent-logo-image" ng-switch="isPhone">
     <div ng-switch-when=true>
       <img src="images/spent-logo-small.png"/>
@@ -53,12 +53,18 @@
   </div>  
   <div ng-show="debugMode" debug class="debug alert alert-danger">isPhone: {{isPhone}} - isTablet: {{isTablet}} - isDesktop: {{isDesktop}}<br/>
     currBnkBal: {{currentBankBalance}} <input type="number" name="input" ng-model="currentBankBalance"
-                 min="0" max="1000" required><br/>
+                 min="0" max="1000" required>
+                 <button ng-click="currentBankBalance = currentBankBalance - 1" ng-disabled="currentBankBalance <= 0">-</button>
+                 <button ng-click="currentBankBalance = currentBankBalance + 1" ng-disabled="currentBankBalance >= 1000">+</button>
+                 <br/>
     currDayIdx: {{currentDayIndex}} <input type="number" name="input" ng-model="currentDayIndex"
-                 min="0" max="30" required><br/>
+                 min="0" max="30" required>
+                 <button ng-click="currentDayIndex = currentDayIndex - 1" ng-disabled="currentDayIndex <= 0">-</button>
+                 <button ng-click="currentDayIndex = currentDayIndex + 1" ng-disabled="currentDayIndex >= 30">+</button>
+                 <br/>
     isPortrait: {{isPortrait}} - isLandscape: {{isLandscape}}<br/>
     viewportHeight: {{viewportHeight}} - viewportWidth: {{viewportWidth}}<br/>
-    debugMode: {{debugMode}} <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode">
+    debugMode: {{debugMode}} <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode"> (D key to return to debugmode)
   </div>
   <div id="menu-bar" menu-bottom-edge class="container-fluid menu">
     <nav class="menu-sub-div navbar navbar-default" role="navigation">

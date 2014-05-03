@@ -15,8 +15,7 @@ var spentApp = angular.module('spentApp', [
     'canvasControllers',
     'dayListControllers',
     // directives
-    'layoutManagerDirectives',
-    'userInputDirectives'
+    'layoutManagerDirectives'
   ]);
 
 spentApp.factory("DayDataService", function ($http) {
@@ -46,6 +45,8 @@ spentApp.factory("ScreenUpdateService", function ($rootScope) {
 
   return ScreenUpdateService;
 });
+
+
 
 spentApp.config(function ($routeProvider) {
   $routeProvider

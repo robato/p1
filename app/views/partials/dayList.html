@@ -1,6 +1,6 @@
-<div ng-controller="DayListController">
-	<div id="days-list-control" distribute-days-vertically value="'foo'" class="day-div" ng-repeat="item in allDayData">
-		<span day-div-position-recorder id="day_{{$index}}" ng-class="{'pay-day':(item.isPayDay === true), 'pay-day-hidden':(item.isPayDay === false)}">$</span>
+<div id="days-list-control"  ng-controller="DayListController">
+	<div x-day-index="{{$index}}" day-position-update distribute-days-vertically class="day-div" ng-repeat="item in allDayData">
+		<span ng-class="{'pay-day':(item.isPayDay === true), 'pay-day-hidden':(item.isPayDay === false || $index === currentDayIndex)}">$</span>
 		<span ng-class="{'hide-day':($index === currentDayIndex), 'day':($index > currentDayIndex), 'past-day':($index < currentDayIndex)}">{{item.dayDisplay}}</span>
 	</div>
 </div>

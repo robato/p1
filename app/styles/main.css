@@ -108,7 +108,7 @@
   cursor: default;
   padding-left: 12px;
   letter-spacing: 5px;
-  position: absolute;
+  float: right;
 }
 .currency-indicator {
   font-family: "Engravers MT";

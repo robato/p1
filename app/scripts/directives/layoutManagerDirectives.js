@@ -96,39 +96,102 @@ layoutManagerDirectives.directive('dayListRightEdge', ['$window', function($wind
     }
   }
 }]);
-
-layoutManagerDirectives.directive('dayDivPositionRecorder', [function () {
+layoutManagerDirectives.directive('dayPositionUpdate', ['$window', '$parse', function($window, $parse) {
     return {
-        restrict: 'E',
-        link: function(scope, element, attrs) {
-            var title = attrs.title;
-
-        attrs.$observe('value', function(val) {
-             var data = val;
-             console.log(data);
-         });
-       }
-      };
- }]);
+      priority: 1,
+      link : function(scope, element, attrs) {
+          angular.element($window).bind('load', function() {
+            var position =  $parse(element[0].attributes['x-daydivtop'].nodeValue)(scope);
+            var elementId = $parse(element[0].attributes['x-day-index'].nodeValue)(scope);
+            scope.$apply("updateDayPositions('" + position + "','" + elementId + "')");
+          }); 
+          angular.element($window).bind('resize', function() {
+            var position =  $parse(element[0].attributes['x-daydivtop'].nodeValue)(scope);
+            var elementId = $parse(element[0].attributes['x-day-index'].nodeValue)(scope);
+            scope.$apply("updateDayPositions('" + position + "','" + elementId + "')");
+          }); 
+        }
+    };
+}]);
 
 layoutManagerDirectives.directive('distributeDaysVertically', ['$window', function($window) {
   return {
+
+    priority: 0,
     link : function(scope, element, attr) {
       
       angular.element($window).bind('resize', function(e) {
+        var containerElement = angular.element(document.getElementById('days-list-container'));
+        var dayDivTop = element[0].offsetTop;
         if ($window.innerHeight < 645) {
           element.css('line-height', ($window.innerHeight)/42  + 'px');
+          element.attr('x-dayDivTop', dayDivTop );
         } else {
           element.css('line-height', ($window.innerHeight)/42  + 'px');
+          element.attr('x-dayDivTop', dayDivTop );
+
         }
       });
-      if ($window.innerHeight < 645) {
-        element.css('line-height', ($window.innerHeight)/42  + 'px');
-      } else {
-        element.css('line-height', ($window.innerHeight)/42  + 'px');
-      }
+      angular.element(window).bind('load', function() {
+        var containerElement = angular.element(document.getElementById('days-list-container'));
+        var dayDivTop = element[0].offsetTop;   
+        if ($window.innerHeight < 645) {
+          element.css('line-height', ($window.innerHeight)/42  + 'px');
+          element.attr('x-dayDivTop', dayDivTop );
+
+        } else {
+          element.css('line-height', ($window.innerHeight)/42  + 'px');
+          element.attr('x-dayDivTop', dayDivTop );
+        }  
+      }); 
     }
   }
+}]);
+// this thing will look at a json object in big scope to determine where it should live
+layoutManagerDirectives.directive('dayNumberReadout', ['$window', function($window) {
+    return {
+      link : function(scope, element, attrs) {
+        angular.element($window).bind('resize', function(e) {
+          if(scope.isPhone) {
+            element.css('left', ($window.innerWidth) - 100 + 'px');  
+          } else {
+            element.css('left', ($window.innerWidth) - 180 + 'px');  
+          }  
+        }); 
+        angular.element(window).bind('load', function() {
+          if(scope.isPhone) {
+              element.css('left', ($window.innerWidth) - 100 + 'px');     
+          } else {
+              element.css('left', ($window.innerWidth) - 180 + 'px');   
+          }  
+        });            
+      }
+    }
+}]);
+
+layoutManagerDirectives.directive('bankBalanceReadout', ['$window', function($window) {
+    return {
+      link : function(scope, element, attr) {
+
+        angular.element($window).bind('resize', function(e) {
+          if(scope.isPhone) {
+            element.css('top', '0px');
+            element.css('left', '40px');  
+          } else {
+            element.css('top', '0px');
+            element.css('left', '82px'); 
+          }  
+        });
+
+        if(scope.isPhone) {
+            element.css('top', '0px');
+            element.css('left', '40px');     
+        } else {
+            element.css('top', '0px');
+            element.css('left', '82px');   
+        }     
+      }
+    }
 }]);
 
 
@@ -336,7 +399,6 @@ layoutManagerDirectives.directive('warnNoPhoneLandscape', ['$window', function($
           var bgWidth = element[0].clientWidth;
           var top = (($window.innerHeight/2) - (bgHeight/2));
           var left = (($window.innerWidth/2) - (bgWidth/2));
-          console.log('top: ' + top + ', left:' + left);
           element.css('top',  top + 'px');
           element.css('left', left +  'px');    
           element.addClass('display-visible'); 
@@ -352,7 +414,6 @@ layoutManagerDirectives.directive('warnNoPhoneLandscape', ['$window', function($
           var bgWidth = element[0].clientWidth;
           var top = (($window.innerHeight/2) - (bgHeight/2));
           var left = (($window.innerWidth/2) - (bgWidth/2));
-          console.log('top: ' + top + ', left:' + left);
           element.css('top',  top + 'px');
           element.css('left', left +  'px'); 
           element.addClass('display-visible'); 
@@ -501,64 +562,6 @@ layoutManagerDirectives.directive('exitControlPosition', ['$window', function($w
     }
 }]);
 
-layoutManagerDirectives.directive('dayNumberReadout', ['$window', function($window) {
-    return {
-      link : function(scope, element, attr) {
-        // get the currentDayIndex,
-        // get the day element that has that id. get the x position
-
-
-        angular.element($window).bind('resize', function(e) {
-          var posX = 0;
-          var currentDayElement = angular.element(document.getElementById('day_' + scope.currentDayIndex));
-          // posX = currentDayElement.offsetTop;
-          if(scope.isPhone) {
-            element.css('top', '0px');
-            element.css('left', ($window.innerWidth) - 100 + 'px');  
-          } else {
-            element.css('top', '0px');
-            element.css('left', ($window.innerWidth) - 180 + 'px');  
-          }  
-        });
-          var posX = 0;
-          var currentDayElement = angular.element(document.getElementById('day_' + scope.currentDayIndex));
-          posX = angular.element(document.getElementById('day_' + scope.currentDayIndex)).prop('id');
-          
-        if(scope.isPhone) {
-            element.css('top', '0px');
-            element.css('left', ($window.innerWidth) - 100 + 'px');     
-        } else {
-            element.css('top', '0px');
-            element.css('left', ($window.innerWidth) - 180 + 'px');   
-        }     
-      }
-    }
-}]);
-
-layoutManagerDirectives.directive('bankBalanceReadout', ['$window', function($window) {
-    return {
-      link : function(scope, element, attr) {
-
-        angular.element($window).bind('resize', function(e) {
-          if(scope.isPhone) {
-            element.css('top', '0px');
-            element.css('left', '40px');  
-          } else {
-            element.css('top', '0px');
-            element.css('left', '82px'); 
-          }  
-        });
-
-        if(scope.isPhone) {
-            element.css('top', '0px');
-            element.css('left', '40px');     
-        } else {
-            element.css('top', '0px');
-            element.css('left', '82px');   
-        }     
-      }
-    }
-}]);
 
 layoutManagerDirectives.directive('spentBackground', ['$window', function($window) {
     return {
