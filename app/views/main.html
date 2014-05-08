@@ -6,7 +6,7 @@
     <div main-panel-row-maximize-height class="row main-panel-row">
       <div class="main-panel">
         <div class="row">
-          <div id="challenge-display-panel" ng-controller="ChallengeListController" class="challenge-option-results"></div>
+          <div class="challenge-option-results"></div>
         </div>
       </div>
     </div>
@@ -50,32 +50,8 @@
   </div>
   <div sound-control-position ng-click="toggleSound()" class="sound" ng-switch="isSoundOn">
 
-  </div> 
-  <div ng-show="debugMode" ng-hide="!isPhone || !isTablet" debug class="debug alert alert-danger">
-    port: {{isPortrait}} - land: {{isLandscape}}<br/>
-    ht: {{viewportHeight}} - wdth: {{viewportWidth}}<br/>
-    <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode"> dbg mode<br/>
-    <div class="dropdown">
-      <a id="day-of-month-selector-non-desktop" role="button" data-toggle="dropdown">Day of Month <span class="caret"></span></a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-        <li ng-click="setDayOfMonth(0)">Day 1</li>
-        <li ng-click="setDayOfMonth(1)">Day 2</li>
-        <li ng-click="setDayOfMonth(2)">Day 3</li>
-        <li ng-click="setDayOfMonth(30)">Day 30</li>
-      </ul>
-    </div><br/>
-    <div class="dropdown">
-      <a id="bank-balance-selector-non-desktop" role="button" data-toggle="dropdown">Balance Amount <span class="caret"></span></a>
-      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-        <li ng-click="setBankBalance(0)">$ 0</li>
-        <li ng-click="setBankBalance(1)">$ 1</li>
-        <li ng-click="setBankBalance(100)">$ 100</li>
-        <li ng-click="setBankBalance(999)">$ 999</li>
-        <li ng-click="setBankBalance(1000)">$ 1000</li>
-      </ul>
-    </div>
-  </div>
-  <div ng-show="debugMode && !isPhone" ng-hide="isPhone" debug class="debug alert alert-danger">isPhone: {{isPhone}} - isTablet: {{isTablet}} - isDesktop: {{isDesktop}}<br/>
+  </div>  
+  <div ng-show="debugMode" debug class="debug alert alert-danger">isPhone: {{isPhone}} - isTablet: {{isTablet}} - isDesktop: {{isDesktop}}<br/>
     currBnkBal: {{currentBankBalance}} <input type="number" name="input" ng-model="currentBankBalance"
                  min="0" max="1000" required>
                  <button ng-click="currentBankBalance = currentBankBalance - 1" ng-disabled="currentBankBalance <= 0">-</button>
@@ -88,7 +64,7 @@
                  <br/>
     isPortrait: {{isPortrait}} - isLandscape: {{isLandscape}}<br/>
     viewportHeight: {{viewportHeight}} - viewportWidth: {{viewportWidth}}<br/>
-    debugMode: {{debugMode}} <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode"> (D toggles debugmode)
+    debugMode: {{debugMode}} <input ng-keypress="toggleDebugMode()" type="checkbox" ng-model="debugMode"> (D key to return to debugmode)
   </div>
   <div id="menu-bar" menu-bottom-edge class="container-fluid menu">
     <nav class="menu-sub-div navbar navbar-default" role="navigation">

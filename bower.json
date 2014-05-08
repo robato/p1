@@ -10,8 +10,7 @@
     "angular-resource": "1.2.15",
     "angular-cookies": "1.2.15",
     "angular-sanitize": "1.2.15",
-    "angular-route": "1.2.15",
-    "matchmedia-ng": "0.1.0"
+    "angular-route": "1.2.15"
   },
   "devDependencies": {
     "angular-mocks": "1.2.15",
