@@ -4,7 +4,7 @@
             {
                 "@id": "50",
                 "copy": "Smash your kid's piggy bank :$15",
-                "icon": "icons/piggy.png",
+                "icon": "piggy.png",
                 "options": {
                     "option": {
                         "@id": "737",
@@ -16,7 +16,7 @@
             {
                 "@id": "63",
                 "copy": "Donate plasma: $25",
-                "icon": "icons/blood.png",
+                "icon": "blood.png",
                 "options": {
                     "option": {
                         "@id": "752",
@@ -28,7 +28,7 @@
             {
                 "@id": "142",
                 "copy": "Get a payday loan: $50",
-                "icon": "icons/shark.png",
+                "icon": "shark.png",
                 "options": {
                     "option": {
                         "@id": "695",
