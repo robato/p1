@@ -92,10 +92,15 @@ mainController.controller('MainController', function($scope, $window, $document,
   });
   $document.bind('keypress', function(event) {
       if(event.which == 100) {
-        $scope.debugMode = true;
-        $scope.$apply();
+        $scope.toggleDebugMode();
       }
   })
+  $scope.setDayOfMonth = function(day) {
+    $scope.currentDayIndex = day;
+  }
+  $scope.setBankBalance = function(amt) {
+    $scope.currentBankBalance = amt;
+  }
 
   $scope.updateDayPositions = function(p, id) {
     $scope.allDayData[id].positionX = p;
@@ -110,7 +115,6 @@ mainController.controller('MainController', function($scope, $window, $document,
     } else {
       pxDown = 0;
     }
-    console.log(pxDown);
     dayNumberReadout.css('top', pxDown + 'px');
     bankBalanceReadout.css('top', pxDown + 'px');
   }
@@ -120,6 +124,13 @@ mainController.controller('MainController', function($scope, $window, $document,
         $scope.isSoundOn = false;
       } else {
         $scope.isSoundOn = true;
+      }
+  }
+  $scope.toggleDebugMode = function () {
+      if ($scope.debugMode) {
+        $scope.debugMode = false;
+      } else {
+        $scope.debugMode = true;
       }
       $scope.$apply();
   }

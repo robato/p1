@@ -37,8 +37,8 @@ layoutManagerDirectives.directive('viewportConstrain', ['$window', function($win
           element.css('width', $window.offsetWidth + 'px');
           element.css('height', $window.offsetHeight + 'px');
         });
-          element.css('width', $window.offsetWidth + 'px');
-          element.css('height', $window.offsetHeight + 'px');
+        element.css('width', $window.offsetWidth + 'px');
+        element.css('height', $window.offsetHeight + 'px');
       }
     }
 }]);
@@ -147,7 +147,6 @@ layoutManagerDirectives.directive('distributeDaysVertically', ['$window', functi
     }
   }
 }]);
-// this thing will look at a json object in big scope to determine where it should live
 layoutManagerDirectives.directive('dayNumberReadout', ['$window', function($window) {
     return {
       link : function(scope, element, attrs) {
@@ -175,19 +174,15 @@ layoutManagerDirectives.directive('bankBalanceReadout', ['$window', function($wi
 
         angular.element($window).bind('resize', function(e) {
           if(scope.isPhone) {
-            element.css('top', '0px');
             element.css('left', '40px');  
           } else {
-            element.css('top', '0px');
             element.css('left', '82px'); 
           }  
         });
 
         if(scope.isPhone) {
-            element.css('top', '0px');
             element.css('left', '40px');     
         } else {
-            element.css('top', '0px');
             element.css('left', '82px');   
         }     
       }
