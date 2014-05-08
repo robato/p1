@@ -18,6 +18,17 @@ module.exports = function (grunt) {
   // Define the configuration for all the tasks
   grunt.initConfig({
 
+    // ** game engine **/
+    // Metadata.
+    pkg: grunt.file.readJSON('package.json'),
+    // Task configuration.
+    concat: {
+      dist: {
+        src: ['js/player.js', 'js/challenge.js', 'js/challengerepository.js', 'js/optionrepository.js', 'js/game.js', 'js/game_console.js'],
+        dest: 'dist/p1.js'
+      }
+    },
+    // end game engine //
     // Project settings
     yeoman: {
       // configurable paths
@@ -341,6 +352,8 @@ module.exports = function (grunt) {
     }
   });
 
+// These plugins provide necessary tasks.
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
@@ -390,6 +403,7 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'newer:jshint',
     'test',
-    'build'
+    'build',
+    'concat'
   ]);
 };
