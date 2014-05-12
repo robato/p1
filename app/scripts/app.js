@@ -15,7 +15,6 @@ var spentApp = angular.module('spentApp', [
     'canvasControllers',
     'dayListControllers',
     'playerControllers',
-    'gameControllers',
     // directives
     'layoutManagerDirectives'
   ]);

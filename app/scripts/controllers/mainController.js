@@ -1,4 +1,4 @@
-var mainController  = angular.module('mainController', ['matchmedia-ng', 'gameControllers']);
+var mainController  = angular.module('mainController', ['matchmedia-ng']);
 
 mainController.controller('MainController', function($scope, $window, $document, $timeout, gameState, EventBus, DayDataService, matchmedia) {
   $scope.$watchCollection(gameState, function() {
