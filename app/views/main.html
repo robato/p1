@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-  <div id="bank-balance-readout" bank-balance-readout class="bank-balance">
+  <div id="bank-balance-readout" ng-controller='PlayerController' bank-balance-readout class="bank-balance">
     <span class="readout-label balance">BALANCE</span><hr class="balance-separator"><span class="balance-amount" ng-bind="currentBalanceDisplay">$1000</span>
   </div>
   <div id="day-number-readout" day-number-readout class="day-of-month">

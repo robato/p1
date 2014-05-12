@@ -1,19 +1,25 @@
-var mainController  = angular.module('mainController', ['matchmedia-ng']);
+var mainController  = angular.module('mainController', ['matchmedia-ng', 'gameControllers']);
 
-mainController.controller('MainController', function($scope, $window, $document, $timeout, DayDataService, ScreenUpdateService, matchmedia) {
-  $scope.jobStrikes = {
-    'strikeOne': 'false',
-    'strikeTwo': 'false',
-    'strikeThree': 'false'
-  };
-  $scope.currentDayIndex = 0;
-  $scope.currentDayIndexInt = parseInt($scope.currentDayIndex);
-  $scope.isSoundOn = false;
-  $scope.debugMode = true;
+mainController.controller('MainController', function($scope, $window, $document, $timeout, gameState, EventBus, DayDataService, matchmedia) {
+  $scope.$watchCollection(gameState, function() {
+      $scope.state = gameState;
+  });
+
+  $scope.EventBus = EventBus;
+
+  $scope.initGame = function () {
+    gameState._init;
+  }
+
+  $scope.$on('handleBroadcast', function(message) {
+      $scope.message = EventBus.message;
+  });
+
+
   var allDayData = {};
 
   DayDataService.async().then(function(d) {
-    $scope.firstDayData = d[$scope.currentDayIndexInt];
+    $scope.firstDayData = d[gameState.currentDayIndexInt];
     $scope.allDayData = d;
     $scope.currentGameDay = $scope.firstDayData.dayDisplay;
   });
@@ -23,32 +29,19 @@ mainController.controller('MainController', function($scope, $window, $document,
   $scope.readoutMarkerXPositionFromReadoutTop = 37;
   $scope.dayOneXPosition = 12;
   $scope.readoutTopPositionBase = 0 + $scope.daysListTop - $scope.readoutMarkerXPositionFromReadoutTop + $scope.dayOneXPosition ;
-  $scope.currentBankBalance = 1000;
 
-
-  $scope.$watch('currentBankBalance', function() {
-      if($scope.currentBankBalance > 1000) {
-        $scope.currentBankBalance = 1000;
-      }
-      if ($scope.currentBankBalance <= 0 || !$scope.currentBankBalance) {
-        $scope.currentBankBalance = 0;
-      }
-      $scope.currentBalanceDisplay = "$" + $scope.currentBankBalance;
-
-  });
   $scope.$watch('currentDayIndex', function() {
       if($scope.currentDayIndex) {
-        if ($scope.currentDayIndexInt > 30 || !$scope.currentDayIndexInt) {
-          $scope.currentDayIndexInt = 30;
-        }
-        if ($scope.currentDayIndexInt <= 0 || !$scope.currentDayIndexInt) {
-          $scope.currentDayIndexInt = 0;
+        if (gameState.currentDayIndexInt > 30 || !gameState.currentDayIndexInt) {
+          gameState.currentDayIndexInt = 30;
+        } else if (gameState.currentDayIndexInt <= 0 || !gameState.currentDayIndexInt) {
+          gameState.currentDayIndexInt = 0;
         }
         
 
       }
       if ($scope.allDayData) {
-      $scope.currentGameDay = $scope.allDayData[parseInt($scope.currentDayIndex)].dayDisplay;
+      $scope.currentGameDay = $scope.allDayData[parseInt(gameState.currentDayIndex)].dayDisplay;
       } else {
         $scope.currentGameDay = "01";
       }
@@ -57,10 +50,6 @@ mainController.controller('MainController', function($scope, $window, $document,
 
   $scope.viewportHeight = $window.innerHeight;
   $scope.viewportWidth = $window.innerWidth;
-
-  $scope.$on('handleBroadcast', function(message) {
-      $window.alert('message passed: ' + $scope.message);
-  });
 
   var unsub = {};
   unsub['print'] = matchmedia.onPrint(function(mediaQueryList){
@@ -106,11 +95,10 @@ mainController.controller('MainController', function($scope, $window, $document,
     var bankBalanceReadout = angular.element(document.getElementById('bank-balance-readout'));
     var pxDown = 0;
     if($scope.allDayData) {
-      pxDown = $scope.allDayData[$scope.currentDayIndex].positionX;
+      pxDown = $scope.allDayData[gameState.currentDayIndex].positionX;
     } else {
       pxDown = 0;
     }
-    console.log(pxDown);
     dayNumberReadout.css('top', pxDown + 'px');
     bankBalanceReadout.css('top', pxDown + 'px');
   }
@@ -153,6 +141,5 @@ mainController.controller('MainController', function($scope, $window, $document,
       menu.css('top', '');
       menu.css('left', '');  
   }
-
-  mainController.$inject = ['$scope', 'ScreenUpdateService'];
+  $scope.debugMode = gameState.debugMode;
 });
