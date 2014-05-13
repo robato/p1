@@ -1,40 +1,27 @@
-'use strict';
+var gameStateModule = angular.module('gameStateService', []);
 
-var spentApp = angular.module('spentApp', [
-    'matchmedia-ng',
-    'ngCookies',
-    'ngResource',
-    'ngSanitize',
-    'ngRoute',
-    // controllers
-    'mainController',
-    'challengeControllers',
-    'optionControllers',
-    'rescueControllers',
-    'bankBalanceControllers',
-    'canvasControllers',
-    'dayListControllers',
-    'playerControllers',
-    // directives
-    'layoutManagerDirectives'
-  ]);
-
-
-spentApp.factory('gameState',  ['$rootScope', 'EventBus', function ($rootScope, EventBus) {
+gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', function ($rootScope, eventBusService) {
 
   var gameState = {};
-  var EventBus = EventBus;
-  gameState.jobStrikes = {
+  var eventBus = eventBusService;
+  gameState._jobStrikes = {
     'strikeOne': 'false',
     'strikeTwo': 'false',
     'strikeThree': 'false'
   };
-  gameState.currentDayIndex = 0;
-  gameState.currentDayIndexInt = parseInt(gameState.currentDayIndex);
-  gameState.isSoundOn = false;
-  gameState.debugMode = true;
+  gameState._currentDayIndex = 0;
+  gameState._currentDayIndexInt = 0;
+
+  $rootScope.$watch(function(){
+      return gameState._currentDayIndex;
+  }, function(newValue) {
+    gameState._currentDayIndexInt = parseInt(newValue);
+  });
+
+  gameState._isSoundOn = true;
+  gameState._debugMode = true;
   gameState._daysInMonth = 30;
-  gameState.currentBankBalance = 1000;
+  gameState._currentBankBalance = 1000;
 
   gameState._initGame = function() {
     console.log("initialized game.");
@@ -68,13 +55,24 @@ spentApp.factory('gameState',  ['$rootScope', 'EventBus', function ($rootScope, 
         return this._currentDay;
   };
   gameState.nextDay = function() {
-        ++gameState.currentDayIndexInt;
-        console.log("incremented day");
+        ++gameState._currentDayIndex;
+  };
+  gameState.prevDay = function() {
+        --gameState._currentDayIndex;
+  };
+  gameState.setBalance = function(amount) {
+        gameState._currentBankBalance = +amount;
+  };
+  gameState.debitAccount = function(amount) {
+        gameState._currentBankBalance = +gameState._currentBankBalance - +amount;
+  };
+  gameState.creditAccount = function(amount) {
+        gameState._currentBankBalance = +gameState._currentBankBalance + +amount;
   };
   gameState.onChallengeSelected = function (challenge) {
   };
   gameState.showState = function() {
-        console.log(JSON.stringify($scope.state));
+        console.log(JSON.stringify(gameState));
   };
   gameState.start = function() {
         this._init();
@@ -110,12 +108,25 @@ spentApp.factory('gameState',  ['$rootScope', 'EventBus', function ($rootScope, 
   };
 
   $rootScope.$on('handleBroadcast', function() {
-      switch (EventBus.message.substr(0, EventBus.message.lastIndexOf(':'))) {
+      var arg = eventBus.message.substr(eventBus.message.lastIndexOf(':') + 2,eventBus.message.length);
+      switch (eventBus.message.substr(0, eventBus.message.lastIndexOf(':'))) {
         case "nextday":
           gameState.nextDay();
           break;
+        case "prevday":
+          gameState.prevDay();
+          break;
         case "showstate":
           gameState.showState();
+          break;
+        case "setbalance":
+          gameState.setBalance(arg);
+          break;
+        case "debitaccount":
+          gameState.debitAccount(arg);
+          break;
+        case "creditaccount":
+          gameState.creditAccount(arg);
           break;
         default :
           break;
@@ -124,47 +135,3 @@ spentApp.factory('gameState',  ['$rootScope', 'EventBus', function ($rootScope, 
   return gameState;
 
 }]);
-
-
-spentApp.factory("EventBus", function ($rootScope) {
-  var EventBus = {};
-  EventBus.message = '';
-
-  EventBus.prepForBroadcast = function(msg) {
-    this.message = msg;
-    this.broadcastItem(msg);
-  };
-
-  EventBus.broadcastItem = function(msg) {
-    console.log('EventBus message: ' + EventBus.message);
-    $rootScope.$broadcast('handleBroadcast', msg );
-  };
-
-  return EventBus;
-});
-
-
-spentApp.factory("DayDataService", function ($http) {
-  var DayDataService = {
-    async: function() {
-        var promise = $http.get('../docs/days.json').then(function (response) {
-          return response.data;
-        });
-        return promise;
-    }
-  };
- return DayDataService;
-});
-
-
-spentApp.config(function ($routeProvider) {
-  $routeProvider
-    .when('/', {
-      templateUrl: 'views/main.html',
-      controller: 'MainController'
-    })
-    .otherwise({
-      redirectTo: '/'
-    });
-});
-

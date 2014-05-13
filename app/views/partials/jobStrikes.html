@@ -1,9 +1,9 @@
 <div>
-	<div class="job-strikes" ng-model="jobStrikes">
+	<div class="job-strikes" ng-model="state._jobStrikes">
 		<p data-toggle="tooltip" data-placement="right" title="Miss 3 days of work and you're fired." class="need-cash">JOB</p>
 		<p data-toggle="tooltip" data-placement="right" title="Miss 3 days of work and you're fired." class="need-cash">STRIKES</p>
 		<hr class="hr-red-dots"/>
-		<div ng-repeat="item in jobStrikes">
+		<div ng-repeat="item in state._jobStrikes">
 			<img src="images/strike.png"/><br/>
 		</div>
 	</div>

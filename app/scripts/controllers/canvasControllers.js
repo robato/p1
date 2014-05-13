@@ -1,10 +1,6 @@
 var canvasControllers  = angular.module('canvasControllers', []);
 
-canvasControllers.controller('CanvasController', function ($scope, $window, EventBus) {
-
-	$scope.$on('handleBroadcast', function() {
-		// tbd functionality requested of the canvas, by another controller
- 	});
+canvasControllers.controller('CanvasController', function ($scope, $window) {
 
     $scope.drawVerticalMenuBarBackgrounds = function  () {
 		var canvas = document.getElementById('menuCanvas');

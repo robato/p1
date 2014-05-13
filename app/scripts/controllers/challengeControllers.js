@@ -1,17 +1,7 @@
 var challengeControllers = angular.module('challengeControllers', []);
 
-challengeControllers.controller('ChallengeListController', ['$scope', '$http', function($scope, $http) {
-	$http.get('../docs/challenges.json').success(function(data) {
-		$scope.challenges = data.challenges.challenge;
-		$scope.challengeOrder = '@id';
-	});
-}]);
-
-
-challengeControllers.controller('ChallengeController', ['$scope', '$http', function($scope, $http, gameState, EventBus) {
-	$scope.$watchCollection(gameState, function() {
-	  $scope.state = gameState;
-	});
+challengeControllers.controller('ChallengeController', ['$scope', '$http', function($scope, $http, eventBusService) {
+	$scope.eventBus = eventBusService;
 
 	$scope.Challenge = function(state) {
 		var self = this;
@@ -27,14 +17,14 @@ challengeControllers.controller('ChallengeController', ['$scope', '$http', funct
 	}
 
 
-	Challenge.prototype.getOptions = function () {
+	$scope.Challenge.prototype.getOptions = function () {
 		var self = this;
 		//console.log("return options");
 		return self.options;
 	};
 
 
-	function ChallengeRepository() {
+	$scope.ChallengeRepository = function () {
 		var self = this,
 			data = null;
 
@@ -46,7 +36,7 @@ challengeControllers.controller('ChallengeController', ['$scope', '$http', funct
 	}
 
 
-	ChallengeRepository.prototype = {
+	$scope.ChallengeRepository.prototype = {
 		getNextChallenge : function() {
 			var self = this,
 			challenge = null;

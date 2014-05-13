@@ -1,28 +1,19 @@
 var playerControllers  = angular.module('playerControllers', []);
 
-playerControllers.controller('PlayerController', function($scope, gameState, EventBus) {
-	$scope.$watchCollection(gameState, function() {
-	  $scope.state = gameState;
-	});
-	$scope.EventBus = EventBus;
+playerControllers.controller('PlayerController', function($scope, eventBusService) {
+	$scope.currentBalanceDisplay = "$" + $scope.state._currentBankBalance;
+	$scope.eventBus = eventBusService;
 	$scope.$on('handleBroadcast', function(message) {
-
-	  if(EventBus.message.lastIndexOf('newplayer', 0) === 0) {
-	  	var balance = parseInt(EventBus.message.substr(EventBus.message.lastIndexOf(':') + 2,EventBus.message.length));
+	  if($scope.eventBus.message.lastIndexOf('newplayer', 0) === 0) {
+	  	var balance = parseInt(eventBus.message.substr(eventBus.message.lastIndexOf(':') + 2,eventBus.message.length));
 	  	$scope.Player(balance);
 	  }
 	});
-	$scope.currentBankBalance = gameState.currentBankBalance;
 
-
-	$scope.$watch('currentBankBalance', function() {
-	  if($scope.currentBankBalance > 1000) {
-	    $scope.currentBankBalance = 1000;
-	  } else if ($scope.currentBankBalance <= 0 || !$scope.currentBankBalance) {
-	    $scope.currentBankBalance = 0;
-	  }
-	  $scope.currentBalanceDisplay = "$" + $scope.currentBankBalance;
-
+	$scope.$watch(function(){
+	  return $scope.state._currentBankBalance;
+	}, function (newBalance) {
+	  $scope.currentBalanceDisplay = "$" + newBalance;
 	});
 
 	$scope.Player = function (startingBalance) {
@@ -41,6 +32,7 @@ playerControllers.controller('PlayerController', function($scope, gameState, Eve
 
 	$scope.Player.prototype.debitAccount = function(amount) {
 		this._account += amount;
+		$scope.eventBus.prepForBroadcast('debitaccount: ' + amount);
 		if(this._account < 0) {
 			throw new Error("account overdrawn.");
 		}

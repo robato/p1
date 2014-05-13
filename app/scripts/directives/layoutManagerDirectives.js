@@ -7,24 +7,27 @@ layoutManagerDirectives.directive('menuBottomEdge', ['$window', function($window
         angular.element($window).bind('resize', function(e) {
           var menuBarElement = angular.element(document.getElementById('menu-bar'));
           var menuItemsElement = menuBarElement.children().find('li');
+          if (scope.isPhone) {
+            menuItemsElement.addClass('display-hidden');
+            menuItemsElement.removeClass('display-visible');
+          } else {
+            menuItemsElement.removeClass('display-hidden');
+            menuItemsElement.removeClass('display-visible');
+            element.css('top', $window.innerHeight - 36 + 'px');
+          }
+        });
+        angular.element($window).bind('load', function() {
+          var menuBarElement = angular.element(document.getElementById('menu-bar'));
+          var menuItemsElement = menuBarElement.children().find('li'); 
           if(scope.isPhone) {
             menuItemsElement.addClass('display-hidden');
             menuItemsElement.removeClass('display-visible');
-          } 
-          menuItemsElement.removeClass('display-hidden');
-          menuItemsElement.removeClass('display-visible');
-          element.css('top', $window.innerHeight - 36 + 'px');
-        });
-        var menuBarElement = angular.element(document.getElementById('menu-bar'));
-        var menuItemsElement = menuBarElement.children().find('li'); 
-        if(scope.isPhone) {
-          menuItemsElement.addClass('display-hidden');
-          menuItemsElement.removeClass('display-visible');
-        } 
-        menuItemsElement.removeClass('display-hidden');
-        menuItemsElement.removeClass('display-visible');
-        element.css('top', $window.innerHeight - 36 + 'px');
-
+          } else {
+            menuItemsElement.removeClass('display-hidden');
+            menuItemsElement.removeClass('display-visible');
+            element.css('top', $window.innerHeight - 36 + 'px');
+          }
+        }); 
       }
     }
 }]);
@@ -359,10 +362,10 @@ layoutManagerDirectives.directive('debug', ['$window', function($window) {
     link : function(scope, element, attr) {
       
       angular.element($window).bind('resize', function(e) {
-        if(scope.debugMode) {
+        if(scope.state._debugMode) {
           var bgHeight = element[0].clientHeight;
           var bgWidth = element[0].clientWidth;
-          element.css('top', (($window.innerHeight/2) - (bgHeight/2) - 50) + 'px');
+          element.css('top', ($window.innerHeight/2) - bgHeight + 'px');
           element.css('left', ($window.innerWidth/2) - (bgWidth/2) + 'px');  
           element.addClass('display-visible'); 
           element.removeClass('display-hidden');    
@@ -372,10 +375,10 @@ layoutManagerDirectives.directive('debug', ['$window', function($window) {
         }  
       });
       angular.element(window).bind('load', function() {
-        if(scope.debugMode) {
+        if(scope.state._debugMode) {
           var bgHeight = element[0].clientHeight;
           var bgWidth = element[0].clientWidth;
-          element.css('top', ($window.innerHeight/2) - (bgHeight/2) - 50 + 'px');
+          element.css('top', ($window.innerHeight/2) - bgHeight + 'px');
           element.css('left',($window.innerWidth/2) - (bgWidth/2) +  'px'); 
           element.addClass('display-visible'); 
           element.removeClass('display-hidden'); 
@@ -423,7 +426,6 @@ layoutManagerDirectives.directive('warnNoPhoneLandscape', ['$window', function($
           element.removeClass('display-visible');
         }         
       }); 
-
     }
   }
 }]);
@@ -434,7 +436,6 @@ layoutManagerDirectives.directive('soundControlPosition', ['$window', function($
       link : function(scope, element, attr) {
 
         angular.element($window).bind('resize', function(e) {
-
           if(scope.isPhone) {
             element.css('top', ($window.innerHeight) - 72 + 'px');
             element.css('left', '6px');  
@@ -446,18 +447,18 @@ layoutManagerDirectives.directive('soundControlPosition', ['$window', function($
             element.css('left', '20px');
           }  
         });
-
-        if(scope.isPhone) {
-            element.css('top', ($window.innerHeight) - 72 + 'px');
-            element.css('left', '6px');   
-            } else if (scope.isTablet && scope.isLandscape) {
-              element.css('top', ($window.innerHeight) - 69 + 'px');
+        angular.element($window).bind('load', function(e) {
+          if(scope.isPhone) {
+              element.css('top', ($window.innerHeight) - 72 + 'px');
+              element.css('left', '6px');   
+              } else if (scope.isTablet && scope.isLandscape) {
+                element.css('top', ($window.innerHeight) - 69 + 'px');
+                element.css('left', '20px');
+            } else {
+              element.css('top', ($window.innerHeight) - 88 + 'px');
               element.css('left', '20px');
-          } else {
-            element.css('top', ($window.innerHeight) - 88 + 'px');
-            element.css('left', '20px');
-        } 
-
+          } 
+        });
       }
     }
 }]);
@@ -470,25 +471,26 @@ layoutManagerDirectives.directive('rescueControlPosition', ['$window', function(
           if(scope.isPhone) {
             element.css('top', ($window.innerHeight) - 250 + 'px');
             element.css('left', '-3px');  
-            } else if (scope.isTablet && scope.isLandscape) {
+          } else if (scope.isTablet && scope.isLandscape) {
               element.css('top', ($window.innerHeight) - 245 + 'px');
               element.css('left', '9px'); 
-            } else {
+          } else {
             element.css('top', ($window.innerHeight) - 305 + 'px');
             element.css('left', '10px');
           }  
         });
-
-        if(scope.isPhone) {
-            element.css('top', ($window.innerHeight) - 250 + 'px');
-            element.css('left', '-3px');   
-            } else if (scope.isTablet && scope.isLandscape) {
+        angular.element($window).bind('load', function(e) {
+          if(scope.isPhone) {
+              element.css('top', ($window.innerHeight) - 250 + 'px');
+              element.css('left', '-3px');   
+          } else if (scope.isTablet && scope.isLandscape) {
               element.css('top', ($window.innerHeight) - 245 + 'px');
               element.css('left', '9px');
           } else {
-            element.css('top', ($window.innerHeight) - 305 + 'px');
-            element.css('left', '10px');
-        }     
+              element.css('top', ($window.innerHeight) - 305 + 'px');
+              element.css('left', '10px');
+          }  
+        });  
       }
     }
 }]);
@@ -501,26 +503,27 @@ layoutManagerDirectives.directive('jobStrikesControlPosition', ['$window', funct
           if(scope.isPhone) {
             element.css('top', ($window.innerHeight) - 390 + 'px');
             element.css('left', '-3px');  
-            } else if (scope.isTablet && scope.isLandscape) {
+          } else if (scope.isTablet && scope.isLandscape) {
               element.css('top', ($window.innerHeight) - 385 + 'px');
               element.css('left', '9px'); 
-            } else {
+          } else {
             element.css('top', ($window.innerHeight) - 455 + 'px');
             element.css('left', '10px');
           }  
         });
-
+        angular.element($window).bind('load', function(e) {
           if(scope.isPhone) {
               element.css('top', ($window.innerHeight) - 390 + 'px');
               element.css('left', '-3px');   
           } else if (scope.isTablet && scope.isLandscape) {
-                element.css('top', ($window.innerHeight) - 385 + 'px');
-                element.css('left', '9px');
+              element.css('top', ($window.innerHeight) - 385 + 'px');
+              element.css('left', '9px');
           } else {
               element.css('top', ($window.innerHeight) - 455 + 'px');
               element.css('left', '10px');
           } 
-        } 
+        });
+      }
     }
 }]);
 
@@ -529,9 +532,9 @@ layoutManagerDirectives.directive('exitControlPosition', ['$window', function($w
       link : function(scope, element, attr) {
 
         angular.element($window).bind('resize', function(e) {
-        var xImageElement = angular.element(document.getElementById('exit-control-image'));
-        var width = xImageElement.innerWidth;
-        var height = xImageElement.innerHeight; 
+          var xImageElement = angular.element(document.getElementById('exit-control-image'));
+          var width = xImageElement.innerWidth;
+          var height = xImageElement.innerHeight; 
           if(scope.isPhone) {
             xImageElement.css('width', '114%');
             element.css('top', '8px');
@@ -543,21 +546,22 @@ layoutManagerDirectives.directive('exitControlPosition', ['$window', function($w
             element.css('left', '18px'); 
           }  
         });
-
-        if(scope.isPhone) {
-        var xImageElement = angular.element(document.getElementById('exit-control-image'));
-        var width = xImageElement.innerWidth;
-        var height = xImageElement.innerHeight;
-            xImageElement.css('width', '114%');
-            element.css('top', '8px');
-            element.css('left', '8px');    
+        angular.element($window).bind('load', function(e) {
+          var xImageElement = angular.element(document.getElementById('exit-control-image'));
+          var width = xImageElement.innerWidth;
+          var height = xImageElement.innerHeight;
+          if(scope.isPhone) {
+              xImageElement.css('width', '114%');
+              element.css('top', '8px');
+              element.css('left', '8px');    
           } else if (scope.isTablet && scope.isLandscape) {
               element.css('top', '4px');
               element.css('left', '18px');
           } else {
             element.css('top', '17px');
             element.css('left', '18px'); 
-        }     
+          } 
+        });    
       }
     }
 }]);

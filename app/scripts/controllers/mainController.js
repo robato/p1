@@ -1,25 +1,42 @@
 var mainController  = angular.module('mainController', ['matchmedia-ng']);
 
-mainController.controller('MainController', function($scope, $window, $document, $timeout, gameState, EventBus, DayDataService, matchmedia) {
-  $scope.$watchCollection(gameState, function() {
-      $scope.state = gameState;
+mainController.controller('MainController', function($scope, $window, $document, $timeout, gameStateService, eventBusService, DayDataService, matchmedia) {
+  $scope.state = gameStateService;
+  $scope.eventBus = eventBusService;
+  $scope.$watch(function(){
+      return gameStateService;
+  }, function (newState) {
+      $scope.state = newState;
   });
 
-  $scope.EventBus = EventBus;
+  console.log($scope.state);
+  $scope.$on('handleBroadcast', function(message) {
 
+  });
+  $scope.prevDay = function() {
+    $scope.eventBus.prepForBroadcast('prevday: ' + 'null');
+  }
+  $scope.nextDay = function() {
+    $scope.eventBus.prepForBroadcast('nextday: ' + 'null');
+  }
+  $scope.setBankBalance = function(amount) {
+    $scope.eventBus.prepForBroadcast('setbalance: ' + amount);
+  }
+  $scope.debitAccount = function(amount) {
+    $scope.eventBus.prepForBroadcast('debitaccount: ' + amount);
+  }
+  $scope.creditAccount = function(amount) {
+    $scope.eventBus.prepForBroadcast('creditaccount: ' + amount);
+  }
   $scope.initGame = function () {
     gameState._init;
   }
-
-  $scope.$on('handleBroadcast', function(message) {
-      $scope.message = EventBus.message;
-  });
-
+  $scope.initGame;
 
   var allDayData = {};
 
   DayDataService.async().then(function(d) {
-    $scope.firstDayData = d[gameState.currentDayIndexInt];
+    $scope.firstDayData = d[$scope.state._currentDayIndexInt];
     $scope.allDayData = d;
     $scope.currentGameDay = $scope.firstDayData.dayDisplay;
   });
@@ -29,23 +46,19 @@ mainController.controller('MainController', function($scope, $window, $document,
   $scope.readoutMarkerXPositionFromReadoutTop = 37;
   $scope.dayOneXPosition = 12;
   $scope.readoutTopPositionBase = 0 + $scope.daysListTop - $scope.readoutMarkerXPositionFromReadoutTop + $scope.dayOneXPosition ;
-
-  $scope.$watch('currentDayIndex', function() {
-      if($scope.currentDayIndex) {
-        if (gameState.currentDayIndexInt > 30 || !gameState.currentDayIndexInt) {
-          gameState.currentDayIndexInt = 30;
-        } else if (gameState.currentDayIndexInt <= 0 || !gameState.currentDayIndexInt) {
-          gameState.currentDayIndexInt = 0;
-        }
-        
-
-      }
-      if ($scope.allDayData) {
-      $scope.currentGameDay = $scope.allDayData[parseInt(gameState.currentDayIndex)].dayDisplay;
-      } else {
-        $scope.currentGameDay = "01";
-      }
-      $timeout($scope.setReadoutXPositions);
+  
+  $scope.$watch(function(){
+    return $scope.state._currentDayIndexInt;
+  }, function (newDay) {
+    if(newDay > 30) {
+      newDay = 30;
+    } else if (newDay <=0) {
+      newDay = 0;
+    }
+    if ($scope.allDayData) {
+      $scope.currentGameDay = $scope.allDayData[newDay].dayDisplay;
+    }
+    $timeout($scope.setReadoutXPositions);
   });
 
   $scope.viewportHeight = $window.innerHeight;
@@ -95,7 +108,7 @@ mainController.controller('MainController', function($scope, $window, $document,
     var bankBalanceReadout = angular.element(document.getElementById('bank-balance-readout'));
     var pxDown = 0;
     if($scope.allDayData) {
-      pxDown = $scope.allDayData[gameState.currentDayIndex].positionX;
+      pxDown = $scope.allDayData[$scope.state._currentDayIndex].positionX;
     } else {
       pxDown = 0;
     }
@@ -104,10 +117,18 @@ mainController.controller('MainController', function($scope, $window, $document,
   }
 
   $scope.toggleSound = function () {
-      if ($scope.isSoundOn) {
-        $scope.isSoundOn = false;
+      if ($scope.state._isSoundOn) {
+        gameState._isSoundOn = false;
       } else {
-        $scope.isSoundOn = true;
+        gameState._isSoundOn = true;
+      }
+      $scope.$apply();
+  }
+  $scope.toggleDebugMode = function () {
+      if ($scope.state._debugMode) {
+        gameState._debugMode = false;
+      } else {
+        gameState._debugMode = true;
       }
       $scope.$apply();
   }
@@ -141,5 +162,5 @@ mainController.controller('MainController', function($scope, $window, $document,
       menu.css('top', '');
       menu.css('left', '');  
   }
-  $scope.debugMode = gameState.debugMode;
+  $scope.debugMode = $scope.state._debugMode;
 });
