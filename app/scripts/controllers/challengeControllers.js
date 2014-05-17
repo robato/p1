@@ -1,8 +1,9 @@
 var challengeControllers = angular.module('challengeControllers', []);
 
-challengeControllers.controller('ChallengeController', ['$scope', '$http', function($scope, $http, eventBusService) {
+challengeControllers.controller('ChallengeController', ['$scope', '$http', '$window', function($scope, $http, $window, eventBusService) {
 	$scope.eventBus = eventBusService;
-
+	$window.alert('challngecontroller');
+	
 	$scope.Challenge = function(state) {
 		var self = this;
 		self["@id"] = state["@id"];

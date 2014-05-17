@@ -19,29 +19,20 @@ var spentApp = angular.module('spentApp', [
     'layoutManagerDirectives',
     // services
     'eventBusService',
-    'gameStateService'
+    'gameStateService',
+    'DayDataService'
 
   ]);
-
-
-spentApp.factory("DayDataService", function ($http) {
-  var DayDataService = {
-    async: function() {
-        var promise = $http.get('../docs/days.json').then(function (response) {
-          return response.data;
-        });
-        return promise;
-    }
-  };
- return DayDataService;
-});
-
 
 spentApp.config(function ($routeProvider) {
   $routeProvider
     .when('/', {
       templateUrl: 'views/main.html',
       controller: 'MainController'
+    })
+    .when('/#/', {
+      templateUrl: 'views/partials/singleChallenge.html',
+      controller: 'ChallengeController'
     })
     .otherwise({
       redirectTo: '/'

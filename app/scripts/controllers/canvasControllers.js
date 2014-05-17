@@ -34,7 +34,7 @@ canvasControllers.controller('CanvasController', function ($scope, $window) {
 		var context = canvas.getContext('2d');
 		var centerX = $window.innerWidth / 2;
 		var centerY = $window.innerHeight / 2;
-		var radii = [ 50, 75, 110, 150, 190, 250, 300, 400, 520, 700 ];
+		var radii = [ 4, 8, 10, 15, 20, 30, 40, 50, 75, 110, 150, 190, 250, 300, 400, 520, 700 ];
 		angular.forEach(radii, function(radius){
 		  context.beginPath();
 		  context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);

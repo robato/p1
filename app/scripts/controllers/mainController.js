@@ -3,16 +3,19 @@ var mainController  = angular.module('mainController', ['matchmedia-ng']);
 mainController.controller('MainController', function($scope, $window, $document, $timeout, gameStateService, eventBusService, DayDataService, matchmedia) {
   $scope.state = gameStateService;
   $scope.eventBus = eventBusService;
+  $scope.mainControllerReference = { debugMode: false };
   $scope.$watch(function(){
       return gameStateService;
-  }, function (newState) {
+  }, function (newState, oldState) {
       $scope.state = newState;
-  });
+      $scope.debugMode = $scope.state._debugMode;
+      $scope.currentGameDay = $scope.state._currentGameDay;
+      $scope.mainControllerReference.debugMode = $scope.state._debugMode;
+      console.log(JSON.stringify(newState));
+      console.log(JSON.stringify(oldState));
+  }, true);
 
-  console.log($scope.state);
-  $scope.$on('handleBroadcast', function(message) {
-
-  });
+  
   $scope.prevDay = function() {
     $scope.eventBus.prepForBroadcast('prevday: ' + 'null');
   }
@@ -28,25 +31,7 @@ mainController.controller('MainController', function($scope, $window, $document,
   $scope.creditAccount = function(amount) {
     $scope.eventBus.prepForBroadcast('creditaccount: ' + amount);
   }
-  $scope.initGame = function () {
-    gameState._init;
-  }
-  $scope.initGame;
 
-  var allDayData = {};
-
-  DayDataService.async().then(function(d) {
-    $scope.firstDayData = d[$scope.state._currentDayIndexInt];
-    $scope.allDayData = d;
-    $scope.currentGameDay = $scope.firstDayData.dayDisplay;
-  });
-
-  $scope.phoneMenuVisible = false;
-  $scope.daysListTop = 25;
-  $scope.readoutMarkerXPositionFromReadoutTop = 37;
-  $scope.dayOneXPosition = 12;
-  $scope.readoutTopPositionBase = 0 + $scope.daysListTop - $scope.readoutMarkerXPositionFromReadoutTop + $scope.dayOneXPosition ;
-  
   $scope.$watch(function(){
     return $scope.state._currentDayIndexInt;
   }, function (newDay) {
@@ -55,14 +40,13 @@ mainController.controller('MainController', function($scope, $window, $document,
     } else if (newDay <=0) {
       newDay = 0;
     }
-    if ($scope.allDayData) {
-      $scope.currentGameDay = $scope.allDayData[newDay].dayDisplay;
-    }
-    $timeout($scope.setReadoutXPositions);
+    $scope.setReadoutXPositions(newDay);
   });
 
   $scope.viewportHeight = $window.innerHeight;
   $scope.viewportWidth = $window.innerWidth;
+  $scope.mainControllerReference.viewportHeight = $scope.viewportHeight;
+  $scope.mainControllerReference.viewportWidth = $scope.viewportWidth;
 
   var unsub = {};
   unsub['print'] = matchmedia.onPrint(function(mediaQueryList){
@@ -90,47 +74,62 @@ mainController.controller('MainController', function($scope, $window, $document,
   angular.element($window).bind('resize', function(e) {
       $scope.viewportHeight = $window.innerHeight;
       $scope.viewportWidth = $window.innerWidth;
-      $timeout($scope.setReadoutXPositions);
   });
+
+
   $document.bind('keypress', function(event) {
-      if(event.which == 100) {
-        $scope.debugMode = true;
+      if(event.which == 100) { // D key
+        $scope.toggleDebugMode();
         $scope.$apply();
+      } else if (event.which == 122) { // Z key
+        $scope.beginTest();
       }
   })
 
-  $scope.updateDayPositions = function(p, id) {
-    $scope.allDayData[id].positionX = p;
+  $scope.beginGame = function() {
+    $scope.eventBus.prepForBroadcast('game: ' + 'begin');
+    $scope.mainControllerReference.enableControls();
+    $scope.mainControllerReference.hideChallengesOptions();
   }
 
-  $scope.setReadoutXPositions = function() {
+  $scope.$on('onScreenLayoutComplete', function(scope, element, attrs){
+    $scope.mainControllerReference.setReadoutXPositions($scope.state._currentDayIndexInt);
+  });
+  $scope.$on('onDayListComplete', function(scope, element, attrs){
+    $scope.mainControllerReference.screenLayoutHandler();
+  });
+  $scope.$on('onChallengesAndOptionsComplete', function(scope, element, attrs){
+    $scope.mainControllerReference.layoutChallengesAndOptions();
+  });
+
+  $scope.setReadoutXPositions = function(currentDay) {
     var dayNumberReadout = angular.element(document.getElementById('day-number-readout'));
     var bankBalanceReadout = angular.element(document.getElementById('bank-balance-readout'));
-    var pxDown = 0;
-    if($scope.allDayData) {
-      pxDown = $scope.allDayData[$scope.state._currentDayIndex].positionX;
-    } else {
-      pxDown = 0;
+    var currentGameDayDiv = angular.element(document.getElementById('day_' + currentDay));
+    var topValue;
+    if(currentDay > 0) {
+      topValue = currentGameDayDiv[0].offsetTop;
+      dayNumberReadout.css('top', topValue + 'px');
+      bankBalanceReadout.css('top', topValue + 'px');
+    } else if (currentDay == 0) {
+      dayNumberReadout.css('top', '0px');
+      bankBalanceReadout.css('top', '0px');
     }
-    dayNumberReadout.css('top', pxDown + 'px');
-    bankBalanceReadout.css('top', pxDown + 'px');
   }
 
   $scope.toggleSound = function () {
       if ($scope.state._isSoundOn) {
-        gameState._isSoundOn = false;
+        $scope.eventBus.prepForBroadcast('sound: ' + 'off');
       } else {
-        gameState._isSoundOn = true;
+        $scope.eventBus.prepForBroadcast('sound: ' + 'on');
       }
-      $scope.$apply();
   }
   $scope.toggleDebugMode = function () {
       if ($scope.state._debugMode) {
-        gameState._debugMode = false;
+        $scope.eventBus.prepForBroadcast('debug: ' + 'off');
       } else {
-        gameState._debugMode = true;
+        $scope.eventBus.prepForBroadcast('debug: ' + 'on');
       }
-      $scope.$apply();
   }
   $scope.togglePhoneMenu = function (obj) {
     var t = obj.target.attributes.data.value;
@@ -162,5 +161,6 @@ mainController.controller('MainController', function($scope, $window, $document,
       menu.css('top', '');
       menu.css('left', '');  
   }
-  $scope.debugMode = $scope.state._debugMode;
+
+ 
 });

@@ -6,6 +6,48 @@
   width: 100%;
   height: 100%;
 }
+ .spent-logo-initial {
+  
+ }
+ 
+.challenge-option-results {
+  z-index: 200002;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.challenge-prompt {
+  font-family: 'AlternateGothic', AlternateGothic, sans-serif;
+  color: #E0D8BA;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+.option-prompt {
+  font-family: 'AlternateGothic', AlternateGothic, sans-serif;
+  font-size: 50px;
+  letter-spacing: 7px;
+  color: #cc3300;
+  font-weight: lighter;
+}
+.option-button a {
+  background-color: #cc3300;
+  color: black;
+  border-color: #cc3300;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: 'AlternateGothic', AlternateGothic, sans-serif;
+  font-weight: lighter;
+}
+.option-button a:hover {
+  background-color: #8fd5c8;
+  color: black;
+  border-color: #8fd5c8;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: 'AlternateGothic', AlternateGothic, sans-serif;
+  font-weight: lighter;
+}
 .spent-background {
   z-index: 2;
   position:  absolute;
@@ -22,15 +64,14 @@
 .ringCanvas {
   z-index: 50;
 }
-.menus {
+.side-borders-translucent {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   position: absolute;
   z-index: 30;
-  overflow: hidden;
-}
+  overflow: hidden;}
 .rings {
   width: 100%;
   height: 100%;
@@ -75,6 +116,7 @@
   float: left;
 }
 .bank-balance {
+  top: 0px;
   float: left;
   width: 119px;
   position: absolute;
@@ -97,6 +139,7 @@
   display: table-cell;
   position: relative;
   top: 0px;
+  left: 100vw;
   position: absolute;
   z-index: 40;
 }
@@ -178,6 +221,7 @@
   position: absolute;
   top: 25px;
   z-index: 40;
+  height: 50vh;
 }
 
 .day-01 {
@@ -232,6 +276,8 @@
   position: absolute;
   margin-top: 10px;
   z-index: 15000;
+  top: 17px;
+  left: 18px;
 }
 .exit img {
   margin: -62px 0px 0px -15px;
@@ -413,7 +459,17 @@ border-top: 1px solid rgba(102, 153, 153, .3);
   position: absolute;
   z-index: 15000;
 }
+.day-one-badge {
+  position: absolute;
+  z-index: 15000;  
+}
 
+.spent-logo-initial {
+  position: absolute;
+  z-index: 15000;
+  top: -10vh;
+  left: 10vw;
+}
 .can-u-make-it {
   position: absolute;
   z-index: 15000;
@@ -450,87 +506,96 @@ html {
   height: 100%;
 
 }
-/* Space out content a bit */
+
 body {
   padding-top: 20px;
   margin-bottom: -20px;
-  /*padding-bottom: 20px;*/
-/*  background-image: url("../images/background.png");
-*/  height: 100%;
-/*  max-height: 625px;
-*/  background-color: black;
+  height: 100%;
+  background-color: black;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+/* these are specified to be the same as matchmedia-ng which is being used to determine positioning of elements on the page
+                phone : "(max-width: 767px)",
+                tablet : "(min-width: 768px) and (max-width: 979px)",
+                desktop : "(min-width: 979px)",
+                portrait : "(orientation: portrait)",
+                landscape : "(orientation: landscape)"
+see: https://github.com/AnalogJ/matchmedia-ng/blob/master/matchmedia-ng.js;
+*/
+/
+@media screen and (max-width: 767px) {  /* phone */
+ .menu  > li {
+  display: none;
+ }
+ .bank-balance {
+   left:  40px;
+ }
+ .exit {
+    width: 90%;
+    top: 8px;
+    left: 8px;
+ }
+ .phone-menu {
+    display: inline;
+ }
+ .challenge-prompt {
+  font-size: 24px;
+ }
+ .spent-logo-initial {
+
+ }
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+@media screen and (max-height: 610px) { /* custom - too narrow */
+ .day-one-badge {
+    display: none;
+ }
+ .can-u-make-it {
+    display: none;
+ }
+
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+@media screen and (min-width: 768px) and (max-width: 979px) { /* tablet */
+ .bank-balance {
+    left:  82px;
+ }
+ .phone-menu {
+    display: none; 
+ }
+ .challenge-prompt {
+  font-size: 28px;
+ }
 }
+@media screen and (min-width: 979px) { /* desktop */
+ .bank-balance {
+   left:  82px;
+ }
+ .phone-menu {
+    display: none; 
+ }
+ .challenge-prompt {
+    font-size: 44px;
+ }
+}
+@media screen and (orientation: portrait) { /* portrait */
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 100%;
+}
+@media screen and (orientation: landscape) { /* landscape */
+
+}
+@media screen and (max-width: 767px) and (orientation: landscape) { /* phone landscape */
+  .main {
+    display: none;
+  }
+  .no-phone-landscape {
+    display: inline;
   }
 }
-.container-narrow > hr {
-  margin: 30px 0;
+@media screen and (min-width: 768px) and (max-width: 979px) and (orientation: landscape) { /* tablet && landscape */
+ .exit {
+    top: 4px;
+    left: 18px;
+ }
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}

@@ -1,9 +1,11 @@
 var gameStateModule = angular.module('gameStateService', []);
 
-gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', function ($rootScope, eventBusService) {
+gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', 'DayDataService',  function ($rootScope, eventBusService, DayDataService) {
 
   var gameState = {};
   var eventBus = eventBusService;
+  gameState._allDayData = DayDataService;
+
   gameState._jobStrikes = {
     'strikeOne': 'false',
     'strikeTwo': 'false',
@@ -16,10 +18,11 @@ gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', f
       return gameState._currentDayIndex;
   }, function(newValue) {
     gameState._currentDayIndexInt = parseInt(newValue);
+    gameState._currentGameDay = gameState._allDayData[gameState._currentDayIndexInt].dayDisplay;
   });
 
   gameState._isSoundOn = true;
-  gameState._debugMode = true;
+  gameState._debugMode = false;
   gameState._daysInMonth = 30;
   gameState._currentBankBalance = 1000;
 
@@ -68,6 +71,13 @@ gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', f
   };
   gameState.creditAccount = function(amount) {
         gameState._currentBankBalance = +gameState._currentBankBalance + +amount;
+  };
+  gameState.toggleDebug = function(state) {
+    if (state === 'on') {
+      gameState._debugMode = true;
+    } else if (state = 'off') {
+      gameState._debugMode = false;
+    } 
   };
   gameState.onChallengeSelected = function (challenge) {
   };
@@ -127,6 +137,9 @@ gameStateModule.factory('gameStateService',  ['$rootScope', 'eventBusService', f
           break;
         case "creditaccount":
           gameState.creditAccount(arg);
+          break;
+        case "debug":
+          gameState.toggleDebug(arg);
           break;
         default :
           break;
